@@ -1,0 +1,300 @@
+{
+ "model": "claude-sonnet-5-5",
+ "screen": {
+  "n": 200,
+  "po": 0.96,
+  "kappa": 0.82,
+  "pabak": 0.92,
+  "pos_final": 23,
+  "pos_other": 29,
+  "final_exc_other_inc": 7,
+  "final_inc_other_exc": 1,
+  "final_exc_other_inc_borderline": 6,
+  "disagree": 8
+ },
+ "code": {
+  "n": 60,
+  "labels": 21,
+  "min": 0.69,
+  "max": 1.0,
+  "median": 0.88,
+  "per_label": {
+   "type:A": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.93,
+    "pabak": 0.93,
+    "pos_final": 30,
+    "pos_other": 32
+   },
+   "type:D": {
+    "n": 60,
+    "po": 0.98,
+    "kappa": 0.97,
+    "pabak": 0.97,
+    "pos_final": 26,
+    "pos_other": 27
+   },
+   "type:B": {
+    "n": 60,
+    "po": 0.95,
+    "kappa": 0.89,
+    "pabak": 0.9,
+    "pos_final": 23,
+    "pos_other": 22
+   },
+   "actor:EXT": {
+    "n": 60,
+    "po": 0.9,
+    "kappa": 0.8,
+    "pabak": 0.8,
+    "pos_final": 33,
+    "pos_other": 29
+   },
+   "actor:USR": {
+    "n": 60,
+    "po": 0.88,
+    "kappa": 0.7,
+    "pabak": 0.77,
+    "pos_final": 16,
+    "pos_other": 15
+   },
+   "actor:AGT": {
+    "n": 60,
+    "po": 0.95,
+    "kappa": 0.84,
+    "pabak": 0.9,
+    "pos_final": 13,
+    "pos_other": 10
+   },
+   "actor:SUP": {
+    "n": 60,
+    "po": 0.92,
+    "kappa": 0.69,
+    "pabak": 0.83,
+    "pos_final": 11,
+    "pos_other": 8
+   },
+   "actor:NON": {
+    "n": 60,
+    "po": 0.95,
+    "kappa": 0.74,
+    "pabak": 0.9,
+    "pos_final": 5,
+    "pos_other": 8
+   },
+   "T:T1": {
+    "n": 60,
+    "po": 0.93,
+    "kappa": 0.85,
+    "pabak": 0.87,
+    "pos_final": 41,
+    "pos_other": 37
+   },
+   "T:T2": {
+    "n": 60,
+    "po": 0.98,
+    "kappa": 0.91,
+    "pabak": 0.97,
+    "pos_final": 7,
+    "pos_other": 6
+   },
+   "T:T3": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.87,
+    "pabak": 0.93,
+    "pos_final": 10,
+    "pos_other": 8
+   },
+   "T:T4": {
+    "n": 60,
+    "po": 0.95,
+    "kappa": 0.88,
+    "pabak": 0.9,
+    "pos_final": 20,
+    "pos_other": 17
+   },
+   "T:T5": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.92,
+    "pabak": 0.93,
+    "pos_final": 18,
+    "pos_other": 16
+   },
+   "T:T6": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.9,
+    "pabak": 0.93,
+    "pos_final": 14,
+    "pos_other": 12
+   },
+   "viol:AI": {
+    "n": 60,
+    "po": 0.88,
+    "kappa": 0.72,
+    "pabak": 0.77,
+    "pos_final": 39,
+    "pos_other": 46
+   },
+   "viol:OI": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.88,
+    "pabak": 0.93,
+    "pos_final": 11,
+    "pos_other": 9
+   },
+   "viol:C": {
+    "n": 60,
+    "po": 0.95,
+    "kappa": 0.88,
+    "pabak": 0.9,
+    "pos_final": 20,
+    "pos_other": 17
+   },
+   "viol:AV": {
+    "n": 60,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 3,
+    "pos_other": 3
+   },
+   "viol:S": {
+    "n": 60,
+    "po": 0.93,
+    "kappa": 0.8,
+    "pabak": 0.87,
+    "pos_final": 14,
+    "pos_other": 12
+   },
+   "multistage:Y": {
+    "n": 60,
+    "po": 0.97,
+    "kappa": 0.92,
+    "pabak": 0.93,
+    "pos_final": 19,
+    "pos_other": 19
+   },
+   "embodied:Y": {
+    "n": 60,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 1,
+    "pos_other": 1
+   }
+  }
+ },
+ "code30": {
+  "labels": 30,
+  "n_def": 26,
+  "n_t5": 16,
+  "min": 0.65,
+  "max": 1.0,
+  "median": 0.88,
+  "per_label": {
+   "D:D1": {
+    "n": 26,
+    "po": 0.92,
+    "kappa": 0.85,
+    "pabak": 0.85,
+    "pos_final": 12,
+    "pos_other": 14
+   },
+   "D:D2": {
+    "n": 26,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 6,
+    "pos_other": 6
+   },
+   "D:D3": {
+    "n": 26,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 4,
+    "pos_other": 4
+   },
+   "D:D4": {
+    "n": 26,
+    "po": 0.96,
+    "kappa": 0.78,
+    "pabak": 0.92,
+    "pos_final": 2,
+    "pos_other": 3
+   },
+   "D:D5": {
+    "n": 26,
+    "po": 0.88,
+    "kappa": 0.76,
+    "pabak": 0.77,
+    "pos_final": 11,
+    "pos_other": 10
+   },
+   "D:D6": {
+    "n": 26,
+    "po": 0.96,
+    "kappa": 0.65,
+    "pabak": 0.92,
+    "pos_final": 2,
+    "pos_other": 1
+   },
+   "T5sub:a": {
+    "n": 16,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 4,
+    "pos_other": 4
+   },
+   "T5sub:b": {
+    "n": 16,
+    "po": 0.94,
+    "kappa": 0.87,
+    "pabak": 0.88,
+    "pos_final": 10,
+    "pos_other": 9
+   },
+   "T5sub:c": {
+    "n": 16,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos_final": 3,
+    "pos_other": 3
+   }
+  },
+  "lowest": [
+   [
+    0.65,
+    "D:D6"
+   ],
+   [
+    0.69,
+    "actor:SUP"
+   ],
+   [
+    0.7,
+    "actor:USR"
+   ],
+   [
+    0.72,
+    "viol:AI"
+   ],
+   [
+    0.74,
+    "actor:NON"
+   ],
+   [
+    0.76,
+    "D:D5"
+   ]
+  ]
+ }
+}

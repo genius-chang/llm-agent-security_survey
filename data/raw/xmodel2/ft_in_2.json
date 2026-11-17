@@ -1,0 +1,102 @@
+[
+ {
+  "rid": "F11",
+  "title": "FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2602.11136",
+  "site": "https://openreview.net/forum?id=tnsQ23imeD",
+  "fulltext_url": "https://arxiv.org/html/2602.11136v2",
+  "version_note": "(arXiv v2)"
+ },
+ {
+  "rid": "F12",
+  "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2603.03205",
+  "site": "https://openreview.net/forum?id=Stf5SF4JvR",
+  "fulltext_url": "https://arxiv.org/html/2603.03205v2",
+  "version_note": ""
+ },
+ {
+  "rid": "F13",
+  "title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+  "venue": "EMNLP",
+  "year": "2025",
+  "arxiv_id": "2508.15310",
+  "site": "https://aclanthology.org/2025.emnlp-main.53/",
+  "fulltext_url": "https://aclanthology.org/2025.emnlp-main.53.pdf",
+  "version_note": "(EMNLP 2025 published)"
+ },
+ {
+  "rid": "F14",
+  "title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+  "venue": "ACL",
+  "year": "2025",
+  "arxiv_id": "2412.16682",
+  "site": "https://aclanthology.org/2025.acl-long.1435/",
+  "fulltext_url": "https://aclanthology.org/2025.acl-long.1435.pdf",
+  "version_note": "(ACL 2025 published)"
+ },
+ {
+  "rid": "F15",
+  "title": "Among Us: Measuring and Mitigating Malicious Contributions in Model Collaboration Systems",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "-",
+  "site": "",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.725.pdf",
+  "version_note": "(게재본)"
+ },
+ {
+  "rid": "F16",
+  "title": "GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling",
+  "venue": "NeurIPS",
+  "year": "2025",
+  "arxiv_id": "2505.19234",
+  "site": "https://openreview.net/forum?id=6j9xJ9pBjm",
+  "fulltext_url": "https://arxiv.org/html/2505.19234v2",
+  "version_note": "(arXiv v2, 2025-10-15)"
+ },
+ {
+  "rid": "F17",
+  "title": "VIGIL: Defending LLM Agents Against Tool-Stream Injection via Verify-Before-Commit",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "2601.05755",
+  "site": "https://aclanthology.org/2026.acl-long.443/",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.443.pdf",
+  "version_note": "(ACL 2026 published)"
+ },
+ {
+  "rid": "F18",
+  "title": "SafeMCP: Proactive Power Regulation for LLM Agent Defense via Environment-Grounded Look-Ahead Reasoning",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "-",
+  "site": "https://aclanthology.org/2026.acl-long.522/",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.522.pdf",
+  "version_note": "(ACL 2026 published)"
+ },
+ {
+  "rid": "F19",
+  "title": "AIR: Improving Agent Safety through Incident Response",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2602.11749",
+  "site": "https://openreview.net/forum?id=hNiIIKdz3V",
+  "fulltext_url": "https://arxiv.org/html/2602.11749v2",
+  "version_note": "(arXiv v2, ICML 2026)"
+ },
+ {
+  "rid": "F20",
+  "title": "ALRPHFS: Adversarially Learned Risk Patterns with Hierarchical Fast & Slow Reasoning for Robust Agent Defense",
+  "venue": "Findings-EMNLP",
+  "year": "2025",
+  "arxiv_id": "2505.19260",
+  "site": "https://aclanthology.org/2025.findings-emnlp.1066/",
+  "fulltext_url": "https://aclanthology.org/2025.findings-emnlp.1066.pdf",
+  "version_note": "(Findings EMNLP 2025 published)"
+ }
+]

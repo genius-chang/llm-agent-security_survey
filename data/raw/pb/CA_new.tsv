@@ -1,0 +1,6 @@
+id	decision	exc_reason	type	actor	T	T5sub	viol	multistage	embodied	D	note
+M054	INC	-	D	AGT	T5	b	AI	N	N	D1;D5	R6: hidden misaligned objective instructed (stealth tasks) -> I2(a); SRFT fine-tuning + interrogation detects hidden objectives; T5sub inferred from 'causing harm' (side-task specifics not in abstract)
+N035	INC	-	D	AGT;NON	T5	b	AI;S	N	N	D5	CCO aggregates oversight scoring signals, agent defers under calibrated conservatism; adversarially misaligned agent on SWE-bench (AGT, R5/R6) + MACHIAVELLI ethical violations (NON)
+M095	INC	-	A	USR	T2	-	OI;AI	Y	N	-	CacheAttack: semantic-cache key collision poisons shared cache via queries (R5 -> USR); response hijacking + malicious agent behavior; cached entry served to later victim queries (cross-session); mitigation only discussed
+R051	INC	-	B;D	EXT	T1	-	OI	N	N	D1;D5	Abstract fetched from arXiv. Measurement of 7 production AI-powered search engines citing malicious URLs/content (R3: search tool, harm in output -> OI); spoofing/phishing case studies; agent-based defense with LLM content refinement + URL detector
+R054	INC	-	A;B	USR;EXT	T1;T2	-	OI	N	N	-	Abstract fetched from arXiv. Large-scale study of 17 chatbot plugins/10k sites; forged conversation history incl. fake system messages (direct PI, USR; history manipulation T2); indirect PI via scraped third-party content (EXT); tool-using chatbots (R3)

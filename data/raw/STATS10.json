@@ -1,0 +1,1312 @@
+{
+ "screen_kappa": {
+  "ALL": {
+   "n": 1289,
+   "po": 0.978,
+   "kappa": 0.92,
+   "pabak": 0.96,
+   "pos1": 205,
+   "pos2": 215,
+   "AiBe": 9,
+   "AeBi": 19,
+   "both_inc": 196
+  },
+  "V2": {
+   "n": 484,
+   "po": 0.977,
+   "kappa": 0.95,
+   "pabak": 0.95,
+   "pos1": 153,
+   "pos2": 160,
+   "AiBe": 2,
+   "AeBi": 9,
+   "both_inc": 151
+  },
+  "V3": {
+   "n": 720,
+   "po": 0.985,
+   "kappa": 0.75,
+   "pabak": 0.97,
+   "pos1": 22,
+   "pos2": 23,
+   "AiBe": 5,
+   "AeBi": 6,
+   "both_inc": 17
+  },
+  "SEC": {
+   "n": 85,
+   "po": 0.929,
+   "kappa": 0.85,
+   "pabak": 0.86,
+   "pos1": 30,
+   "pos2": 32,
+   "AiBe": 2,
+   "AeBi": 4,
+   "both_inc": 28
+  }
+ },
+ "screen_disagreements": 28,
+ "dis_not_adj_forwarded": [
+  "R005"
+ ],
+ "screen_inc": 205,
+ "adj_dis_outcome": {
+  "EXC(A)": 14,
+  "INC(B)": 5,
+  "INC(A)": 5,
+  "EXC(B)": 4
+ },
+ "screen_exc": 1084,
+ "screen_exc_reasons": {
+  "X": 463,
+  "E2": 398,
+  "E1": 128,
+  "E4": 56,
+  "E3": 25,
+  "E5": 9,
+  "E6": 5
+ },
+ "coding_stage_exc": [
+  "10.18653/v1/2026.findings-acl.716",
+  "Q203",
+  "Q227",
+  "R005"
+ ],
+ "coding_stage_exc_reasons": {
+  "Q227": "E2",
+  "R005": "E1",
+  "Q203": "E2",
+  "10.18653/v1/2026.findings-acl.716": "E1"
+ },
+ "snowball": {
+  "candidates": 13,
+  "inc": 7,
+  "passB_agree": 12
+ },
+ "N": 208,
+ "route": {
+  "V": 171,
+  "SEC": 30,
+  "S": 7
+ },
+ "year": {
+  "2023": 1,
+  "2024": 15,
+  "2025": 71,
+  "2026": 121
+ },
+ "type": {
+  "B": 91,
+  "A": 91,
+  "D": 90
+ },
+ "actor": {
+  "EXT": 95,
+  "USR": 64,
+  "AGT": 45,
+  "NON": 34,
+  "SUP": 31
+ },
+ "T": {
+  "T1": 118,
+  "T5": 79,
+  "T4": 53,
+  "T6": 46,
+  "T3": 29,
+  "T2": 19
+ },
+ "viol": {
+  "AI": 132,
+  "C": 57,
+  "S": 53,
+  "OI": 38,
+  "AV": 11
+ },
+ "T5sub": {
+  "b": 55,
+  "a": 20,
+  "c": 10
+ },
+ "multistage": {
+  "n": 55,
+  "pct": 26,
+  "T6": 33,
+  "T2": 16,
+  "both": 4
+ },
+ "T1_USR": 46,
+ "only_USR_NON": 55,
+ "T5b_only_USR_NON": [
+  33,
+  55
+ ],
+ "T4_in_C": [
+  53,
+  53
+ ],
+ "embodied": {
+  "n": 12,
+  "A": 7,
+  "B": 5,
+  "D": 3
+ },
+ "tab1": {
+  "T1": [
+   93,
+   44
+  ],
+  "T2": [
+   17,
+   4
+  ],
+  "T3": [
+   25,
+   9
+  ],
+  "T4": [
+   38,
+   25
+  ],
+  "T5": [
+   55,
+   42
+  ],
+  "T6": [
+   32,
+   24
+  ]
+ },
+ "Ndef": 90,
+ "D": {
+  "D5": 53,
+  "D1": 26,
+  "D3": 15,
+  "D4": 15,
+  "D2": 13,
+  "D6": 6
+ },
+ "multiD": 32,
+ "stage": {
+  "A": 51,
+  "I": 29,
+  "C": 23,
+  "P": 13,
+  "O": 6,
+  "M": 4
+ },
+ "stage_unknown": 1,
+ "A": {
+  "n": 51,
+  "pct": 57,
+  "ci": [
+   46,
+   66
+  ]
+ },
+ "A_mode": {
+  "-": 1,
+  "post": 8,
+  "pre": 41,
+  "?": 1
+ },
+ "judge": {
+  "SEP": 53,
+  "RULE": 28,
+  "SELF": 22,
+  "ML": 19,
+  "HUMAN": 9
+ },
+ "judge_unknown": 1,
+ "llm": {
+  "n": 69,
+  "pct": 77,
+  "ci": [
+   67,
+   84
+  ],
+  "exposedY": 60,
+  "exposedN": 6,
+  "exposedQ": 3,
+  "exp_pct_all": 87,
+  "exp_pct_known": 91
+ },
+ "sep": {
+  "n": 53,
+  "pct": 59,
+  "ci": [
+   49,
+   68
+  ],
+  "exposedY": 46,
+  "exposedN": 5,
+  "exposedQ": 2,
+  "exp_pct": 87,
+  "exp_ci": [
+   75,
+   93
+  ],
+  "exp_pct_known": 90
+ },
+ "selfonly": {
+  "n": 16,
+  "exposedY": 14
+ },
+ "rule": {
+  "n": 28,
+  "llm_policy": 15,
+  "llm_policy_exposed": 10,
+  "llm_policy_titles": [
+   "IPIGuard: A Novel Tool Dependency Graph-",
+   "ACE: A Security Architecture for LLM-Int",
+   "Grounding Generative Planners in Verifia",
+   "Defeating Prompt Injections by Design",
+   "VeriSafe Agent: Safeguarding Mobile GUI "
+  ]
+ },
+ "nollm": {
+  "n": 15,
+  "pct": 17,
+  "judge_unknown": 1
+ },
+ "tab3": {
+  "I": [
+   29,
+   15,
+   12,
+   4,
+   7,
+   1
+  ],
+  "P": [
+   13,
+   5,
+   1,
+   0,
+   10,
+   5
+  ],
+  "M": [
+   4,
+   3,
+   0,
+   2,
+   0,
+   0
+  ],
+  "A": [
+   51,
+   37,
+   10,
+   5,
+   22,
+   8
+  ],
+  "O": [
+   6,
+   4,
+   0,
+   2,
+   3,
+   1
+  ],
+  "C": [
+   23,
+   13,
+   5,
+   7,
+   6,
+   1
+  ],
+  "ALL": [
+   90,
+   53,
+   22,
+   19,
+   28,
+   9
+  ]
+ },
+ "pre_gate": {
+  "n": 41,
+  "llm": 34,
+  "exposed": 33,
+  "llm_exposed": 32
+ },
+ "strata_def": {
+  "FULL": {
+   "n": 73,
+   "llm": 61,
+   "sep": 45,
+   "rule": 16,
+   "A": 42,
+   "llm_pct": 84,
+   "llm_ci": [
+    73,
+    90
+   ]
+  },
+  "SEC": {
+   "n": 12,
+   "llm": 6,
+   "sep": 6,
+   "rule": 7,
+   "A": 6,
+   "llm_pct": 50,
+   "llm_ci": [
+    25,
+    75
+   ]
+  },
+  "SNOW": {
+   "n": 5,
+   "llm": 2,
+   "sep": 2,
+   "rule": 5,
+   "A": 3,
+   "llm_pct": 40,
+   "llm_ci": [
+    12,
+    77
+   ]
+  }
+ },
+ "strata_corpus": {
+  "FULL": 171,
+  "SEC": 30,
+  "SNOW": 7
+ },
+ "adv_only": {
+  "n": 77,
+  "A": 41,
+  "A_pct": 53,
+  "A_ci": [
+   42,
+   64
+  ],
+  "llm": 59,
+  "llm_pct": 77,
+  "exposed": 52,
+  "exp_pct": 88,
+  "sep": 46,
+  "sep_exp": 40
+ },
+ "nonadv_def": 13,
+ "tab1_def_adv": {
+  "T1": 44,
+  "T2": 4,
+  "T3": 9,
+  "T4": 22,
+  "T5": 32,
+  "T6": 24
+ },
+ "T6def": {
+  "n": 24,
+  "C": 21,
+  "rule_C": 4,
+  "rule": 4
+ },
+ "C_RULE_all": 6,
+ "adaptive": {
+  "adv": 77,
+  "known": 72,
+  "n": 16,
+  "pct": 22,
+  "ci": [
+   14,
+   33
+  ],
+  "lvl2": 9
+ },
+ "fp_source": {
+  "v1": 54,
+  "id": 9,
+  "venue": 9
+ },
+ "fp_missing": [],
+ "adaptive_time": {
+  "before": [
+   1,
+   14,
+   7,
+   [
+    1,
+    31
+   ]
+  ],
+  "after": [
+   15,
+   58,
+   26,
+   [
+    16,
+    38
+   ]
+  ],
+  "fisher_p": 0.169
+ },
+ "eval": {
+  "public_bench": [
+   52,
+   87,
+   60,
+   [
+    49,
+    69
+   ]
+  ],
+  "utility": [
+   68,
+   87,
+   78,
+   [
+    68,
+    86
+   ]
+  ],
+  "overhead": [
+   55,
+   86,
+   64,
+   [
+    53,
+    73
+   ]
+  ],
+  "fpr": [
+   39,
+   85,
+   46,
+   [
+    36,
+    56
+   ]
+  ]
+ },
+ "agentdojo": 18,
+ "own_env": 58,
+ "bench_top": [
+  [
+   "agentdojo",
+   17
+  ],
+  [
+   "agentharm",
+   8
+  ],
+  [
+   "injecagent",
+   8
+  ],
+  [
+   "mmlu",
+   7
+  ],
+  [
+   "gsm8k",
+   6
+  ],
+  [
+   "asb",
+   6
+  ],
+  [
+   "agent-safetybench",
+   4
+  ],
+  [
+   "toolemu",
+   4
+  ]
+ ],
+ "n_models": {
+  "known": 79,
+  "median": 3.0,
+  "one": 15,
+  "zero": 3
+ },
+ "human": {
+  "n": 10,
+  "burden": 5,
+  "D6": 6,
+  "D6_burden": 4
+ },
+ "granularity": {
+  "ACTION": 44,
+  "TRAJ": 21,
+  "both": 9,
+  "TRAJ_llm": 16
+ },
+ "perD": {
+  "D1": {
+   "n": 26,
+   "llm": 25,
+   "llm_policy": 1,
+   "stages": {
+    "I": 17,
+    "A": 11,
+    "C": 6,
+    "M": 2,
+    "P": 2,
+    "O": 2
+   }
+  },
+  "D2": {
+   "n": 13,
+   "llm": 7,
+   "llm_policy": 2,
+   "stages": {
+    "I": 7,
+    "A": 6,
+    "P": 3,
+    "O": 1,
+    "C": 1
+   }
+  },
+  "D3": {
+   "n": 15,
+   "llm": 8,
+   "llm_policy": 8,
+   "stages": {
+    "A": 10,
+    "P": 7,
+    "C": 7,
+    "I": 5,
+    "O": 1
+   }
+  },
+  "D4": {
+   "n": 15,
+   "llm": 9,
+   "llm_policy": 10,
+   "stages": {
+    "A": 12,
+    "P": 6,
+    "C": 2,
+    "I": 2,
+    "O": 1
+   }
+  },
+  "D5": {
+   "n": 53,
+   "llm": 45,
+   "llm_policy": 7,
+   "stages": {
+    "A": 33,
+    "C": 15,
+    "I": 11,
+    "O": 5,
+    "P": 4,
+    "M": 3
+   }
+  },
+  "D6": {
+   "n": 6,
+   "llm": 3,
+   "llm_policy": 1,
+   "stages": {
+    "A": 5,
+    "P": 2,
+    "C": 1
+   }
+  }
+ },
+ "ft_src": {
+  "arxiv": 56,
+  "abstract": 6,
+  "published": 27,
+  "other:https://par.nsf.gov/servlets/purl/105013": 1
+ },
+ "rel_abs": {
+  "items": 30,
+  "min": 0.84,
+  "max": 1.0,
+  "median": 0.94,
+  "n_both": 207,
+  "n_dd": 88,
+  "n_t5": 69,
+  "n_ids": 212,
+  "decision": {
+   "n": 212,
+   "po": 0.995,
+   "kappa": 0.89,
+   "pabak": 0.99,
+   "pos1": 208,
+   "pos2": 207
+  },
+  "detail": {
+   "type:A": {
+    "n": 207,
+    "po": 0.966,
+    "kappa": 0.93,
+    "pabak": 0.93,
+    "pos1": 91,
+    "pos2": 90
+   },
+   "type:D": {
+    "n": 207,
+    "po": 0.99,
+    "kappa": 0.98,
+    "pabak": 0.98,
+    "pos1": 90,
+    "pos2": 88
+   },
+   "type:B": {
+    "n": 207,
+    "po": 0.966,
+    "kappa": 0.93,
+    "pabak": 0.93,
+    "pos1": 87,
+    "pos2": 90
+   },
+   "actor:EXT": {
+    "n": 207,
+    "po": 0.961,
+    "kappa": 0.92,
+    "pabak": 0.92,
+    "pos1": 90,
+    "pos2": 96
+   },
+   "actor:SUP": {
+    "n": 207,
+    "po": 0.986,
+    "kappa": 0.95,
+    "pabak": 0.97,
+    "pos1": 31,
+    "pos2": 34
+   },
+   "actor:AGT": {
+    "n": 207,
+    "po": 0.99,
+    "kappa": 0.97,
+    "pabak": 0.98,
+    "pos1": 41,
+    "pos2": 43
+   },
+   "actor:USR": {
+    "n": 207,
+    "po": 0.976,
+    "kappa": 0.94,
+    "pabak": 0.95,
+    "pos1": 61,
+    "pos2": 58
+   },
+   "actor:NON": {
+    "n": 207,
+    "po": 0.986,
+    "kappa": 0.94,
+    "pabak": 0.97,
+    "pos1": 31,
+    "pos2": 32
+   },
+   "T:T1": {
+    "n": 207,
+    "po": 0.957,
+    "kappa": 0.91,
+    "pabak": 0.91,
+    "pos1": 112,
+    "pos2": 115
+   },
+   "T:T2": {
+    "n": 207,
+    "po": 0.995,
+    "kappa": 0.97,
+    "pabak": 0.99,
+    "pos1": 19,
+    "pos2": 18
+   },
+   "T:T3": {
+    "n": 207,
+    "po": 0.995,
+    "kappa": 0.98,
+    "pabak": 0.99,
+    "pos1": 28,
+    "pos2": 29
+   },
+   "T:T4": {
+    "n": 207,
+    "po": 0.961,
+    "kappa": 0.89,
+    "pabak": 0.92,
+    "pos1": 52,
+    "pos2": 44
+   },
+   "T:T5": {
+    "n": 207,
+    "po": 0.971,
+    "kappa": 0.94,
+    "pabak": 0.94,
+    "pos1": 70,
+    "pos2": 74
+   },
+   "T:T6": {
+    "n": 207,
+    "po": 0.986,
+    "kappa": 0.96,
+    "pabak": 0.97,
+    "pos1": 43,
+    "pos2": 46
+   },
+   "viol:AI": {
+    "n": 207,
+    "po": 0.928,
+    "kappa": 0.85,
+    "pabak": 0.86,
+    "pos1": 125,
+    "pos2": 130
+   },
+   "viol:OI": {
+    "n": 207,
+    "po": 0.957,
+    "kappa": 0.85,
+    "pabak": 0.91,
+    "pos1": 36,
+    "pos2": 37
+   },
+   "viol:C": {
+    "n": 207,
+    "po": 0.971,
+    "kappa": 0.93,
+    "pabak": 0.94,
+    "pos1": 58,
+    "pos2": 54
+   },
+   "viol:AV": {
+    "n": 207,
+    "po": 0.995,
+    "kappa": 0.95,
+    "pabak": 0.99,
+    "pos1": 10,
+    "pos2": 11
+   },
+   "viol:S": {
+    "n": 207,
+    "po": 0.976,
+    "kappa": 0.93,
+    "pabak": 0.95,
+    "pos1": 47,
+    "pos2": 46
+   },
+   "multistage:Y": {
+    "n": 207,
+    "po": 0.961,
+    "kappa": 0.9,
+    "pabak": 0.92,
+    "pos1": 55,
+    "pos2": 49
+   },
+   "embodied:Y": {
+    "n": 207,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos1": 10,
+    "pos2": 10
+   },
+   "T5sub:a": {
+    "n": 69,
+    "po": 0.942,
+    "kappa": 0.84,
+    "pabak": 0.88,
+    "pos1": 16,
+    "pos2": 16
+   },
+   "T5sub:b": {
+    "n": 69,
+    "po": 0.986,
+    "kappa": 0.96,
+    "pabak": 0.97,
+    "pos1": 49,
+    "pos2": 50
+   },
+   "T5sub:c": {
+    "n": 69,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos1": 9,
+    "pos2": 9
+   },
+   "D:D1": {
+    "n": 88,
+    "po": 0.977,
+    "kappa": 0.94,
+    "pabak": 0.95,
+    "pos1": 22,
+    "pos2": 24
+   },
+   "D:D2": {
+    "n": 88,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos1": 13,
+    "pos2": 13
+   },
+   "D:D3": {
+    "n": 88,
+    "po": 0.989,
+    "kappa": 0.96,
+    "pabak": 0.98,
+    "pos1": 14,
+    "pos2": 13
+   },
+   "D:D4": {
+    "n": 88,
+    "po": 0.966,
+    "kappa": 0.88,
+    "pabak": 0.93,
+    "pos1": 13,
+    "pos2": 16
+   },
+   "D:D5": {
+    "n": 88,
+    "po": 0.966,
+    "kappa": 0.93,
+    "pabak": 0.93,
+    "pos1": 50,
+    "pos2": 53
+   },
+   "D:D6": {
+    "n": 88,
+    "po": 1.0,
+    "kappa": 1.0,
+    "pabak": 1.0,
+    "pos1": 5,
+    "pos2": 5
+   }
+  }
+ },
+ "adj_override": {
+  "papers": 8,
+  "fields": 11,
+  "ids": [
+   "10.18653/v1/2025.findings-emnlp.917",
+   "M029",
+   "M054",
+   "N039",
+   "Q086",
+   "Q557",
+   "R006",
+   "S05"
+  ],
+  "adjudicated_records": 101
+ },
+ "decision_triples": {
+  "INC/INC/INC": 206,
+  "INC/INC/EXC": 1,
+  "EXC/EXC/EXC": 3,
+  "EXC/EXC/INC": 1,
+  "INC/EXC/INC": 1
+ },
+ "ft_rel_n": 26,
+ "rel_ft": {
+  "stage:I": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 7,
+   "pos2": 7
+  },
+  "stage:P": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.65,
+   "pabak": 0.92,
+   "pos1": 2,
+   "pos2": 1
+  },
+  "stage:M": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 1,
+   "pos2": 1
+  },
+  "stage:A": {
+   "n": 24,
+   "po": 0.875,
+   "kappa": 0.75,
+   "pabak": 0.75,
+   "pos1": 12,
+   "pos2": 15
+  },
+  "stage:O": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.0,
+   "pabak": 0.92,
+   "pos1": 1,
+   "pos2": 0
+  },
+  "stage:C": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.88,
+   "pabak": 0.92,
+   "pos1": 5,
+   "pos2": 6
+  },
+  "judge:SEP": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 14,
+   "pos2": 14
+  },
+  "judge:SELF": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 6,
+   "pos2": 6
+  },
+  "judge:ML": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 5,
+   "pos2": 5
+  },
+  "judge:RULE": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.9,
+   "pabak": 0.92,
+   "pos1": 8,
+   "pos2": 7
+  },
+  "judge:HUMAN": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 2,
+   "pos2": 2
+  },
+  "granularity:ACTION": {
+   "n": 25,
+   "po": 0.96,
+   "kappa": 0.92,
+   "pabak": 0.92,
+   "pos1": 11,
+   "pos2": 12
+  },
+  "granularity:TRAJ": {
+   "n": 25,
+   "po": 0.96,
+   "kappa": 0.88,
+   "pabak": 0.92,
+   "pos1": 5,
+   "pos2": 6
+  },
+  "decisions:confirm": {
+   "n": 25,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 2,
+   "pos2": 2
+  },
+  "adversarial": {
+   "n": 25,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 21,
+   "pos2": 21
+  },
+  "public_bench": {
+   "n": 26,
+   "po": 0.846,
+   "kappa": 0.62,
+   "pabak": 0.69,
+   "pos1": 17,
+   "pos2": 21
+  },
+  "utility": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.9,
+   "pabak": 0.92,
+   "pos1": 16,
+   "pos2": 17
+  },
+  "overhead": {
+   "n": 24,
+   "po": 0.958,
+   "kappa": 0.89,
+   "pabak": 0.92,
+   "pos1": 18,
+   "pos2": 17
+  },
+  "fpr": {
+   "n": 24,
+   "po": 0.917,
+   "kappa": 0.83,
+   "pabak": 0.83,
+   "pos1": 14,
+   "pos2": 14
+  },
+  "judge_exposed": {
+   "n": 18,
+   "po": 0.944,
+   "kappa": 0.82,
+   "pabak": 0.89,
+   "pos1": 14,
+   "pos2": 15
+  },
+  "A_mode:pre": {
+   "n": 12,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 10,
+   "pos2": 10
+  },
+  "policy_src:LLM/MIX": {
+   "n": 24,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 2,
+   "pos2": 2
+  },
+  "adaptive:any": {
+   "n": 18,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pabak": 1.0,
+   "pos1": 8,
+   "pos2": 8
+  },
+  "n_models_exact": {
+   "n": 22,
+   "agree": 17
+  }
+ },
+ "prisma": {
+  "screened": 1289,
+  "both_exc": 1065,
+  "both_exc_reasons": {
+   "X": 463,
+   "E2": 388,
+   "E1": 121,
+   "E4": 54,
+   "E3": 25,
+   "E5": 9,
+   "E6": 5
+  },
+  "forwarded": 224,
+  "both_inc": 196,
+  "disagree": 28,
+  "elig_excluded": 23,
+  "elig_exc_reasons": {
+   "E2": 12,
+   "E1": 9,
+   "E4": 2
+  },
+  "included_db": 201,
+  "snowball_inc": 7,
+  "total": 208,
+  "by_path": {
+   "V2": 153,
+   "V3": 18,
+   "SEC": 30
+  }
+ },
+ "judge_input": {
+  "n": 53,
+  "RAW": 37,
+  "DERIVED": 11,
+  "TRUSTED": 3,
+  "unknown": 2,
+  "raw_pct": 70,
+  "raw_ci": [
+   56,
+   80
+  ],
+  "rawder": 48,
+  "rawder_pct": 91
+ },
+ "judge_input_rel": {
+  "three": {
+   "n": 50,
+   "po": 0.92,
+   "kappa": 0.8
+  },
+  "raw": {
+   "n": 50,
+   "po": 0.94,
+   "kappa": 0.84
+  },
+  "disagree": 5
+ },
+ "pre_gate2": {
+  "n": 41,
+  "sep": 29,
+  "sep_raw": 21,
+  "sep_der": 8,
+  "selfonly": 5,
+  "rule": 19,
+  "rule_only": 7
+ },
+ "strata2": {
+  "FULL": {
+   "n": 73,
+   "A": 42,
+   "A_pct": 58,
+   "sep": 45,
+   "sep_raw": 34,
+   "llm": 61,
+   "rule": 16,
+   "adaptive": [
+    13,
+    58
+   ],
+   "adaptive_pct": 22,
+   "public": [
+    47,
+    71
+   ]
+  },
+  "SEC": {
+   "n": 12,
+   "A": 6,
+   "A_pct": 50,
+   "sep": 6,
+   "sep_raw": 1,
+   "llm": 6,
+   "rule": 7,
+   "adaptive": [
+    3,
+    11
+   ],
+   "adaptive_pct": 27,
+   "public": [
+    3,
+    11
+   ]
+  },
+  "SNOW": {
+   "n": 5,
+   "A": 3,
+   "A_pct": 60,
+   "sep": 2,
+   "sep_raw": 2,
+   "llm": 2,
+   "rule": 5,
+   "adaptive": [
+    0,
+    3
+   ],
+   "adaptive_pct": 0,
+   "public": [
+    2,
+    5
+   ]
+  }
+ },
+ "path1_def_share": 81,
+ "adv_only2": {
+  "n": 77,
+  "sep": 46,
+  "sep_raw": 32,
+  "sep_raw_pct": 70
+ },
+ "ft_boot": {
+  "stage:A": {
+   "n": 24,
+   "kappa": 0.75,
+   "ci": [
+    0.46,
+    1.0
+   ]
+  },
+  "stage:P": {
+   "n": 24,
+   "kappa": 0.65,
+   "ci": [
+    0.0,
+    1.0
+   ]
+  },
+  "stage:C": {
+   "n": 24,
+   "kappa": 0.88,
+   "ci": [
+    0.52,
+    1.0
+   ]
+  },
+  "judge:SEP": {
+   "n": 24,
+   "kappa": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "judge:RULE": {
+   "n": 24,
+   "kappa": 0.9,
+   "ci": [
+    0.65,
+    1.0
+   ]
+  },
+  "judge_exposed": {
+   "n": 18,
+   "kappa": 0.82,
+   "ci": [
+    0.0,
+    1.0
+   ]
+  },
+  "public_bench": {
+   "n": 26,
+   "kappa": 0.62,
+   "ci": [
+    0.26,
+    0.91
+   ]
+  },
+  "fpr": {
+   "n": 24,
+   "kappa": 0.83,
+   "ci": [
+    0.56,
+    1.0
+   ]
+  },
+  "adaptive": {
+   "n": 18,
+   "kappa": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "audit_exc": {
+  "n": 150,
+  "inc": 0,
+  "ci": [
+   0,
+   2
+  ],
+  "borderline": 10
+ },
+ "human2": {
+  "n": 10,
+  "d6": 5,
+  "burdenY": 5,
+  "known": 9
+ },
+ "final_adjudicated": 97,
+ "gold_in_final": 21
+}

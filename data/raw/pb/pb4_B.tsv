@@ -1,0 +1,178 @@
+id	decision	exc_reason	borderline	note
+10.18653/v1/2022.emnlp-main.795	EXC	X	N	Legal deontic modality classification; no agent security.
+10.18653/v1/2022.findings-emnlp.33	EXC	X	N	Environment manipulation pretraining for performance; no security/safety theme.
+10.18653/v1/2023.emnlp-main.442	EXC	X	N	TableQA cooperative game for data confidentiality; not adversarial agent security.
+10.18653/v1/2024.acl-long.530	INC	-	N	Backdoor in LLM agents triggers harmful tool operations; agent action path.
+10.18653/v1/2024.acl-long.812	INC	-	N	Multi-agent system attack via dark traits, defense and evaluation.
+10.18653/v1/2024.findings-naacl.118	EXC	E1	N	Toxicity reduction training for dialogue models; text-only.
+10.18653/v1/2024.findings-acl.228	EXC	X	N	Sales dialogue dataset; unrelated.
+N001	EXC	X	N	Climate narrative classification; unrelated.
+10.18653/v1/2024.findings-acl.624	INC	-	N	Benchmark of indirect prompt injection on tool-integrated agents.
+10.18653/v1/2024.findings-acl.972	EXC	X	N	Engaging conversation dataset; unrelated.
+10.18653/v1/2024.findings-emnlp.50	EXC	X	N	LLM agents for search user simulation; no security.
+10.18653/v1/2024.findings-emnlp.407	INC	-	Y	Adversarial agent in multi-LLM debate; text-only debate but R2 applies.
+10.18653/v1/2024.findings-emnlp.722	EXC	E2	Y	Robustness of API-calling to perturbed instructions/versions; non-malicious robustness, performance focus.
+10.18653/v1/2024.findings-emnlp.832	EXC	X	N	Counseling dialogue dataset; unrelated.
+10.18653/v1/2024.findings-emnlp.846	EXC	E1	N	Role-play hallucination mitigation; text-only.
+10.18653/v1/2024.emnlp-main.477	EXC	X	N	Agent performance improvement via reflections; no security.
+10.18653/v1/2024.emnlp-main.610	EXC	E1	N	RAG robustness to fabricated documents; QA only.
+10.18653/v1/2024.emnlp-main.732	EXC	E6	N	Safety backdoor removal in instruction-tuned LLMs; no agent action.
+10.18653/v1/2024.emnlp-main.1121	EXC	E1	N	Jailbreak defense for LLMs; no action.
+10.18653/v1/2025.acl-long.359	INC	-	N	Anomaly detection and remediation against attacks in LLM multi-agent systems.
+10.18653/v1/2025.acl-long.389	EXC	X	N	Metaphor covert communication in language games; capability, not security.
+10.18653/v1/2025.acl-long.399	INC	-	N	Lifelong runtime guardrail generating safety checks for agent actions.
+10.18653/v1/2025.acl-long.411	INC	-	N	Adversarial pop-up attack on VLM computer-use agents.
+10.18653/v1/2025.acl-long.431	EXC	E4	N	LLM fake news detection evaluation framework; LLMs applied to misinformation task.
+10.18653/v1/2025.acl-long.476	INC	-	Y	Optimized prompt attack across multi-agent LLM topology; jailbreak-style text harms, R2.
+10.18653/v1/2025.acl-long.495	EXC	X	N	Investor-behavior alignment of LLM; unrelated.
+10.18653/v1/2025.acl-long.601	EXC	X	N	Machine-generated text detection; not agent security.
+10.18653/v1/2025.acl-long.897	EXC	E1	Y	Prompt injection defense for LLM-integrated apps; no agent action evident.
+10.18653/v1/2025.acl-long.936	INC	-	Y	GPTs knowledge-file leakage incl. code interpreter privilege escalation; some vectors are platform/API.
+10.18653/v1/2025.acl-long.1049	EXC	X	N	Counseling dataset with privacy-preserving reconstruction; unrelated.
+10.18653/v1/2025.acl-long.1087	INC	-	Y	GUI agents distracted by environment; mainly benign but includes adversarial environment injection.
+N002	EXC	X	N	Social agent strategy learning; unrelated.
+10.18653/v1/2025.acl-long.1227	INC	-	N	Memory extraction attack on LLM agents' private memory.
+10.18653/v1/2025.acl-long.1435	INC	-	N	Test-time task-alignment defense verifying tool calls against IPI.
+10.18653/v1/2025.acl-long.1490	EXC	E4	N	LLM agents used for vulnerability detection benchmark.
+N003	EXC	X	N	Multi-agent dialect bias mitigation in privacy policy QA; no security threat.
+10.18653/v1/2025.findings-naacl.16	EXC	E1	N	Jailbreak defense via prompt decomposition; LLM-level.
+10.18653/v1/2025.findings-naacl.123	EXC	E1	Y	Attention-based prompt injection detection at LLM level; no agent actions evaluated.
+10.18653/v1/2025.findings-naacl.160	EXC	E4	Y	LLM multi-agent simulation of social-media poisoning; agents as research tool, not target.
+10.18653/v1/2025.findings-naacl.363	INC	-	N	Foot-in-the-door indirect injection attack on ReAct agents with reflection defense.
+10.18653/v1/2025.findings-naacl.368	EXC	E1	Y	Multi-agent jailbreak defense guarding a single LLM's text responses.
+10.18653/v1/2025.findings-acl.93	EXC	X	N	Multimodal dialogue OOD detection; unrelated.
+10.18653/v1/2025.findings-acl.160	EXC	E1	N	RL-generated deceptive context shifting LLM beliefs; no agent action.
+10.18653/v1/2025.findings-acl.348	EXC	E2	Y	GUI agent trained to seek human help by confidence; reliability focus, no adversary.
+10.18653/v1/2025.findings-acl.349	INC	-	N	Agent-in-the-middle attack manipulating inter-agent messages in LLM-MAS.
+10.18653/v1/2025.findings-acl.519	EXC	X	N	LLM in-context dueling bandits; not security.
+10.18653/v1/2025.findings-acl.599	EXC	X	N	Multi-agent meeting transcript synthesis; unrelated.
+10.18653/v1/2025.findings-acl.985	EXC	E1	N	VLM norm understanding MCQ benchmark; no actions, no adversary.
+10.18653/v1/2025.findings-acl.1327	EXC	X	N	Multi-agent NLG evaluation framework; unrelated.
+10.18653/v1/2025.findings-acl.1343	EXC	E1	N	Prompt reformulation for user privacy with chat agents; no agent actions.
+10.18653/v1/2025.findings-emnlp.6	EXC	E1	N	Adversarial two-player alignment of LLM responses; text-only.
+10.18653/v1/2025.findings-emnlp.85	EXC	X	N	Math modeling multi-agent framework; no security.
+10.18653/v1/2025.findings-emnlp.333	INC	-	N	Adversarial agents in LLM multi-agent collaboration with mitigations.
+10.18653/v1/2025.findings-emnlp.356	EXC	E3	N	Survey on healthcare LLM trustworthiness.
+10.18653/v1/2025.findings-emnlp.376	INC	-	N	Malicious font injection via web resources causing MCP tool data leakage.
+10.18653/v1/2025.findings-emnlp.411	INC	-	N	Backdoor attack on MLLM mobile GUI agents with interaction-level triggers.
+10.18653/v1/2025.findings-emnlp.464	EXC	E3	N	Review of rumor detection.
+10.18653/v1/2025.findings-emnlp.484	EXC	X	N	Android intent invocation dataset; no security.
+10.18653/v1/2025.findings-emnlp.620	EXC	E3	N	Survey on LLM agents for recommender systems.
+10.18653/v1/2025.findings-emnlp.648	EXC	E3	N	Survey on RAG-reasoning systems.
+10.18653/v1/2025.findings-emnlp.667	EXC	X	N	Multi-agent adversarial learning for research ideation; not security.
+10.18653/v1/2025.findings-emnlp.687	EXC	X	N	Patent drafting agent using local models for confidentiality; no threat studied.
+10.18653/v1/2025.findings-emnlp.848	EXC	X	N	Medical reasoning agent performance; no security.
+10.18653/v1/2025.findings-emnlp.917	INC	-	N	Role/topology-aware attack and defense framework for LLM multi-agent systems.
+10.18653/v1/2025.findings-emnlp.925	INC	-	Y	Contextual-integrity privacy checker mitigating agent leakage in MCP/A2A; non-adversarial but runtime mitigation.
+10.18653/v1/2025.findings-emnlp.1066	INC	-	N	Runtime risk-pattern detection defense for LLM agents.
+10.18653/v1/2025.findings-emnlp.1100	EXC	X	N	Role-playing character framework; unrelated.
+10.18653/v1/2025.findings-emnlp.1178	EXC	E1	N	LLM social bias alignment evaluation; no agent action.
+10.18653/v1/2025.findings-emnlp.1258	INC	-	N	Black-box red-teaming for indirect prompt injection on agents.
+10.18653/v1/2025.findings-emnlp.1271	EXC	X	N	Healthcare causal discovery agent; no security.
+10.18653/v1/2025.findings-emnlp.1304	EXC	X	N	Early-exit efficiency for embodied agents; no security.
+10.18653/v1/2025.emnlp-main.53	INC	-	N	Tool dependency graph defense against IPI in agents.
+10.18653/v1/2025.emnlp-main.104	INC	-	N	Pixel perturbation prompt injection inducing web agent actions.
+10.18653/v1/2025.emnlp-main.114	INC	-	N	Red-teaming policy-adherent tool agents by adversarial users; Tau-break benchmark.
+N004	EXC	X	N	Agentic search for reasoning models; performance only.
+10.18653/v1/2025.emnlp-main.279	EXC	E1	N	Agent-assisted jailbreak of LLMs; target is text output.
+10.18653/v1/2025.emnlp-main.466	EXC	E2	N	Enterprise task benchmark incl. access controls; capability evaluation, no adversary.
+10.18653/v1/2025.emnlp-main.611	INC	-	N	Adversarial samples manipulating multi-agent collective decisions; R2.
+10.18653/v1/2025.emnlp-main.619	EXC	E4	N	Agents for fake news generation/detection; misinformation task, not agent security.
+N006	EXC	X	N	Counseling agent for panic attacks; unrelated.
+10.18653/v1/2025.emnlp-main.654	EXC	E1	N	Auditing sycophancy in human-LLM dialogue; text outputs only.
+10.18653/v1/2025.emnlp-main.802	EXC	E4	N	Evaluating LLM agents for penetration testing.
+10.18653/v1/2025.emnlp-main.828	EXC	X	N	Behavioral alignment of LLMs in conflict dialogue; unrelated.
+10.18653/v1/2025.emnlp-main.836	EXC	X	N	Graph-guided RAG for EDA code generation; performance.
+10.18653/v1/2025.emnlp-main.868	EXC	X	N	Creative writing reward strategies; unrelated.
+10.18653/v1/2025.emnlp-main.958	EXC	E2	Y	Agent influence ranking in agentic workflows; analysis tool, no adversary or enforcement.
+10.18653/v1/2025.emnlp-main.1071	EXC	E4	N	LLM multi-stage code vulnerability detection.
+10.18653/v1/2025.emnlp-main.1134	EXC	X	N	Multi-agent debate for adversarial word sense disambiguation; NLP task.
+N007	EXC	X	N	Hateful meme detection with LMMs; unrelated.
+10.18653/v1/2025.emnlp-main.1247	EXC	E1	N	Synthetic data for RAG privacy; no agent actions.
+N008	INC	-	Y	Reasoning-trace privacy leakage in personal agents, extractable via prompt injection.
+10.18653/v1/2025.emnlp-main.1386	EXC	E6	N	Fine-tuned steganographic secret leakage in LLM outputs; no agent action path.
+10.18653/v1/2025.emnlp-main.1490	EXC	X	N	Tool-augmented educational feedback model; no security.
+10.18653/v1/2025.naacl-long.41	EXC	X	N	Opponent modeling in multi-agent games; capability.
+10.18653/v1/2025.naacl-long.212	EXC	E4	N	Benchmark for agents repairing CVE vulnerabilities.
+10.18653/v1/2025.naacl-long.318	EXC	X	N	Financial knowledge benchmark; not agent security.
+10.18653/v1/2025.naacl-long.412	EXC	E1	N	Training LLMs to resist adversarial persuasion; text-level QA.
+10.18653/v1/2025.naacl-long.421	EXC	E1	N	Attacker LLM uncovering memorization in victim LLM; no agent action.
+10.18653/v1/2025.naacl-long.578	EXC	X	N	Large action models for agent performance.
+10.18653/v1/2026.acl-long.108	EXC	E4	N	Agent generating adversarial test cases for code solutions.
+10.18653/v1/2026.acl-long.190	EXC	E2	Y	VLA robustness to linguistic perturbations; performance robustness, not security threat model.
+10.18653/v1/2026.acl-long.216	EXC	X	N	Dual-agent retrieval-augmented reasoning; performance.
+10.18653/v1/2026.acl-long.223	EXC	X	N	Tool-augmented visual grounding; performance.
+10.18653/v1/2026.acl-long.310	INC	-	N	Defense and benchmark for web agents against deceptive UI elements.
+10.18653/v1/2026.acl-long.313	EXC	X	N	Text-to-SQL candidate selection; unrelated.
+10.18653/v1/2026.acl-long.330	INC	-	N	RL-based long-horizon tool-output attacks on LLM multi-agent systems.
+10.18653/v1/2026.acl-long.361	EXC	X	N	Code infilling instruction tuning; unrelated.
+10.18653/v1/2026.acl-long.431	INC	-	N	Hybrid formal/VLM safety detector for mobile GUI agent actions with benchmark.
+10.18653/v1/2026.acl-long.443	INC	-	N	Verify-before-commit defense against tool-stream injection; SIREN benchmark.
+10.18653/v1/2026.acl-long.467	EXC	X	N	Reward density for agentic search training; performance.
+10.18653/v1/2026.acl-long.522	INC	-	N	Server-side MCP plugin constraining tool acquisition and intervening on unsafe actions.
+10.18653/v1/2026.acl-long.543	EXC	E4	Y	LLM phishing simulation against humans and phishing chat detection; agents as attack tool.
+10.18653/v1/2026.acl-long.550	EXC	X	N	Skill transfer for knowledge adaptation; performance.
+10.18653/v1/2026.acl-long.668	EXC	E1	N	System prompt poisoning for targeted text responses; no agent action.
+10.18653/v1/2026.acl-long.707	INC	-	N	Attack inducing code agents to produce functionally correct vulnerable patches.
+10.18653/v1/2026.acl-long.727	EXC	E1	Y	Agentic extraction attack stealing GraphRAG graph; target is RAG QA without actions.
+10.18653/v1/2026.acl-long.786	EXC	X	N	Code completion retrieval agent; performance.
+10.18653/v1/2026.acl-long.804	EXC	X	N	Text-to-graph-query framework; unrelated.
+N010	INC	-	N	Benchmark of web agents under injected deceptive e-commerce interfaces.
+10.18653/v1/2026.acl-long.1032	EXC	X	N	LLM multi-agent substructure counting under LDP; not agent security.
+10.18653/v1/2026.acl-long.1088	EXC	X	N	Lao language benchmark; unrelated.
+10.18653/v1/2026.acl-long.1112	EXC	E1	N	LLM robustness to logical fallacies in debate; text-only.
+10.18653/v1/2026.acl-long.1134	INC	-	Y	Malicious research agent deceives multi-LLM review system; R2, decisions are text scores.
+10.18653/v1/2026.acl-long.1197	INC	-	N	Red-teaming LLM agents via reasoning hijacking and memory retrieval manipulation.
+10.18653/v1/2026.acl-long.1233	EXC	E2	Y	Emoticon misinterpretation causing destructive code; benign-user reliability failure, mostly LLM-level.
+10.18653/v1/2026.acl-long.1260	INC	-	Y	Personal memory raises harmful-query success in memory-augmented agents; detection defense; harm is text.
+10.18653/v1/2026.acl-long.1407	INC	-	N	Graph anomaly detection of malicious agents in LLM multi-agent systems.
+10.18653/v1/2026.acl-long.1440	EXC	E2	N	Self-auditing for reasoning faithfulness in agents; reliability, no adversary.
+10.18653/v1/2026.acl-long.1464	EXC	X	N	Emotion-aware negotiation multi-agent framework; unrelated.
+10.18653/v1/2026.acl-long.1501	INC	-	Y	Threat-model-driven synthetic data to harden tool agents incl. instruction/context-induced risks.
+10.18653/v1/2026.acl-long.1515	EXC	E2	Y	Terminal simulation realism; prompt injection defense is secondary.
+10.18653/v1/2026.acl-long.1531	EXC	E1	N	Red-teaming agent eliciting vulnerable code from code LLMs; victim has no actions.
+10.18653/v1/2026.acl-long.1577	INC	-	N	Conjunctive prompt attacks via routing across compromised agents in multi-agent pipelines.
+N011	EXC	X	N	GUI agent planning via experience exploration; performance.
+10.18653/v1/2026.acl-long.1756	INC	-	Y	Adversarial peers sway representative agent's decisions in LLM collectives; R2, text decisions.
+10.18653/v1/2026.acl-long.1836	EXC	E4	N	Multi-agent verified smart contract synthesis; agents for secure code task.
+10.18653/v1/2026.acl-long.1942	EXC	E3	N	Survey of LLMs for single-cell biology.
+10.18653/v1/2026.acl-long.2001	EXC	X	N	Computer-use environment creation; capability evaluation.
+10.18653/v1/2026.acl-long.2106	EXC	E3	N	SoK/survey on computer-using agent safety and security.
+10.18653/v1/2026.acl-long.2130	EXC	E1	Y	Privacy-aware routing of prompt chunks to remote LLM; provider data exposure, not agent actions.
+10.18653/v1/2026.findings-acl.115	EXC	E1	N	LLM safety compliance dataset; agent only used for data collection.
+10.18653/v1/2026.findings-acl.120	EXC	X	N	Agentic knowledge warehousing for information seeking; performance.
+10.18653/v1/2026.findings-acl.180	EXC	X	N	Self-evolving service dialogue agent; performance.
+10.18653/v1/2026.findings-acl.182	EXC	X	N	RL policy optimization for agentic reasoning; performance.
+10.18653/v1/2026.findings-acl.207	EXC	X	N	Multi-agent topology generation for efficiency; no security.
+10.18653/v1/2026.findings-acl.240	INC	-	N	Layered detection defense for MCP tool interactions with attack benchmark.
+10.18653/v1/2026.findings-acl.340	INC	-	Y	Debate-based gate rejecting unsafe embodied plans; benchmark with adversarial instructions.
+10.18653/v1/2026.findings-acl.386	EXC	X	N	Personality-consistent role-playing agents; unrelated.
+10.18653/v1/2026.findings-acl.416	EXC	X	N	Psychological support multi-agent framework; unrelated.
+10.18653/v1/2026.findings-acl.426	INC	-	N	Topology-evolving defense against malicious injection spread in multi-agent systems.
+10.18653/v1/2026.findings-acl.453	EXC	X	N	Agentic table summarization with privacy compliance by design; no threat studied.
+10.18653/v1/2026.findings-acl.485	EXC	E4	Y	LLM agents misused for automated profile inference; agents as attack tool, not target.
+10.18653/v1/2026.findings-acl.572	EXC	E4	N	Agent autonomously conducting ML inference attacks.
+10.18653/v1/2026.findings-acl.683	EXC	X	N	Agentic property-based test generation; software testing.
+10.18653/v1/2026.findings-acl.686	INC	-	Y	Malicious web-link fraud deceiving LLM multi-agent systems; partly classic web deception.
+10.18653/v1/2026.findings-acl.774	EXC	X	N	Murder mystery reasoning for VLMs; unrelated.
+10.18653/v1/2026.findings-acl.788	INC	-	N	Visual adversarial perturbation bypassing price constraints in mobile shopping agents.
+10.18653/v1/2026.findings-acl.791	INC	-	N	Stage-aware backdoor benchmark across planning, memory, tool use in agents.
+10.18653/v1/2026.findings-acl.896	EXC	E1	Y	Defense against system-instruction backdoors in customized LLMs; classification outputs, no actions.
+N013	EXC	X	N	Medical deep research agent; performance.
+10.18653/v1/2026.findings-acl.925	EXC	E1	N	Planning-based multi-turn jailbreak of LLMs; text harms.
+N014	EXC	X	N	Multimodal hate speech detection via agent debate; content moderation.
+10.18653/v1/2026.findings-acl.1032	EXC	X	N	Context management for SWE agents; performance.
+10.18653/v1/2026.findings-acl.1083	EXC	E4	N	Multi-LLM fake news detection; agents applied to misinformation task.
+10.18653/v1/2026.findings-acl.1182	EXC	E1	N	Jailbreak detection for LLMs; no agent action.
+N015	INC	-	N	Semantic payload evolution for environmental injection attacks on GUI agents.
+10.18653/v1/2026.findings-acl.1257	INC	-	N	Backdoored tool-use agents exfiltrating memory data via tool calls.
+10.18653/v1/2026.findings-acl.1274	EXC	E4	N	Multi-agent short-video fake news detection.
+10.18653/v1/2026.findings-acl.1348	INC	-	N	Black-box auditing to detect Trojan agents in multi-agent systems.
+10.18653/v1/2026.findings-acl.1390	EXC	E2	Y	Mitigating non-adversarial in-context reward hacking mainly via prompting/constrained search.
+N016	EXC	X	N	Federated GUI agent training benchmark; performance.
+N017	EXC	X	N	Experience seeking for web agents; performance.
+N018	EXC	X	N	Long-horizon CLI programming benchmark; capability.
+10.18653/v1/2026.findings-acl.1612	EXC	E4	N	Agent-driven text steganography system; agents for security task.
+10.18653/v1/2026.findings-acl.1690	EXC	X	N	Memory system for conversational agents; performance.
+10.18653/v1/2026.findings-acl.1716	EXC	X	N	Failure-aware tool-use agent framework; reliability.
+N020	EXC	E2	N	Benign visual attribute influence on web agent decisions; no adversary.

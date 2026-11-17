@@ -1,0 +1,105 @@
+id	decision	exc_reason	type	actor	T	T5sub	viol	multistage	embodied	D	note
+M002	INC	-	B	USR	T1;T5	b	S	N	N	-	misuse benchmark; jailbreak adaptation not novel attack
+M005	INC	-	B	USR	T1;T5	b	S	N	N	-	browser agent red-teaming suite
+M006	INC	-	A	SUP;EXT	T2;T3;T5	b	S;AI	N	Y	-	fine-tune backdoor + RAG knowledge injection on action path (not E6); AD+home robot
+M007	INC	-	B;A	EXT;USR;SUP	T1;T2;T3	-	AI	Y	N	-	benchmark; novel PoT backdoor; memory poisoning
+M008	INC	-	A;B	EXT	T1	-	AI	N	N	-	image perturbation hijack; ARE eval framework
+M011	INC	-	A;B	USR	T1;T5	b	S	N	Y	-	embodied jailbreak via voice user
+M015	INC	-	B	EXT	T1	-	AI;C	N	N	-	environmental injection mobile GUI; not physical
+M017	INC	-	B;D	AGT;EXT	T6	-	OI	Y	N	D5	R2 MAS misinformation; injection source unclear
+M018	INC	-	B	SUP;EXT;USR	T1;T3	-	AI	N	N	-	server/host/user-side MCP attacks
+M026	INC	-	B;D	USR	T1;T5	b	S	N	N	D5	decomposition attack dataset + sequential monitor; multi-turn decomposition not coded multistage
+M027	INC	-	A	USR	T1;T5	b	S	N	N	-	red-teaming agent targets code agents (attack on agents, not E4)
+M029	INC	-	A;B	SUP;AGT	T3;T4;T6	-	AI;C;AV	N	N	-	A2A supply-chain + protocol-logic attacks
+M031	INC	-	D;B	NON	T5	b	S;AI	N	N	D5	pre-execution guardian model (I2b); risks not explicitly adversarial
+M032	INC	-	A	SUP	T3	-	AI	N	Y	-	visual backdoor via fine-tuning on action path
+M033	INC	-	A;D	EXT	T1;T4;T6	-	AI;C	Y	N	D3;D4	breaks alignment-check defenses; ControlValve CFG + least privilege
+M038	INC	-	B;D	AGT	T4	-	C;AI	N	N	D5;D6	adversary = monitored misaligned agent; hybrid monitor + targeted human escalation
+M039	INC	-	A	EXT	T1	-	AI	N	N	-	chat-template IPI
+M045	INC	-	B	SUP;EXT	T1;T3;T4	-	AI;C	N	N	-	MCP attack benchmark; out-of-scope parameter requests -> T4
+M049	INC	-	B	EXT;USR	T1	-	AI	N	N	-	backbone security benchmark (threat snapshots)
+M052	INC	-	A;D	AGT	T4;T6	-	C	N	N	D1	malicious agent extracts info; defense = evolved agent instructions
+M056	INC	-	A	AGT	T1	-	AI	N	N	-	untrusted agent injects prompts to evade monitor; adversary = agent itself
+M057	INC	-	B	USR;NON	T5	b	S;AI	N	N	-	benign+adversarial user intents, real tools
+M062	INC	-	A	EXT;AGT	T1;T2;T6	-	S	Y	N	-	infectious jailbreak via memory image; R2
+M065	INC	-	D;B	USR	T5	a;b	C;AI	N	N	D4	guardrail code executed deterministically; access control (EICU-AC); unauthorized requests, not strictly malicious
+M067	INC	-	D	AGT	T1;T6	-	AI	Y	N	D1	cure sample immunization; D category approximate
+M070	INC	-	D;B	EXT;USR	T1;T5	b	AI;C	N	N	D4;D5	verifiable rule circuits + LLM shield
+M076	INC	-	B;D	AGT;NON	T6	-	OI	Y	N	D5	borderline R4 (faulty agents, performance drop); kept by R2 (malicious agents named)
+M077	INC	-	D	EXT	T1	-	AI	N	N	D5	masked re-execution detection
+M078	INC	-	A	EXT;USR	T1	-	AI	N	N	-	reasoning-hijack optimization attack
+M082	INC	-	B	AGT	T5	a	AI	N	N	-	sandbox escape by adversarial agent; borderline E4 (CTF format) but containment of agents
+M084	INC	-	A	USR	T2	-	AI	Y	N	-	memory poisoning via benign queries
+M089	INC	-	D	USR;AGT	T1;T6	-	S;AI	Y	N	D1	adversarial co-evolution training of LLM MAS (R1: adversary -> D1)
+M091	INC	-	D	EXT;NON	?	-	?	N	N	D3	robust MAS design; attack types not specified; borderline R4
+M092	INC	-	D	NON	T5	b	AI	N	N	D4;D6	decision-time Allow/Edit/Escalate/Deny enforcement (I2b)
+M093	INC	-	B	EXT	T1	-	OI	N	N	-	R3 search agent; unsafe outputs from search results
+M097	INC	-	A;B	USR;EXT	T1;T2	-	AI	Y	N	-	long-horizon attacks incl. memory poisoning
+M098	INC	-	D	AGT	T6	-	OI;AI	Y	N	D5	activation-based detection in MAS
+M101	INC	-	D	USR	T1;T5	b	S;AI	N	N	D5	multi-turn split intent; speculative trajectory detection
+M108	INC	-	D	AGT	T6	-	S;AI	Y	N	D3	game-theoretic safe MAS design vs compromised agents; D category approximate
+M109	INC	-	D	EXT	T1	-	AI	Y	N	D2;D5	causal/provenance detection of multi-step IPI
+M111	INC	-	A;B	EXT;USR	T1	-	AI	N	N	-	CoT forgery + role probes
+M113	INC	-	D	USR	T1;T5	b	S	N	N	D1	memory-based dynamic defense rule injection
+M120	INC	-	A	SUP	T3;T4	-	C	N	N	-	malicious MCP server privacy exfiltration
+M121	INC	-	B	EXT	T1	-	AI	N	N	-	persuasion IPI benchmark
+M122	INC	-	D	USR;EXT	T1;T4;T5	b	S;C;AI	N	N	D1	post-training plan-check-act; adversarial eval -> D1
+M124	INC	-	D	AGT	T6	-	OI	Y	N	D5	contribution backprop to identify/isolate malicious agents
+M131	INC	-	D	NON	T4	-	C	N	N	D1;D2	runtime CI guidance instructor
+M136	INC	-	A	USR	T1;T5	c	AV	N	N	-	denial-of-efficiency via prompt rewriting
+M137	INC	-	D	USR	T4	-	C	N	N	D5	honeypot + SPRT detection of memory extraction
+M138	INC	-	B;D	USR	T1;T5	b	S	N	N	D1	multi-turn harm benchmark + self-exploration safety experience
+M139	INC	-	A;D	AGT	T6	-	OI	Y	N	D5	evasion attacks on embedding defenses + confidence pruning
+M141	INC	-	D	SUP	T3	-	AI	Y	N	D3;D5	persistent poisoned descriptions in planning context; isolated planning
+M143	INC	-	A	EXT	T1;T5	c	AV	N	N	-	reasoning-level DoS
+M144	INC	-	D	NON	T4	-	C	N	N	D2;D5	latent gate triggers CI reasoning at runtime (I2b)
+M148	INC	-	D	SUP	T4	-	C	N	N	D2	local data minimization before remote model; recipient = remote provider
+M150	INC	-	B;A	USR	T1;T5	b	S	N	N	-	multi-turn illicit assistance red-teaming
+M151	INC	-	B	USR	T1;T5	b	S	N	N	-	refusal boundaries for offensive-cyber requests; misuse not E4
+M152	INC	-	D	USR;EXT	T2	-	AI	Y	N	D5	consensus validation + dual memory
+M154	INC	-	A;B	EXT	T2;T6	-	AI;OI	Y	N	-	persistent contamination across sessions/agents
+M160	INC	-	D	USR	T1;T5	b	S	N	N	D1	borderline E1: model-level defense, agent harmful-action extension
+M161	INC	-	A	SUP	T3	-	AI;OI	N	N	-	agent backdoor via fine-tuning on action path
+M162	INC	-	A	EXT	T2	-	AI	Y	Y	-	memory/KB poisoning; includes AD agent (embodied partial)
+M163	INC	-	A;B	AGT	T4;T6	-	C	N	N	-	steganographic collusion evading oversight; R2
+M164	INC	-	B	EXT	T1	-	AI;C	N	N	-	IPI environment
+M165	INC	-	B	USR	T5	b	S	N	N	-	risky code execution/generation
+M167	INC	-	B	EXT;USR;NON	T1;T5	b	S;AI	N	N	-	LLM evaluator + ASSEBench (offline evaluation)
+M169	INC	-	D	AGT;NON	T6	-	OI	Y	N	D5	borderline R4 (hallucination); error injection; graph anomaly detection
+M172	INC	-	B	USR;EXT;NON	T1;T4;T5	b	S;C;AI	N	N	-	misuse + IPI + model misbehavior
+M176	INC	-	A	USR	T2	-	AI	Y	N	-	MINJA query-only memory injection
+M178	INC	-	A	EXT	T1;T4	-	AI;C	N	N	-	malicious image patches OS agent
+M179	INC	-	B	USR;EXT	T1;T4;T5	b	AI;C	N	N	-	competition; deployment policy violations
+M187	INC	-	A	EXT	T1	-	S;AI	N	Y	-	fine-grained adversarial images embodied
+M189	INC	-	D	SUP	T4	-	C	N	N	D2	cloud/local collaboration to minimize UI exposure
+M192	INC	-	A	SUP	T3;T4	-	AI;C	N	N	-	tool metadata manipulation
+M193	INC	-	D	EXT	T1;T2	-	AI;C	Y	N	D1;D3;D4;D5	secure planner + validator + injection isolator for memory stream
+10.18653/v1/2024.findings-acl.624	INC	-	B	EXT	T1;T4	-	AI;C	N	N	-	InjecAgent
+10.18653/v1/2024.acl-long.530	INC	-	A	SUP	T3	-	AI	N	N	-	BadAgent fine-tune backdoor on action path
+10.18653/v1/2024.acl-long.812	INC	-	A;B;D	AGT;USR	T1;T6;T5	b	S	Y	N	D1;D5	dark-trait injection; input + doctor/police agent defenses
+10.18653/v1/2024.findings-emnlp.407	INC	-	A;B	AGT	T6	-	OI	N	N	-	R2 debate adversary; prompt mitigation secondary
+10.18653/v1/2024.findings-emnlp.585	INC	-	D	NON	T5	b	S	N	N	D1;D5	R1: post-planning inspection is runtime check
+10.18653/v1/2025.findings-naacl.363	INC	-	A	EXT	T1	-	AI	N	N	-	foot-in-the-door IPI; reflection defense secondary
+10.18653/v1/2025.findings-naacl.395	INC	-	A	EXT	T1	-	AI	N	N	-	adaptive attacks on IPI defenses
+10.18653/v1/2025.acl-long.359	INC	-	D	AGT;EXT	T1;T6	-	OI	Y	N	D3;D5	GNN anomaly detection + topological intervention
+10.18653/v1/2025.acl-long.399	INC	-	D	EXT;USR;NON	T1;T5	a;b	AI;C	N	N	D5	adaptive safety-check guardrail
+10.18653/v1/2025.acl-long.411	INC	-	A	EXT	T1	-	AI	N	N	-	adversarial pop-ups
+10.18653/v1/2025.acl-long.476	INC	-	A	USR	T1;T6	-	S	Y	N	-	R2 MAS jailbreak across topology
+10.18653/v1/2025.acl-long.859	INC	-	A;B	AGT	T2;T6	-	OI	Y	N	-	contagious jailbreak via independent memory
+10.18653/v1/2025.acl-long.936	INC	-	B	USR	T4;T5	a	C	N	N	-	GPTs knowledge-file leakage; code interpreter privilege escalation; borderline E5
+10.18653/v1/2025.acl-long.1227	INC	-	A	USR	T4	-	C	N	N	-	memory extraction
+10.18653/v1/2025.acl-long.1435	INC	-	D	EXT	T1	-	AI	N	N	D5	task alignment verification of tool calls
+10.18653/v1/2025.findings-acl.150	INC	-	B	AGT;USR	T6	-	OI;S	Y	N	-	R2 topological MAS safety analysis
+10.18653/v1/2025.findings-acl.349	INC	-	A	AGT	T6	-	AI;OI	Y	N	-	agent-in-the-middle message manipulation
+10.18653/v1/2025.emnlp-main.53	INC	-	D	EXT	T1	-	AI	N	N	D3	planned tool dependency graph
+10.18653/v1/2025.emnlp-main.104	INC	-	A	EXT	T1	-	AI	N	N	-	pixel perturbation web injection
+10.18653/v1/2025.emnlp-main.114	INC	-	A;B	USR	T1;T5	a	AI	N	N	-	adversarial users vs policy-adherent agents; Tau-break
+10.18653/v1/2025.emnlp-main.116	INC	-	D;B	USR	T1;T5	b	S	N	N	D1;D5	prompt/collab/tool monitors + ethical reviewer
+10.18653/v1/2025.emnlp-main.611	INC	-	A	USR	T1;T6	-	OI	Y	N	-	R2 adversarial sample on one agent misleads collective
+10.18653/v1/2025.emnlp-main.1771	INC	-	A	EXT;USR	T1;T5	c	AV	N	N	-	malfunction amplification; self-exam defense secondary
+10.18653/v1/2025.findings-emnlp.157	INC	-	A;B	SUP	T3	-	AI	N	N	-	encrypted multi-backdoor + AgentBackdoorEval
+10.18653/v1/2025.findings-emnlp.333	INC	-	B	AGT	T6	-	OI	N	N	-	R2 adversarial agents in collaboration; mitigations secondary
+10.18653/v1/2025.findings-emnlp.376	INC	-	A	EXT	T1;T4	-	OI;C	N	N	-	malicious font injection via web/MCP
+10.18653/v1/2025.findings-emnlp.411	INC	-	A	SUP	T3	-	AI	N	N	-	GUI agent backdoor (supply chain); defense secondary
+10.18653/v1/2025.findings-emnlp.917	INC	-	A;B;D	AGT	T6	-	OI;AI	Y	N	?	MAS security framework; defense strategy unspecified
+10.18653/v1/2025.findings-emnlp.925	INC	-	D;B	NON	T4	-	C	N	N	D2	CI-based PrivacyChecker + PrivacyLens-Live

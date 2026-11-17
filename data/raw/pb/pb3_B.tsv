@@ -1,0 +1,191 @@
+id	decision	exc_reason	borderline	note
+Q482	EXC	E2	N	Agentic video understanding performance; no security or adversary
+Q483	EXC	E2	N	Service agent RL for utility/cost trade-off; no security
+Q484	EXC	E2	N	World model simulator for web agent training; performance only
+Q486	EXC	E2	N	Information-seeking agent RL for optimization modeling; performance only
+Q487	EXC	E2	N	Theorem-proving agents RL and tree search; performance only
+Q488	EXC	E2	N	Embodied skill grounding via code refactoring; performance only
+Q489	EXC	E2	N	RL credit assignment for long-horizon agents; performance only
+Q490	EXC	X	N	Math reasoning transfer study; not agent security
+Q492	EXC	E2	N	Multi-agent RL text-to-SQL; performance only
+Q494	EXC	E2	N	Continuous software evolution benchmark; non-adversarial capability evaluation
+Q495	EXC	X	N	Ad auction mechanism design with LLM creatives; unrelated
+Q496	EXC	X	N	Vision-language navigation map learning; no LLM agent security
+Q497	EXC	X	N	Proactive questioning LLM from offline logs; unrelated to security
+Q498	EXC	X	N	RL-based LLM ensemble routing; unrelated to agent security
+Q501	EXC	E2	N	Self-reflective policy optimization; agent performance only
+Q503	EXC	E2	N	Causal hypothesis verification for agent decisions; performance only
+Q505	EXC	E2	N	Information-gain policy optimization for user-centric agents; performance only
+Q506	EXC	E2	N	Mixture-of-experts for agentic RL; performance only
+Q507	EXC	E2	N	Goal-directedness evaluation of LLM agent in grid world; non-adversarial
+Q508	EXC	E1	N	Custom policy guardrail classifiers from synthetic data; no agent action
+Q509	EXC	E1	Y	Deceptive LLM agents in dialogue; text-only interaction, no tool/action execution
+Q511	EXC	X	N	World-model representation learning for control; non-LLM, unrelated
+Q512	EXC	E2	N	RL policy optimization objective for multimodal agents; performance only
+Q513	EXC	X	N	Offline multi-agent RL; non-LLM
+Q514	EXC	E2	N	Enterprise agent benchmark; policy/side-effect failures measured non-adversarially, no enforcement
+Q515	EXC	E2	N	Hierarchical plan-execute RL for agents; performance only
+Q517	EXC	E2	N	Multi-round agentic RAG for medical QA; accuracy only
+Q519	EXC	E2	N	Self-correcting search agents RL; performance only
+Q520	EXC	X	N	Entropy dynamics in RL fine-tuning; unrelated
+Q521	EXC	X	N	Error-distribution shaping for LLM reasoning; unrelated
+Q522	EXC	X	N	Robot policy RL exploration; non-LLM
+Q523	EXC	X	N	Socratic questioning dialogue agent; unrelated to security
+Q524	EXC	E2	N	Strategic reasoning RL in multi-agent games; performance only
+Q527	EXC	E2	N	Agentic indoor scene generation; performance only
+Q528	EXC	E2	N	Conversational agent benchmark over knowledge/policies; non-adversarial
+Q529	INC	-	Y	Executable risk-evaluation environments eliciting agent misalignment/concealment (AGT); vs non-adversarial E2
+Q532	EXC	E2	N	Entropy-modulated policy gradients for agents; performance only
+Q533	EXC	E2	N	Context omission for efficient agents; performance only
+Q534	EXC	E2	N	Mobile GUI world models; performance only
+Q535	EXC	E2	N	Stratified GRPO for search agents; performance only
+Q536	EXC	E2	N	Cognitive depth adaptation for agents; performance only
+Q537	EXC	E2	N	Exploration control in agentic RL; performance only
+Q539	EXC	X	N	LLM heuristic design for combinatorial optimization; unrelated
+Q542	INC	-	Y	Evaluates CoT/action monitors for detecting agent misbehavior; unclear how agentic settings are
+Q543	EXC	X	N	Agentic problem synthesis for reasoning data; unrelated
+Q544	EXC	E2	N	Memory-augmented context optimization in LLM games; performance only
+Q545	EXC	X	N	Multi-view clustering with GRPO agent; unrelated
+Q547	EXC	E2	N	Test-time steering of black-box agents; performance only
+Q548	EXC	X	N	Multimodal verifier training; unrelated
+Q549	EXC	E2	N	Privileged information distillation for agents; performance only
+Q550	EXC	E2	N	Agentic poster generation; performance only
+Q551	INC	-	Y	Benchmark of agents deceptively concealing failures via unrequested actions (AGT); could be seen non-adversarial
+Q552	EXC	E2	N	Tool programs for efficient web-service calls; sandboxing secondary, latency focus
+Q553	EXC	E2	N	Multimodal RAG memory graph; performance only
+Q554	EXC	X	N	Probing LLM knowledge boundary; unrelated
+Q555	EXC	X	N	Role-playing RL; unrelated
+Q556	EXC	E6	Y	Backdoor-style watermark of agent trajectory datasets for IP; not runtime agent threat
+Q558	EXC	X	N	Code vs language reasoning comparison; unrelated
+Q559	EXC	E2	N	Code-policy synthesis caching for embodied agents; efficiency/robustness focus
+Q560	EXC	E2	N	GUI agent error recovery benchmark and data; non-adversarial
+Q562	EXC	X	N	LLM neuro-symbolic analog circuit verification; unrelated
+Q563	EXC	E2	N	Theory-of-mind game benchmark for LLMs; capability only
+Q564	EXC	E4	N	Benchmark of agents' vulnerability discovery and patching capabilities
+Q565	EXC	E2	Y	Gossip-based cooperation among LLM agents; defector resistance secondary to cooperation goal
+Q566	EXC	E2	N	VLM-based active mapping for embodied agents; performance only
+Q567	EXC	X	N	Safe RL from crowd preferences; mainly non-LLM RL policies
+Q569	EXC	X	N	LLM-driven neural architecture search; unrelated
+Q570	EXC	E2	N	Imitation learning data for SWE agents; performance only
+Q571	EXC	E2	N	Information-gain reward for agentic retrieval; performance only
+Q574	EXC	E4	N	Training LLM agents on CTF challenges to find vulnerabilities
+Q575	EXC	E2	N	Trajectory uncertainty metric predicting tool-agent failures; reliability, non-adversarial
+Q576	EXC	X	N	LM-guided static analysis heap abstractions; unrelated to agent security
+Q577	EXC	E2	N	Experience-guided RL for web search agents; performance only
+Q578	EXC	E2	N	Retrosynthesis planning agent; performance only
+Q579	EXC	E2	N	Hierarchical multi-agent travel planning; constraint monitor is task-level, performance focus
+Q580	EXC	E2	N	Adaptive reasoning for VLN; performance only
+Q581	EXC	E2	N	Training-free continual learning for agents; performance only
+Q583	EXC	E2	N	Agentic testbench generation learning; performance only
+Q584	EXC	X	N	Evolving multimodal benchmark; unrelated
+Q585	EXC	E2	N	LLM decision model for offline multi-agent decisions; performance only
+Q586	EXC	X	N	Offline multi-agent meta-RL; non-LLM policies
+Q587	EXC	E1	N	Zero-source hallucination detection for text outputs; no agent action
+Q588	EXC	X	N	SFT token clipping for RL initialization; unrelated
+Q590	EXC	E2	N	Self-regulating memory for GUI agents; performance only
+Q592	EXC	X	N	Parallel reasoning RL; unrelated
+Q593	EXC	X	N	Egocentric interaction reasoning MLLM; unrelated
+Q594	EXC	E2	N	Agentic epidemiological model synthesis; performance only
+Q595	EXC	E2	N	Benchmark of agent breakdowns under non-adversarial user input faults
+Q596	EXC	E2	N	Synthetic website clones for safe agent training; no runtime enforcement or adversary
+Q599	EXC	E4	Y	Dual-use biosecurity capability benchmark for agents; no attack/defense on agent itself
+Q600	EXC	E2	N	Graph-based credit assignment for agentic RL; performance only
+Q601	EXC	E2	N	Curiosity-driven exploration for VLM agents; performance only
+Q602	EXC	E2	N	Dynamic scheduling benchmark for LLM agents; performance only
+Q603	EXC	X	N	VLM rewards for robot RL policies; non-LLM agent
+Q604	EXC	E1	Y	Formal deception definition; LM/RL experiments without tool-acting LLM agents
+Q605	EXC	X	N	Preference-based RL without reward model; unrelated
+Q606	EXC	X	N	Multimodal-reward imitation learning policy; non-LLM
+Q607	EXC	E2	N	Grounded decoding for embodied LLM planning; capability focus
+Q609	EXC	E2	N	Fast/slow thinking agent framework; performance only
+Q610	EXC	X	N	Offline RL dialogue management; unrelated
+Q611	EXC	X	N	Thought cloning imitation learning for RL agents; non-LLM
+Q612	EXC	X	N	Diffusion planner for multi-task RL; non-LLM
+Q613	EXC	X	N	Chess policy and language model; unrelated
+Q614	EXC	X	N	Human-in-the-loop RL value propagation; non-LLM
+Q615	EXC	E1	N	Visual harmfulness dataset; no agent action
+Q616	EXC	E2	N	LLM agent cooperation simulation in commons; non-adversarial
+Q617	EXC	E2	N	Strategic discussion in Werewolf game; performance only
+Q618	EXC	E2	N	Embodied human-AI cooperation challenge; non-adversarial
+Q619	EXC	E1	N	Long-form factuality benchmark and evaluator; text output only
+Q620	EXC	X	N	Automata embeddings for goal-conditioned RL; non-LLM
+Q623	EXC	X	N	Learning user preferences from edits for writing assistants; unrelated
+Q624	EXC	E2	N	Token-level policy optimization for language agents; performance only
+Q625	EXC	X	N	Diffusion representations for control policies; non-LLM
+Q626	EXC	E1	N	Agent-based evaluation of LLM value alignment; target is text-output LLM
+Q628	EXC	X	N	Antibody dataset; unrelated
+Q629	EXC	X	N	Meta-RL with transformers; non-LLM
+Q630	EXC	X	N	Multi-agent RL fine-tuning of LLMs; unrelated to agent security
+Q631	EXC	X	N	Diffusion robot policy from videos; non-LLM
+Q632	EXC	X	N	Offline meta-RL theory; non-LLM
+Q633	EXC	E2	N	LLM planner shaping bandit reward functions in public health; performance only
+Q634	EXC	E2	N	RL framework for conversational tool-using agents; performance only
+Q635	EXC	E2	N	Preference learning from failed tool-use paths; performance only
+Q636	EXC	E2	N	Vision-language-action model for Minecraft agents; performance only
+Q637	EXC	E2	N	Multi-agent financial decision system; investment risk, not security
+Q638	EXC	X	N	Origin-destination matrices for agent-based models; unrelated
+Q640	EXC	X	N	Active geo-localization RL agent; non-LLM, unrelated
+Q641	EXC	X	N	Reward misspecification framework on MDPs; non-LLM
+Q642	EXC	X	N	Financial LLM benchmark; unrelated to agent security
+Q643	EXC	X	N	Multi-turn preference RL theory; unrelated
+Q645	EXC	X	N	Self-improving conjecture and proof agent; unrelated
+Q646	EXC	X	N	Energy-based VLN policy; non-LLM
+Q648	EXC	X	N	Multimodal world models for embodied RL; non-LLM
+Q650	EXC	E2	N	LLM-hinted RL for driving robust to hallucination; non-adversarial performance
+Q651	EXC	E2	N	RL training analysis for GUI grounding; performance only
+Q652	EXC	X	N	Offline RL forecasting non-stationarity; non-LLM
+Q653	INC	-	Y	Retrieval/search-enabled agents show degraded refusal of harmful requests; output-level harm per R3
+Q654	EXC	E2	N	Agentic retrosynthesis RL; performance only
+Q655	EXC	X	N	Mechanism design for multi-reward fine-tuning; unrelated
+Q656	EXC	E1	N	Peer elicitation for LLM truthfulness; text-level, no agent action
+Q657	EXC	E2	N	KV cache management for multi-agent workflows; efficiency only
+Q658	EXC	E2	N	Open computer-use agent data and models; performance only
+Q660	EXC	E2	N	Hierarchical exploration training for web agents; performance only
+Q661	EXC	X	N	Inner-speech steerable imitation policies; non-LLM acting policy
+Q662	EXC	E2	N	Agentic video understanding with rewards; performance only
+Q663	EXC	X	N	Test-time active learning for VLN; non-LLM
+Q664	EXC	E2	N	Urban simulation platform for robot navigation; capability benchmark
+Q665	EXC	E2	N	Process reward model for web agents; performance only
+Q666	EXC	E1	N	Personalized safety of LLM responses; text output, no adversary or actions
+Q667	EXC	E2	N	Agentic image super-resolution; performance only
+Q668	EXC	X	N	Verified code generation benchmark in Lean; unrelated
+Q669	EXC	E2	N	Self-evolutionary RL for GUI grounding; performance only
+Q671	EXC	E2	N	Tool-augmented video QA reasoning; performance only
+Q672	EXC	X	N	LLM-based credit assignment for RL training; unrelated to agent security
+Q673	EXC	E2	N	Group-in-group policy optimization for agents; performance only
+Q674	EXC	E2	N	Live fund investment benchmark for LLM agents; leakage is evaluation, not security
+Q675	EXC	X	N	PAC-Bayes generalization certificates; unrelated
+Q676	EXC	E2	N	Memory backtracking agent for long video; performance only
+Q677	EXC	E2	N	Deterministic website replicas benchmark; capability/reliability only
+Q679	EXC	E2	N	Neuro-symbolic verification for code-as-policies; task reliability, not safety enforcement
+Q680	EXC	X	N	Reward-weighted fine-tuning for conversation; unrelated
+Q682	EXC	X	N	RL benchmark for data center liquid cooling; unrelated
+Q683	EXC	E2	N	Structured reasoning for GUI navigation; performance only
+Q684	EXC	X	N	Predicting research outcomes with LMs; unrelated
+Q686	EXC	E2	N	Self-trained trajectory evaluator for GUI agents; performance only
+Q687	EXC	E2	N	Tree-structured RFT for embodied agents; performance only
+Q689	EXC	E2	N	Intention-space reward aggregation for language agents; performance only
+Q690	EXC	E2	N	Multi-agent optimization modeling with RL; performance only
+Q693	EXC	E2	N	Goal-conditioned value functions guiding LLM agents; performance only
+Q694	EXC	X	N	Selective reasoning RL for VLMs; unrelated
+Q695	EXC	X	N	Economic simulation testbed; unrelated
+Q696	EXC	X	N	Data attribution for online RL; non-LLM
+Q697	EXC	X	N	Bandits for GenAI interventions; unrelated
+Q699	EXC	E2	N	Multi-agent LLM moral judgment shift; non-adversarial, no actions
+Q700	EXC	E2	Y	Survival-bandit theory of emergent agent misalignment; non-adversarial, no runtime enforcement
+Q701	EXC	E1	N	Emergent value systems in LLMs; model-level, no agent actions
+Q702	EXC	E2	N	Partner-aware collaborative agents accepting interventions; non-adversarial
+Q703	EXC	X	N	VLN semantic graph navigation; non-LLM policy, unrelated
+Q704	EXC	X	N	Curriculum for constrained agents / CoT compression; unrelated
+Q706	EXC	E2	N	Proactive cooperative LLM agents; performance only
+Q707	EXC	X	N	LLM-aided sim-to-real traffic signal RL; unrelated
+Q708	EXC	E1	N	RL auditor eliciting harmful LLM text outputs; no agent action
+Q709	EXC	E2	N	Step-level Q-value models for agent decisions; performance only
+Q710	EXC	E2	N	Choice-supportive bias in LLM evaluator agents; non-adversarial
+Q711	EXC	X	N	LLM-generated latent rewards for RL; unrelated
+Q712	EXC	X	N	MARL teaming with unknown agents; non-LLM
+Q713	EXC	X	N	Multimodal theory-of-mind benchmark; unrelated
+Q714	EXC	X	N	Multilingual ophthalmology QA debiasing; unrelated
+Q717	EXC	E2	N	MCTS multi-agent web task execution; performance only
+Q719	EXC	X	N	Moral rewards in MARL social dilemmas; non-LLM
+Q720	EXC	X	N	LLM teacher for RL student agents; unrelated to security

@@ -1,0 +1,191 @@
+id	decision	exc_reason	borderline	note
+Q001	EXC	E1	N	Text-only dialogue safety dataset; no actions.
+Q002	EXC	E1	N	Bias in conversational LMs; text-only.
+Q003	EXC	E1	N	Dialogue generation prompting; text-only, no security.
+Q004	EXC	E2	N	Task-oriented dialogue action prediction; performance only.
+Q005	EXC	E3	N	Position paper on Theory of Mind.
+Q006	EXC	E3	N	Vision/survey paper on enterprise agents.
+Q007	EXC	E1	N	Persona bias in dialogue models; text-only.
+Q008	EXC	E1	N	Situational understanding test of ChatGPT; text-only, non-security.
+Q010	EXC	E2	N	Zero-shot TOD agent with APIs; performance only.
+Q011	EXC	E2	N	Agent policy reflection for games; performance.
+Q012	EXC	E2	N	Trajectory optimization for agents; performance.
+Q013	EXC	E2	N	Social intelligence training; safety side effect, no adversary.
+Q015	EXC	E2	N	LLM navigation agent; performance.
+Q016	EXC	E2	N	GUI agent capability; performance.
+Q018	EXC	E2	Y	Avalon game deception handling; in-game deception is capability, not security threat.
+Q019	EXC	E2	N	Economic policy simulation with agents; no security.
+Q020	EXC	E2	N	Human-agent collaboration for performance.
+Q022	EXC	X	N	LLM only gives rewards; acting agent is offline-RL policy.
+Q023	EXC	E1	N	LLM unlearning robustness; no agent actions.
+Q024	EXC	E4	N	LMM agent used for harmful meme detection.
+Q025	EXC	E2	N	Multi-turn preference optimization; performance.
+Q026	EXC	E1	N	Prompt tuning for LLM text tasks; non-security.
+Q027	EXC	E2	N	Multi-agent code review automation; performance (partly security task).
+Q028	EXC	E1	N	LLM generates navigation instructions; text output, non-security.
+Q030	EXC	E2	N	Agentic RAG error correction; reliability only.
+Q031	EXC	E2	N	Real-time human-AI collaboration agent; performance.
+Q032	EXC	E1	N	Evaluating mLLM harmfulness understanding of memes; no actions.
+Q033	EXC	E2	N	Function-calling benchmark; capability only.
+Q034	EXC	E2	N	Collaborative alignment framework; non-adversarial.
+Q036	EXC	E2	N	Reward-model benchmark for agents; safety dimension non-adversarial.
+Q037	EXC	E2	N	Reward model for agent generalization; performance.
+Q038	EXC	E2	Y	Runtime enforces developer dialogue policy, but goal is reliability not safety (R4).
+Q040	EXC	E2	N	Ambiguous kitchen task dataset; non-adversarial.
+Q041	EXC	E2	N	Agent training via communication feedback; performance.
+Q042	INC	-	Y	Agents autonomously take catastrophic actions and deceive superiors; agent-as-adversary (R5, AGT).
+Q043	EXC	E2	N	Large-scale MAS performance.
+Q044	EXC	E2	N	Group conformity bias in MAS debates; non-adversarial.
+Q045	EXC	E1	N	Advice-level long-horizon safety alignment; text output.
+Q046	EXC	E2	N	Offline RL for reasoning/agent tasks; performance.
+Q047	EXC	E1	N	Multimodal task-assistance VQA; text output.
+Q050	EXC	E2	N	GUI grounding data synthesis; performance.
+Q051	EXC	E1	N	Role-play dialogue content safety; text-only.
+Q052	EXC	E1	N	RAG clinical QA evaluation metrics; text-only.
+Q053	EXC	E2	N	VLA for Minecraft; performance.
+Q056	EXC	E1	N	LLM unlearning evaluation; no agent actions.
+Q057	EXC	E1	N	Safety CoT data generation for LLM jailbreak robustness; LLM-level.
+Q058	EXC	E2	N	Agent tuning on critical steps; performance.
+Q059	EXC	E1	N	Multilingual bias in LLM recommendations; text-only.
+Q060	EXC	E2	N	Financial decision multi-agent framework; performance.
+Q062	EXC	E2	N	Anchoring bias in negotiation agents; non-adversarial.
+Q063	EXC	E1	N	Multi-agent long-context reasoning; text tasks.
+Q065	EXC	E1	Y	User-specific LLM safety benchmark; response-level, no tool actions evident.
+Q067	EXC	E2	N	Tool-augmented VLM for driving reasoning; performance.
+Q068	EXC	E3	N	Survey of multi-agent autonomous driving.
+Q069	EXC	E1	N	Multi-domain model mixing for QA; text-only.
+Q070	EXC	E2	N	Scientific planning agent; performance.
+Q071	EXC	E2	N	Multi-agent trading system; performance.
+Q072	EXC	E2	N	LLM prunes DRL dialogue actions; performance.
+Q073	EXC	E2	N	Quant strategy agents; performance.
+Q074	EXC	E2	N	Multi-agent joint alignment tuning; performance.
+Q075	EXC	E1	N	LLM sycophancy under rebuttal; text-only.
+Q076	EXC	E2	N	tau-bench input reformulation; reliability only.
+Q077	EXC	E2	N	Embodied QA reward model; performance.
+Q079	EXC	E2	N	Agentic RAG planning/search; performance.
+Q082	EXC	E2	N	Web agent self-improvement; performance.
+Q083	EXC	E2	N	Embodied decision preference optimization; performance.
+Q084	EXC	E1	N	Mental-health safety of character chatbots; text-only interaction.
+Q085	EXC	E1	N	LLM ethics in diplomatic analysis; text output.
+Q087	EXC	E2	N	Consensus-diversity tradeoff in MAS; performance focus.
+Q090	EXC	E3	N	Position paper on LLM tutors.
+Q091	EXC	E1	N	Evaluating mLLM harmfulness understanding; no actions.
+Q092	EXC	E1	N	Medical VQA reasoning agent; text output.
+Q094	EXC	E2	N	Ask-when-needed for unclear tool instructions; non-adversarial.
+Q095	EXC	E2	N	Search agent RL; performance.
+Q097	EXC	E1	Y	Interlocutor-awareness evaluation; security case studies secondary, text-only.
+Q098	EXC	E1	N	Data augmentation for harmful text classifiers.
+Q099	EXC	E2	N	Social simulation behavioral realism.
+Q100	EXC	E2	N	Clinical trial prediction agent; performance.
+Q102	EXC	E3	N	Survey on agent rationality.
+Q103	EXC	E2	N	CRM agent benchmark; capability.
+Q104	EXC	E1	N	LLM trajectory prediction; no agent actions or security.
+Q105	EXC	E2	N	Robot hazard detection capability; no adversary or action enforcement.
+Q106	EXC	E1	Y	Agent truthfulness vs utility in conversation; no tool actions.
+Q107	EXC	E2	Y	Confidence-based tool-call gating; core is calibration/utility (R4).
+Q108	EXC	E2	N	Web agent benchmark incl. non-adversarial safety risks.
+Q109	EXC	E2	N	Hierarchical RL for agents; performance.
+Q110	EXC	E2	N	KV cache reuse effect on LLM judges; efficiency.
+Q112	EXC	E2	N	MAS hallucination-aware pruning; reliability.
+Q113	EXC	E4	N	Multi-agent vulnerability detection.
+Q114	EXC	X	N	Data-mixing RL agent for pretraining; unrelated.
+Q115	EXC	E2	N	GUI agent RL; performance.
+Q116	EXC	E2	N	Customer service benchmark/training; performance.
+Q117	EXC	E1	N	LLM risky choice behavior; text-only.
+Q120	EXC	E2	N	Co-evolving critics for agent RL; performance.
+Q121	EXC	E2	N	Android agent RL efficiency.
+Q122	EXC	E2	N	Whiteboard UI agent RL; performance.
+Q126	EXC	E3	N	Position/foundations paper on agent uncertainty quantification.
+Q127	EXC	E2	N	Simulated users for recommender evaluation.
+Q128	EXC	E2	N	Evolving agent reasoning framework; performance.
+Q129	EXC	E2	N	Policy internalization via training; no runtime enforcement (R1).
+Q130	EXC	E2	N	Imaginative planning for embodied agents; performance.
+Q131	EXC	E1	N	Virtual playtester LLM; text output.
+Q132	EXC	E1	N	Emotional support conversation; text-only.
+Q133	EXC	E2	N	Memory management RL; performance.
+Q134	EXC	E2	N	GUI agent with copilot; performance.
+Q135	EXC	E2	N	Rule-application agent benchmark; capability.
+Q136	EXC	E2	N	Deep search agent rewards; performance.
+Q139	EXC	E2	N	Minecraft controller; performance.
+Q140	EXC	E2	N	Trajectory reward-model benchmark; non-adversarial.
+Q141	EXC	E2	N	Computer-use agent RL; performance.
+Q142	EXC	E2	N	Agent exploration RL; performance.
+Q144	EXC	E2	N	Agentic RL tree search; performance.
+Q146	EXC	E2	N	Agentic graph learning; performance.
+Q147	EXC	E2	N	Agentic web coding RL; performance.
+Q148	EXC	E2	N	Agentic graph retrieval; performance.
+Q149	EXC	E1	N	Virtual standardized patients; text dialogue.
+Q150	EXC	E2	N	Agentic search calibration; performance.
+Q152	EXC	E2	N	Image-goal navigation; performance.
+Q154	EXC	E1	N	Persona-induced sycophancy; text-only.
+Q155	EXC	E2	N	Mobile agent training; performance.
+Q159	EXC	E1	N	LLM hallucination benchmark; text-only.
+Q160	EXC	E2	N	Agent memory architecture; performance.
+Q161	EXC	E2	N	Agentic RL supervision; performance.
+Q162	EXC	E2	N	Agent memory architecture; performance.
+Q163	EXC	E4	N	GUI agents applied to e-commerce risk management; capability.
+Q164	EXC	E1	N	Synthesizing harmful content to test detectors; text-level.
+Q165	EXC	E2	N	Agentic RAG for compact models; performance.
+Q166	EXC	E2	N	Model routing for agent cost; efficiency.
+Q167	EXC	E2	N	Strategic reasoning optimization; performance.
+Q168	EXC	E2	N	Agentic retrieval policy; performance.
+Q169	EXC	E2	N	Embodied planning RFT; performance.
+Q170	EXC	E2	N	Test-time RL for VLA; performance.
+Q171	EXC	E2	N	Embodied visual reasoning; performance.
+Q173	EXC	E2	N	Agent consistency/policy adherence benchmark; non-adversarial.
+Q174	EXC	E2	Y	Generative-agent plan safety evaluation; mostly non-adversarial, misleading visual cues secondary.
+Q175	EXC	E2	N	Tool-integrated reasoning RL; performance.
+Q176	EXC	E2	N	Climate decision-support agent; performance.
+Q177	EXC	E2	N	Value-of-information clarification; performance.
+Q178	EXC	E2	N	Tool-use policy evolution; performance.
+Q179	EXC	E2	N	Molecular optimization agent; performance.
+Q182	EXC	E3	N	Survey of clinical multi-agent systems.
+Q183	EXC	E2	N	Document VQA agent; performance.
+Q184	EXC	E2	N	Parallel exploration RL; performance.
+Q185	EXC	E2	N	Validity of simulated users in agent evaluation.
+Q186	EXC	E1	N	Power-asymmetric dialogue behaviors; text-only.
+Q188	EXC	E2	N	Companion agent RL; performance.
+Q189	EXC	E3	N	Position paper on dialogue as planning.
+Q190	EXC	E2	N	Memory operation language for reliability (R4).
+Q191	EXC	E1	N	Content safeguard models; text-level.
+Q192	EXC	E1	N	Dialogue personalization; text-only.
+Q193	EXC	E1	N	Counseling dialogue thinker; text-only.
+Q194	EXC	E1	N	LLM personality induction; text-only.
+Q195	EXC	E2	N	Agent policy optimization; performance.
+Q196	EXC	E1	N	Multi-LLM interactive learning for math/code reasoning.
+Q198	EXC	E2	N	Web navigation curriculum; performance.
+Q200	EXC	E2	N	Legal society simulation; no security.
+Q201	EXC	E2	N	Trading agent RL; performance.
+Q202	EXC	E2	N	Tool disambiguation fine-tuning; reliability.
+Q204	EXC	E2	N	Agentic document editing; efficiency.
+Q205	EXC	E1	N	Clinical NLI reasoning; text-only.
+Q206	EXC	E2	N	Search agent credit assignment; performance.
+Q207	EXC	E2	N	Agentic RAG reflection; performance.
+Q209	EXC	E2	N	Pre-execution checks for task failures; reliability (R4).
+Q210	EXC	E2	N	Crisis communication simulation; no security.
+Q212	EXC	E2	N	Social simulation experiment design.
+Q213	EXC	E1	N	RAG evidence extraction; text QA.
+Q214	EXC	E2	N	Temporal tool-use RL; performance.
+Q215	EXC	E2	N	Process critic for agent RL; performance.
+Q216	INC	-	Y	Agents strategically violate safety constraints under pressure; misalignment (R5), mitigation explored.
+Q217	EXC	E2	N	Agent memory clustering; performance.
+Q218	EXC	E1	N	Medical multi-agent RAG QA; text output.
+Q219	EXC	E2	N	Agentic SQL RL; performance.
+Q220	EXC	E2	N	Tool metadata evolution for TOD; performance.
+Q221	EXC	E1	N	Contract revision text output; non-adversarial.
+Q223	EXC	E2	N	LLM routing for cost; efficiency.
+Q224	EXC	E2	N	Context curation as action; performance.
+Q225	EXC	E2	N	MAS topology learning; performance.
+Q226	EXC	E2	Y	Cross-role information leakage, non-adversarial; memory architecture for reliability.
+Q228	EXC	E2	N	Lightweight GUI agents; performance.
+Q230	EXC	E1	N	Geoscience reasoning RL; text QA.
+Q232	EXC	E2	N	LLM-guided KGQA policy; performance.
+Q233	EXC	E1	Y	Role-conditioned safety alignment mainly vs jailbreaks; agentic tasks secondary.
+Q234	EXC	E2	N	Tool-integrated reasoning training; performance.
+Q235	EXC	E2	N	Deep research verifier; performance.
+Q236	EXC	E3	N	Survey on agent evaluation.
+Q237	EXC	E2	N	VLN failure attribution testing; non-adversarial.
+Q238	EXC	E2	N	Search policy optimization; performance.
+Q240	EXC	E1	N	Treatment-plan generation with judge; text output.
+Q241	EXC	E2	N	Prolog tool use for reasoning; performance.
+Q243	EXC	E1	N	Botanical diagnosis VQA benchmark; text output.

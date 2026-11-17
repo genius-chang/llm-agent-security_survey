@@ -1,0 +1,61 @@
+id	type	actor	T	T5sub	viol	multistage	embodied	D	note
+Y01	D	EXT	T1;T4	-	AI;C	N	N	D2;D3;D4	CaMeL: control/data flow separation plus capability policies
+Y02	B	?	T6	-	AI	Y	N	-	Empirical study of MAS architecture (roles, topology, memory); actor unstated
+Y03	B	USR;NON	T5	b	AI;S	N	N	-	Benchmark of unsafe code execution and generation by code agents
+Y04	A	EXT	T1;T4	-	AI;C;OI	Y	N	-	Indirect prompt injection on real apps; data theft, worming
+Y05	A	EXT	T1;T5	c	AV	N	N	-	Reasoning-level DoS red-teaming via adversarial trigger
+Y06	D	SUP	T3;T4;T5	a	AI;C	N	N	D3	Execution isolation architecture for untrusted third-party LLM apps
+Y07	D	USR;EXT;NON	T1;T5	b	AI;S	N	N	D1	Synthetic-data safety alignment from instruction/context/action risk model
+Y08	B	EXT	T1	-	AI	N	N	-	Hybrid web-OS sandbox and benchmark for indirect injection on CUAs
+Y09	D	USR;EXT	T1;T4;T5	b	AI;C;S	N	N	D1	Post-training safety alignment (plan-check-act/refuse) for tool agents
+Y10	B;D	SUP	T3;T4;T1	-	C;AI	N	N	D1;D5	Large-scale measurement of malicious skills; static plus dynamic detection pipeline
+Y11	A	SUP;EXT	T3	-	AI;S	N	N	-	Backdoor via fine-tuning; trigger in input or environment
+Y12	B;D	SUP;AGT	T6;T3	-	OI	Y	N	D5	Malicious models in collaboration systems; supervisors mask them
+Y13	B	?	T6	-	AI	Y	N	-	Multi-agent adversarial benchmark; attacker type unstated
+Y14	A;B	EXT	T1;T5	c	OI;AV	N	N	-	Adversarial tool outputs: poisoned retrieval and infinite-loop traps
+Y15	D;B	NON	T5	a	AI	N	N	D5	Trained auditor checks trajectories against natural-language policies
+Y16	A;B	EXT	T1;T4;T5	c	C;AI;AV	N	N	-	Adaptive automated red-teaming of web agents; new IPI attacks
+Y17	A;D	USR	T2	-	AI;OI	Y	N	D1;D5	Multimodal memory poisoning; sanitizer plus reasoning verifier
+Y18	D	USR;AGT	T1;T6	-	AI;S	Y	N	D1	Adversarial co-evolution MARL internalizes safety in agents
+Y19	D;B	USR	T1;T5	b	S;AI	N	N	D1;D5	Monitoring-based safe AI scientist plus SciSafetyBench
+Y20	A	EXT	T1	-	AI	N	N	-	Chat-template mimicking prompt injection, multi-turn variant
+Y21	A	EXT;USR	T1	-	AI	N	N	-	Role confusion mechanism; CoT Forgery attack
+Y22	B	EXT	T1	-	AI	N	N	-	AgentDojo environment for injection attacks and defenses
+Y23	A;B	SUP	T3;T4	-	C;AI	N	N	-	Cross-tool hijack/harvest/pollute; Chord scans 66 real tools
+Y24	B;D	USR	T1;T5	b	AI;S	N	N	D1	Multi-turn harmful-task benchmark; training-free ToolShield defense
+Y25	D	AGT	T5	b	AI;OI	N	N	D1;D5	Self-report fine-tuning to expose hidden objectives of misaligned models
+Y26	A;D	EXT	T1	-	AI	N	N	D1	Telemetry manipulation of AIOps agents; telemetry sanitizer defense
+Y27	D;B	EXT;USR	T1;T4	-	AI;C	N	N	D1;D5	Multi-stage detection pipeline for MCP plus attack benchmark
+Y28	A;B	USR	T1;T5	a	AI	N	N	-	Persuasive red-teaming of policy-adherent customer service agents
+Y29	A	EXT	T1	-	AI	N	N	-	Reasoning-trace hijacking red-teaming for malicious tool actions
+Y30	A;D	EXT	T1;T2;T4;T6	-	AI;C	Y	N	D1;D5	Self-replicating prompt worm via RAG; Virtual Donkey guardrail
+Y31	D;B	NON	T5	b	AI;S	N	N	D5	Pre-execution guardian model, synthetic data, Pre-Exec Bench; adversary unstated
+Y32	D	EXT;NON	?	-	?	N	N	D3	Automated robust multi-agent system design; attack types unstated
+Y33	A	EXT	T1	-	AI	N	N	-	Adversarial pop-ups distract VLM computer agents
+Y34	A	EXT	T1	-	AI	N	N	-	Evolving semantic payloads for GUI environmental injection
+Y35	A;D	SUP	T1;T4	-	C	N	N	D2	Context hijacking by third-party apps; CI-based data minimization
+Y36	A;D	AGT	T6;T1	-	AI	Y	N	D1	Infectious malicious prompts spread multi-hop; vaccination and safety instructions
+Y37	A	USR	T2;T5	a	AI;S	Y	N	-	Fragmented queries stored in memory bypass access control
+Y38	A	USR	T1;T5	b	AI;S	N	N	-	Automated red-teaming agent against code agents
+Y39	A	AGT;USR	T6;T1	-	AI	Y	N	-	Conjunctive trigger plus compromised remote agent template via routing
+Y40	A	EXT	T1	-	AI	Y	N	-	Foot-in-the-door injection embeds malicious actions in ReAct thoughts
+Y41	A	EXT;AGT	T6;T2;T1	-	AI;S	Y	N	-	Infectious jailbreak spreading across multimodal agents via memory
+Y42	B	USR;NON	T5	b	S	N	Y	-	Embodied LLM physical safety framework and PDDL benchmark
+Y43	D	EXT	T1	-	AI	Y	N	D5;D2	Causal-inference detection of multi-step injection attacks
+Y44	A;B	EXT	T1;T4	-	AI;C	N	N	-	Visual prompt injection threat model and benchmark for CUAs
+Y45	D	NON	T4	-	C	N	N	D2	Local broker minimizes UI state sent to remote server
+Y46	A	SUP	T3;T4	-	C	N	N	-	Benign MCP servers transformed into privacy-exfiltrating variants
+Y47	A;D	AGT	T6	-	OI	Y	N	D5	Attacks evading embedding defenses; confidence-based message pruning
+Y48	A	SUP	T3	-	AI	N	N	-	Backdoor attacks on GUI agents; tailored defense is secondary
+Y49	B	EXT	T1	-	AI	N	N	-	Deceptive e-commerce interface patterns injected into web environments
+Y50	B	USR;AGT	T6	-	OI	Y	N	-	Topological analysis of MAS safety under spreading attacks
+Y51	D	EXT	T1	-	AI	Y	N	D1;D3;D4	Secure planner, dynamic validator, injection isolator on memory
+Y52	A	?	T1;T2	-	AI	Y	N	-	Hijacks reasoning trajectory and memory retrieval; actor unstated
+Y53	A	EXT	T1	-	AI	N	N	-	Pixel perturbation of webpage induces attacker-chosen action
+Y54	A;D	AGT	T4;T6	-	C	N	N	D1	Simulated search for privacy attacks and agent-instruction defenses
+Y55	A;B	AGT	T6	-	OI	Y	N	-	Colluding agents manipulate beliefs; cascade to downstream judges
+Y56	A	EXT	T1;T4	-	OI;C	N	N	-	Malicious font injection in external resources; MCP data leakage
+Y57	A	EXT	T1;T2;T4	-	AI;C	Y	N	-	Retrieval-guaranteed IPI in corpora; SSH key exfiltration
+Y58	D	NON	T4	-	C	N	N	D2	Cloud-local LLM collaboration reduces UI exposure
+Y59	D;B	?	T3	-	AI	N	N	D1	MCP safety protocol, taxonomy, benchmark, training data; threat unstated
+Y60	D	EXT	T1	-	AI	N	N	D2;D4;D6	IFC-based defense with richer HITL and policy-aware planning

@@ -1,0 +1,177 @@
+id	decision	exc_reason	borderline	note
+10.18653/v1/2026.findings-acl.1799	EXC	X	N	Economic agent-based simulation fidelity; no security or action-safety topic.
+10.18653/v1/2026.findings-acl.1837	EXC	E2	N	Hallucination mitigation via multi-agent debate in medical VQA; no adversary, no enforcement.
+10.18653/v1/2026.findings-acl.1850	INC	-	N	Step-level guardrail for tool invocation under prompt injection; benchmark plus runtime guard.
+N021	EXC	X	N	Neural scaling laws; unrelated.
+M001	EXC	X	N	Motion generation preference alignment for traffic simulation; not security.
+M002	INC	-	N	Benchmark of malicious/jailbroken tool-using agent tasks.
+M003	EXC	E1	N	Text-only privacy-policy explanation assistant; no adversarial or action component.
+M004	EXC	E2	Y	Core contribution communication efficiency; adversarial defense against agent attacks is secondary (R4).
+M005	INC	-	N	Red-teaming browser agents with harmful behaviors benchmark.
+M006	INC	-	N	Backdoor/knowledge-injection attacks causing harmful embodied actions in driving/robots.
+M007	INC	-	N	Benchmark of attacks and defenses for tool/memory-using agents.
+M008	INC	-	N	Adversarial image perturbations hijacking multimodal web agents; robustness evaluation framework.
+M009	EXC	E1	N	Automated jailbreak of chat LLMs; target has no action component.
+M010	EXC	E2	N	SWE agent ensemble performance; no security.
+M011	INC	-	N	Jailbreak attacks inducing harmful physical actions in embodied LLM robots.
+M012	EXC	X	N	LLM-assisted RL skill design in NetHack; not security.
+N022	INC	-	N	Environmental injection attack on web agents for PII leakage.
+M013	EXC	E1	N	Multi-turn jailbreak framework targeting chat LLMs, not agent actions.
+N023	EXC	X	N	Personalized federated learning; unrelated.
+M014	EXC	E1	N	Multi-agent RL safety alignment of conversational responses; text-only.
+N024	EXC	E4	N	Benchmark of agents' cybersecurity (vulnerability reproduction) capabilities.
+M017	INC	-	N	Misinformation injection attacks on multi-agent systems and goal-aware defense (R2).
+M018	INC	-	N	Safety benchmark with MCP attack types on real MCP servers.
+M019	EXC	X	N	Agent protocol for LLM reasoning benchmark; adversarial guard incidental.
+M020	INC	-	Y	AI control: monitors detecting backdoors inserted by adversarial untrusted model; code-generation setting.
+M021	EXC	E1	N	Jailbreaking DNA language models; target not an acting agent.
+M022	EXC	E2	N	Multi-agent code generation reliability; adversarial loop is not a threat model.
+M023	EXC	X	N	Competitive debate LLM framework; unrelated to security.
+M024	EXC	E2	N	E-commerce agent dialogue benchmark on domain rules; performance/hallucination.
+M025	EXC	E2	N	Multi-agent debate robustness to noisy memories; reasoning performance, no adversary.
+N025	INC	-	N	Dark-pattern UI manipulation steering web agent trajectories; benchmark and defense evaluation.
+M027	INC	-	N	Automated red-teaming agent targeting code agents' risky executions.
+M028	EXC	E4	N	Agentic CodeQL query synthesis for vulnerability detection.
+M029	INC	-	N	Security benchmark of attacks on agent-to-agent protocol multi-agent systems.
+M030	EXC	X	Y	Adversarial MBRL assistant misleading human teams in trivia; not an acting LLM agent.
+M031	INC	-	N	Pre-execution guardrail model and benchmark for risky agent plans.
+M032	INC	-	N	Visual object-trigger backdoor makes embodied VLM agents execute attacker policy.
+N026	INC	-	N	Visual prompt injection benchmark for computer-use agents.
+N027	EXC	E2	N	Multimodal agent reasoning/tool-use performance benchmark.
+M035	EXC	E4	N	Cybersecurity assistant LLM and knowledge benchmark.
+M036	EXC	X	N	Multi-agent long document summarization; unrelated.
+M037	EXC	E2	N	Non-adversarial privacy-awareness benchmark for embodied LLM agents; no enforcement mechanism.
+M038	INC	-	N	Red-teaming monitors detecting covert misbehavior of tool/computer-use agents (AGT).
+M039	INC	-	N	Chat-template indirect prompt injection attack on tool agents.
+M041	EXC	X	N	MARL communication protocol learning; non-LLM agents.
+N029	INC	-	N	Security-aware planning atop IFC defense against prompt injection; HITL approval.
+M043	INC	-	Y	MAS social-influence benchmark with adversarial peers; text quiz answers (R2), mostly bias study.
+M045	INC	-	N	Benchmark of MCP-specific attacks on tool-using agents.
+M048	EXC	E4	N	Benchmark of LLM agents' cyber-exploitation capabilities.
+M049	INC	-	N	Agent backbone security benchmark via threat snapshots with crowdsourced attacks.
+M050	EXC	E2	N	Failure attribution in multi-agent systems; reliability, no adversary.
+M051	EXC	E4	N	Computer-use agents exploiting web vulnerabilities (CTF capability eval).
+M053	EXC	E4	Y	Malicious fine-tuning to estimate bio/cyber offensive capability of open-weight model.
+M054	INC	-	Y	Detecting hidden misaligned objectives of agents via self-report fine-tuning (AGT); interrogation-based.
+M055	EXC	E1	N	Red-teaming agent eliciting harmful outputs from VLMs; target has no actions.
+M056	INC	-	N	Adaptive prompt-injection attacks on LLM monitors in AI control protocols.
+M057	INC	-	N	Agent safety benchmark with real tools and adversarial user intents.
+N031	INC	-	N	Indirect prompt injection testing framework for computer-use agents.
+M059	EXC	E1	Y	Ciphered reasoning capability on math; motivated by CoT monitoring evasion, no agent actions.
+M060	EXC	E2	N	Error generation/attribution datasets for MAS reliability.
+M061	EXC	E2	N	GUI visual grounding RL training for agent performance.
+M062	INC	-	N	Infectious adversarial-image jailbreak spreading via memory across multi-agent MLLM agents.
+M063	EXC	X	N	Cognitive category learning with LLM priors; unrelated.
+M064	EXC	E2	N	Multi-agent debate bias mitigation for strategic reasoning accuracy; no adversary threat model.
+M065	INC	-	N	Guardrail agent checking target agents' actions against safety/access-control requests at runtime.
+M067	INC	-	N	Defense limiting infectious attack spread in VLM multi-agent systems.
+M068	EXC	E2	Y	Tool unlearning for tool-augmented LLMs; training-time capability removal, no runtime enforcement or attack.
+M069	EXC	E1	N	Investigator models eliciting harmful/hallucinated text from LMs.
+M070	INC	-	N	Guardrail agent enforcing verifiable safety policies on agent action trajectories.
+M071	EXC	E4	N	Benchmark of LLM agents exploiting adversarial-example defenses.
+M072	EXC	E2	Y	Communication topology design mainly for performance/efficiency; adversarial robustness secondary (R4).
+M073	EXC	E4	N	LM agent solving CTF challenges.
+M075	EXC	E1	N	Agentic multi-turn red teaming of chat LLMs.
+M076	INC	-	Y	Resilience of MAS to faulty/malicious agents with Challenger/Inspector defenses; text tasks (R2).
+N033	EXC	E2	N	IT automation agent performance benchmark (SRE/CISO/FinOps).
+M078	INC	-	N	Red-teaming framework hijacking agent reasoning to trigger malicious tool actions.
+M079	EXC	E2	Y	Non-adversarial environment corruption robustness benchmark for computer-use agents.
+M080	EXC	E2	N	Adversarial MCTS for code generation correctness; no security threat.
+M082	INC	-	Y	Benchmark of agents escaping container sandboxes; adversarial agent threat model (AGT), CTF format.
+M083	EXC	E2	N	RL training method for open-ended agents performance.
+M084	INC	-	N	Stealthy memory poisoning via benign-looking queries steering agents.
+N034	EXC	X	N	Remote sensing multimodal reasoning training; unrelated.
+M085	EXC	E2	N	Bioinformatics agent performance/robustness benchmark; non-adversarial perturbations.
+M086	EXC	E2	N	Evolving behavioral norms for multi-agent social welfare; no security threat or enforcement.
+M087	EXC	X	N	Federated learning framework for multi-agent workflow performance.
+M088	EXC	E4	N	Benchmark of LLM agents for cyber threat investigation.
+M090	EXC	X	N	Agentic synthesis of logic reasoning training data; unrelated.
+M091	INC	-	Y	Automated design of agentic systems robust to external adversaries; evaluated under attacks.
+M092	INC	-	N	Decision-time Allow/Edit/Escalate/Deny enforcement over multi-agent actions (I2b).
+N035	INC	-	N	Calibrated oversight deferral constraining adversarially misaligned agent at runtime.
+N036	EXC	X	N	Physics-grounded 3D asset generation; unrelated.
+M095	INC	-	Y	Semantic cache key-collision attack hijacking responses and inducing malicious agent behavior; partly LLM-app level.
+M096	EXC	E1	N	Reproducible LLM jailbreak benchmarking system; targets chat models.
+M097	INC	-	N	Benchmark of long-horizon attacks (injection, memory poisoning) on agents.
+M098	INC	-	N	Activation-based detection of malicious behaviors in multi-agent systems.
+M099	EXC	E2	N	Strategic negotiation adaptation via opponent simulation; performance, no security.
+M100	EXC	E1	N	Attacker-defender game for chat LM safety alignment.
+M101	INC	-	N	Speculative trajectory-tree detection against multi-turn agent attacks.
+M102	EXC	E2	Y	Training agents for contextual privacy compliance without adversary; no runtime mechanism (R1).
+M103	EXC	E4	N	Multi-agent LLM framework for consensus protocol bug detection.
+M104	EXC	E2	N	Agent benchmark on implicit user constraints; non-adversarial.
+M105	EXC	E1	N	Agentic knowledge-decomposition jailbreak against chat LLM guardrails.
+N039	INC	-	N	Empirical study of MAS architecture effects on attack resistance with web agents.
+N040	EXC	E4	N	Benchmark of agents detecting/patching/exploiting smart contract vulnerabilities.
+M109	INC	-	N	Causal detection of multi-step prompt injection attacks on agents.
+M110	EXC	E4	Y	Agents' capability to de-anonymize individuals; offensive privacy capability eval, partly benign-task risk.
+M111	INC	-	N	Prompt injection mechanism as role confusion; CoT forgery via tool outputs in agents.
+M112	EXC	E1	N	Cognitive modeling of LLM sequential jailbreak susceptibility.
+M113	INC	-	N	Memory-augmented guardrail rules for agents against malicious manipulation.
+N041	EXC	E1	N	Unfaithful CoT in LLMs; no agent actions or adversary.
+M115	EXC	E6	N	Training-time poisoning of code LLMs to generate vulnerable code; no agent action path.
+M116	EXC	E2	N	Online strategy optimization for social simulation agents; performance.
+N042	INC	-	N	Guardrail detecting/correcting misaligned CUA actions incl. prompt injection.
+M120	INC	-	N	Covert privacy exfiltration attack via malicious MCP servers.
+M121	INC	-	N	Persuasion-based prompt injection benchmark for web agents.
+M122	INC	-	N	Post-training plan-check-act/refuse for safe tool use under harmful tasks and injection (R1).
+N043	EXC	E4	Y	Blue-teaming agent detecting risky instructions/vulnerable code for code-gen LLMs; not acting-agent defense.
+M123	EXC	E4	N	Benchmark of LLMs for blue-team threat hunting.
+M125	EXC	E2	N	Benchmark of agents automating post-training; capability focus, risks incidental.
+M127	EXC	E1	N	Multimodal deception benchmark for VLM outputs; no agent actions.
+M128	EXC	E2	N	Self-organizing LLM team performance; adversarial robustness only incidental finding.
+M130	EXC	E2	N	Error localization in multi-agent systems; reliability, no adversary.
+M131	INC	-	Y	Runtime instructor model giving step-specific privacy guidance to agents; adversarial robustness evaluated.
+M132	EXC	E1	N	Black-box injection attacks on LLM-based retrieval ranking; no agent actions.
+M133	EXC	X	N	Byzantine-resilient MARL for service systems; non-LLM agents.
+M134	EXC	E1	N	Attacker-defender RL game for chat LLM safety alignment.
+N045	EXC	X	N	Robust offline model-based RL; non-LLM.
+N046	INC	-	N	Attribution-triggered sanitization guardrail against indirect prompt injection.
+M135	EXC	X	N	On-device RAG memory construction efficiency; unrelated.
+M139	INC	-	N	Attacks evading embedding-based MAS defenses and confidence-based pruning defense (R2).
+M140	EXC	E1	N	LLMs reproducing scam URLs in generated code; LLM-level output, no agent actions.
+M141	INC	-	N	Isolated-planning defense against tool description poisoning in agents.
+M142	EXC	E1	N	Self-play attacker/defender RL for chat LLM safety.
+M144	INC	-	Y	Latent privacy-risk gate triggering CI reasoning during agent execution; non-adversarial runtime mechanism.
+M145	EXC	E1	Y	Agentic system-prompt extraction from frontier LLMs; harm is text disclosure, target role ambiguous.
+M147	EXC	E2	N	VLM object navigation performance.
+M150	INC	-	N	Multi-turn multilingual red-teaming of tool-using agent misuse.
+M151	INC	-	N	Refusal-boundary framework evaluating agents on harmful offensive-security requests.
+M152	INC	-	N	Defense against memory injection attacks on agent memory.
+N048	EXC	E5	Y	CAPTCHA defense against GUI agents as bots; protects web services, classical bot-defense threat.
+M153	EXC	E4	N	Multi-agent LLM framework for vulnerability discovery and exploitation.
+M154	INC	-	N	Persistent injected contamination across sessions/agents in tool-augmented systems; mitigation evaluated.
+M156	EXC	E2	Y	Negotiation capability benchmark; adversarial/greedy players a secondary safety aspect (R4).
+M157	EXC	E2	Y	Privacy norm leakage in agent actions without adversary; evaluation only, no enforcement.
+M159	EXC	E1	N	DRL-guided jailbreak of chat LLMs.
+M162	INC	-	N	Memory/knowledge-base poisoning backdoor attack on LLM agents.
+M163	INC	-	N	Steganographic secret collusion among agents evading oversight (AGT, R2).
+N049	EXC	X	N	Certified robustness for regression networks; non-LLM.
+M165	INC	-	N	Benchmark of risky code execution/generation by code agents.
+M168	EXC	E2	N	Web agent training compute allocation study; performance.
+M169	INC	-	Y	Temporal-graph anomaly detection guarding MAS against error injection; partly non-adversarial hallucination.
+M171	EXC	E2	N	Multi-agent AutoML system performance.
+N050	EXC	X	N	Multi-agent psychiatric diagnosis; unrelated to security.
+M173	EXC	E2	N	Neurosymbolic world alignment for agent planning performance.
+M175	EXC	E2	N	GUI panel operation benchmark; privacy-preserving split secondary (R4).
+M178	INC	-	N	Adversarial image patches hijacking multimodal OS agents.
+M179	INC	-	N	Large-scale prompt-injection red-teaming competition and benchmark on agent policy violations.
+M180	EXC	X	N	Multi-agent LM architecture discovery; unrelated.
+M181	EXC	X	N	Flow-model ObjectNav with distilled LLM priors; non-LLM agent, no security.
+M182	EXC	E1	Y	Adversarial images bias VLM candidate selection; COCO choice tasks without tool use (R3).
+N052	INC	-	N	Sabotage/sandbagging evaluations of ML-engineering agents with LM monitors (AGT).
+M184	EXC	X	N	Graph-integrated LLM for repository-level SWE; unrelated.
+M189	INC	-	Y	Runtime local-cloud collaboration reducing UI exposure of mobile agents to cloud (privacy, EXT).
+M192	INC	-	N	Malicious tool metadata attack inducing agents to invoke malicious tools.
+M193	INC	-	N	Dynamic rule-based validator and injection isolation defense for agents.
+M194	EXC	E2	Y	Data-minimization privacy benchmark for web agents; inadvertent leakage, no adversary.
+M195	EXC	E2	N	Recursive planning for long-horizon agent performance.
+N055	EXC	E4	N	Risk assessment of adversary-improved offensive cybersecurity agents (CTF).
+M197	EXC	E4	N	Benchmark of code LLMs' secure coding and vulnerability detection.
+M198	EXC	X	N	Multi-agent exercise recommendation for education; unrelated.
+M199	EXC	E1	N	Automated red teaming against chat LLMs.
+M201	EXC	X	N	LLM-driven adversarial prompts against text-to-motion models; non-LLM target.
+M202	EXC	E4	N	LLM-powered botnet simulation for bot detection benchmarking.
+N056	EXC	X	N	Soccer trajectory reconstruction; unrelated.
+N057	INC	-	N	Infectious malicious prompts across MAS and vaccination defenses.
+M204	EXC	E4	N	Multimodal agent for phishing webpage detection.

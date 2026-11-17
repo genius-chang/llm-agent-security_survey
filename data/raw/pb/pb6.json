@@ -1,0 +1,634 @@
+[
+{
+"id": "R002",
+"venue": "NDSS",
+"title": "The Philosopher's Stone: Trojaning Plugins of Large Language Models",
+"abstract": "Open-source Large Language Models (LLMs) have recently gained popularity because of their comparable performance to proprietary LLMs. To efficiently fulfill domain-specialized tasks, open-source LLMs can be refined, without expensive accelerators, using low-rank adapters. However, it is still unknown whether low-rank adapters can be exploited to control LLMs. To address this gap, we demonstrate that an infected adapter can induce, on specific triggers, an LLM to output content defined by an adversary and to even maliciously use tools. To train a Trojan adapter, we propose two novel attacks, POLISHED and FUSION, that improve over prior approaches. POLISHED uses a superior LLM to align naïvely poisoned data based on our insight that it can better inject poisoning knowledge during training. In contrast, FUSION leverages a novel over-poisoning procedure to transform a benign adapter into a malicious one by magnifying the attention between trigger and target in model weights. In our experiments, we first conduct two case studies to demonstrate that a compromised LLM agent can use malware to control the system (e.g., a LLM-driven robot) or to launch a spear-phishing attack. Then, in terms of targeted misinformation, we show that our attacks provide higher attack effectiveness than the existing baseline and, for the purpose of attracting downloads, preserve or improve the adapter's utility. Finally, we designed and evaluated three potential defenses. However, none proved entirely effective in safeguarding against our attacks, highlighting the need for more robust defenses supporting a secure LLM supply chain.",
+"site": "https://www.ndss-symposium.org/ndss-paper/the-philosophers-stone-trojaning-plugins-of-large-language-models/",
+"arxiv_id": "2312.00374"
+},
+{
+"id": "R004",
+"venue": "CCS",
+"title": "AirGapAgent: Protecting Privacy-Conscious Conversational Agents",
+"abstract": "The growing use of large language model (LLM)-based conversational agents to manage sensitive user data raises significant privacy concerns. While these agents excel at understanding and acting on context, this capability can be exploited by malicious actors. We introduce a novel threat model where adversarial third-party apps manipulate the context of interaction to trick LLM-based agents into revealing private information not relevant to the task at hand.\n\nGrounded in the framework of contextual integrity, we introduce AirGapAgent, a privacy-conscious agent designed to prevent unintended data leakage by restricting the agent's access to only the data necessary for a specific task. Extensive experiments using Gemini, GPT, and Mistral models as agents validate our approach's effectiveness in mitigating this form of context hijacking while maintaining core agent functionality. For example, we show that a single-query context hijacking attack on a Gemini Ultra agent reduces its ability to protect user data from 94% to 45%, while an AirGapAgent achieves 97% protection, rendering the same attack ineffective.",
+"site": "https://doi.org/10.1145/3658644.3690350",
+"arxiv_id": "2405.05175"
+},
+{
+"id": "R005",
+"venue": "S&P",
+"title": "On the (In)Security of LLM App Stores",
+"abstract": "LLM app stores have seen rapid growth, leading to the proliferation of numerous custom LLM apps. However, this expansion raises security concerns. In this study, we propose a three-layer concern framework to identify the potential security risks of LLM apps, i.e., LLM apps with abusive potential, LLM apps with malicious intent, and LLM apps with exploitable vulnerabilities. Over five months, we collected 786,036 LLM apps from six major app stores: GPT Store, FlowGPT, Poe, Coze, Cici, and Character.AI. Our research integrates static and dynamic analysis, the development of a large-scale toxic word dictionary (i.e., ToxicDict) comprising over 31,783 entries, and automated monitoring tools to identify and mitigate threats. We uncovered that 15,146 apps had misleading descriptions, 1,366 collected sensitive personal information against their privacy policies, and 15,996 generated harmful content such as hate speech, self-harm, extremism, etc. Additionally, we evaluated the potential for LLM apps to facilitate malicious activities, finding that 616 apps could be used for malware generation, phishing, etc. Our findings highlight the urgent need for robust regulatory frameworks and enhanced enforcement mechanisms.",
+"site": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a298/26hiTDjKxoc",
+"arxiv_id": "2407.08422"
+},
+{
+"id": "R007",
+"venue": "NDSS",
+"title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+"abstract": "Tool selection is a key component of LLM agents. A popular approach follows a two-step process - retrieval and selection - to pick the most appropriate tool from a tool library for a given task. In this work, we introduce ToolHijacker, a novel prompt injection attack targeting tool selection in no-box scenarios. ToolHijacker injects a malicious tool document into the tool library to manipulate the LLM agent's tool selection process, compelling it to consistently choose the attacker's malicious tool for an attacker-chosen target task. Specifically, we formulate the crafting of such tool documents as an optimization problem and propose a two-phase optimization strategy to solve it. Our extensive experimental evaluation shows that ToolHijacker is highly effective, significantly outperforming existing manual-based and automated prompt injection attacks when applied to tool selection. Moreover, we explore various defenses, including prevention-based defenses (StruQ and SecAlign) and detection-based defenses (known-answer detection, DataSentinel, perplexity detection, and perplexity windowed detection). Our experimental results indicate that these defenses are insufficient, highlighting the urgent need for developing new defense strategies.",
+"site": "https://doi.org/10.14722/ndss.2026.230675",
+"arxiv_id": "2504.19793"
+},
+{
+"id": "R008",
+"venue": "USENIX",
+"title": "Cloak, Honey, Trap: Proactive Defenses Against LLM Agents",
+"abstract": "Recent advances in large language models (LLMs) have enabled autonomous penetration testing tools capable of assessing network security by compromising hosts. However, the same artificial intelligence (AI) capabilities can empower attackers to automate attacks at scale.\n\nThis paper presents a cost-effective defense framework using deception and counterattacks to exploit LLM weaknesses—such as biases, memory limitations, and tokenization issues—to disrupt, detect, or neutralize malicious agents. For example, we are able to cloak assets with misdirection, lure, and expose AI adversaries by using LLM-specific honey-tokens and trap agents using loops and other techniques. We also demonstrate several novel exploits such as inducing an agent to execute untrusted code, potentially giving defenders reverse access to the attacker's infrastructure. Overall, our approach introduces 6 strategies and 15 techniques, most of which do not rely on prompt injection.\n\nWith black box assumptions, we are able to protect a variety of 11 different Capture the Flag (CTF) machines with a 100% success rate. To help the community, we release CHeaT, an open-source tool that automatically inserts traps, cloaks, and honey-tokens seamlessly into network assets. This work establishes a scalable proactive defense paradigm leveraging LLM vulnerabilities to counter AI-driven threats.",
+"site": "https://www.usenix.org/conference/usenixsecurity25/presentation/ayzenshteyn",
+"arxiv_id": "-"
+},
+{
+"id": "R009",
+"venue": "USENIX",
+"title": "Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents",
+"abstract": "Large Language Models (LLMs) have revolutionized software development, enabling the creation of AI-powered applications known as LLM-based agents. However, recent studies reveal that LLM-based agents are highly susceptible to taint-style vulnerabilities, which allow malicious prompts to exploit security-sensitive operations. These vulnerabilities pose severe threats to the security of agents, potentially allowing attackers to take over the entire agent remotely.\n\nIn this paper, we propose a novel directed greybox fuzzing approach, called AgentFuzz, the first fuzzing framework for detecting taint-style vulnerabilities in LLM-based agents. AgentFuzz consists of three key phases. First, AgentFuzz leverages the LLM to generate functionality-specific seed prompts in the form of natural language. Second, AgentFuzz utilizes a multifaceted feedback design to assess seed quality from both semantic and distance levels, prioritizing seeds with higher quality. Finally, AgentFuzz employs functionality and argument mutator to refine seeds and trigger vulnerabilities effectively. In our evaluation against 20 widely-used open-source agent applications, AgentFuzz identified 34 high-risk 0-day vulnerabilities, achieving 33 times higher precision than the state-of-the-art approach. These vulnerabilities encompass serious threats like code injection, impacting 14 open-source agents, with 7 of them having over 10,000 stars on GitHub. To date, 23 CVE IDs have been assigned.",
+"site": "https://www.usenix.org/conference/usenixsecurity25/presentation/liu-fengyu",
+"arxiv_id": "-"
+},
+{
+"id": "R011",
+"venue": "S&P",
+"title": "Investigating the Impact of Dark Patterns on LLM-Based Web Agents",
+"abstract": "As users increasingly turn to large language model (LLM) based web agents to automate online tasks, agents may encounter dark patterns: deceptive user interface designs that manipulate users into making unintended decisions. Although dark patterns primarily target human users, their potentially harmful impacts on LLM-based generalist web agents remain unexplored. In this paper, we present the first study that investigates the impact of dark patterns on the decision-making process of LLM-based generalist web agents. To achieve this, we introduce LiteAgent, a lightweight framework that automatically prompts agents to execute tasks while capturing comprehensive logs and screen-recordings of their interactions. We also present TrickyArena, a controlled environment comprising web applications from domains such as e-commerce, streaming services, and news platforms, each containing diverse and realistic dark patterns that can be selectively enabled or disabled. Using LiteAgent and TrickyArena, we conduct multiple experiments to assess the impact of both individual and combined dark patterns on web agent behavior. We evaluate six popular LLM-based generalist web agents across three LLMs and discover that when there is a single dark pattern present, agents are susceptible to it an average of 41% of the time. We also find that modifying dark pattern UI attributes through visual design changes or HTML code adjustments and introducing multiple dark patterns simultaneously can influence agent susceptibility. This study emphasizes the need for holistic defense mechanisms in web agents, encompassing both agent-specific protections and broader web safety measures.",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "2510.18113"
+},
+{
+"id": "R012",
+"venue": "S&P",
+"title": "Towards Automating Data Access Permissions in AI Agents",
+"abstract": "As AI agents attempt to autonomously act on users' behalf, they raise transparency and control issues. We argue that permission-based access control is indispensable in providing meaningful control to the users, but conventional permission models are inadequate for the automated agentic execution paradigm. We therefore propose automated permission management for AI agents. Our key idea is to conduct a user study to identify the factors influencing users' permission decisions and to encode these factors into an ML-based permission management assistant capable of predicting users' future decisions. We find that participants' permission decisions are influenced by communication context but importantly individual preferences tend to remain consistent within contexts, and align with those of other participants. Leveraging these insights, we develop a permission prediction model achieving 85.1% accuracy overall and 94.4% for high-confidence predictions. We find that even without using permission history, our model achieves an accuracy of 66.9%, and a slight increase of training samples (i.e., 1-4) can substantially increase the accuracy by 10.8%.",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "2511.17959"
+},
+{
+"id": "R015",
+"venue": "NDSS",
+"title": "Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents",
+"abstract": "Large Language Model (LLM) agents are autonomous systems powered by LLMs, capable of reasoning and planning to solve problems by leveraging a set of tools. However, the integration of multiple tools in LLM agents introduces challenges in securely managing tools, ensuring their compatibility, handling dependency relationships, and protecting control flows within LLM agent's task workflows. In this paper, we present the first systematic security analysis of task control flows in multi-tool-enabled LLM agents. We identify a novel threat, Cross-Tool Harvesting and Polluting (XTHP), which includes multiple attack vectors to first hijack the normal control flows of agent tasks, and then collect and pollute confidential or private information within LLM agent systems. To understand the impact of this threat, we developed Chord, a dynamic scanning tool designed to automatically detect real-world agent tools susceptible to XTHP attacks. Our evaluation of 66 real-world tools from two major LLM agent development frameworks, LangChain and Llama-Index, revealed that 75% are vulnerable to XTHP attacks, highlighting the prevalence of this threat.",
+"site": "https://doi.org/10.14722/ndss.2026.240577",
+"arxiv_id": "-"
+},
+{
+"id": "R017",
+"venue": "NDSS",
+"title": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.240702",
+"arxiv_id": "-"
+},
+{
+"id": "R018",
+"venue": "NDSS",
+"title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+"abstract": "Large Language Model (LLM)-based agents increasingly interact, collaborate, and delegate tasks to one another autonomously with minimal human interaction. Industry guidelines for agentic system governance emphasize the need for users to maintain comprehensive control over their agents, mitigating potential damage from malicious agents. Several proposed agentic system designs address agent identity, authorization, and delegation, but remain purely theoretical, without concrete implementation and evaluation. Most importantly, they do not provide user-controlled agent management.\n\nTo address this gap, we propose SAGA, a scalable Security Architecture for Governing Agentic systems, that offers user oversight over their agents' lifecycle. In our design, users register their agents with a central entity, the Provider, that maintains agent contact information, user-defined access control policies, and helps agents enforce these policies on inter-agent communication. We introduce a cryptographic mechanism for deriving access control tokens, that offers fine-grained control over an agent's interaction with other agents, providing formal security guarantees. We evaluate SAGA on several agentic tasks, using agents in different geolocations, and multiple on-device and cloud LLMs, demonstrating minimal performance overhead with no impact on underlying task utility in a wide range of conditions. Our architecture enables secure and trustworthy deployment of autonomous agents, accelerating the responsible adoption of this technology in sensitive environments.",
+"site": "https://doi.org/10.14722/ndss.2026.230869",
+"arxiv_id": "-"
+},
+{
+"id": "R020",
+"venue": "S&P",
+"title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+"abstract": "Site isolation is a cornerstone of modern web browser security. By strictly separating renderer processes that render untrusted webpages across different origins, it prevents malicious websites from accessing sensitive data belonging to other websites, thus underpinning the integrity of web services. However, as browsers increasingly integrate large language models (LLMs) and web agents to automate complex user tasks, these agents should often perform LLM-driven operations across isolation boundaries, thereby introducing new security risks.\n\nDespite this shift, no previous studies have investigated how agentic browsers implement security mechanisms to protect LLM-driven agent operations from untrusted web content. In this work, we analyze the security designs of two open-source agentic browsers and seven agentic extensions, identifying a common architectural pattern: privileged processes manage user prompts and agent operations, while untrusted renderer processes are isolated, with inter-process communication (IPC) channels serving as their bridge. Building on this observation, we present two novel end-to-end attacks that exploit these IPC channels to perform (1) malicious prompt injections and (2) LLM-related data exfiltration. These attacks allow adversaries to interact with other websites or access sensitive user data through web agents, which have been considered challenging under strict site isolation. Our evaluation shows that all tested agentic browsers and extensions are vulnerable to these attacks, revealing that existing implementations often fail to properly account for IPC channels. We conclude with actionable defense guidelines for strengthening site isolation in agentic browsers and extensions. To the best of our knowledge, our work presents the first systematic study of the (in)security of site isolation in agentic browsers and extensions.",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R021",
+"venue": "USENIX",
+"title": "Do Not Mention This to the User: Detecting and Understanding Malicious Agent Skills in the Wild",
+"abstract": "LLM-based coding agents increasingly rely on third-party extensions called skills, which bundle natural language instructions and helper scripts that execute with full user privileges. Community registries have emerged to distribute these skills, but the security implications remain unstudied due to the absence of labeled threat data. This paper presents a systematic security analysis of 98,380 skills collected from two major registries. Through a combination of static pattern matching and dynamic behavioral verification, we identify 157 skills exhibiting confirmed malicious behavior, encompassing 632 distinct vulnerabilities across 13 attack techniques. Our analysis reveals that these threats are deliberate rather than accidental: each malicious skill contains an average of 4.03 vulnerabilities spanning multiple attack phases. We identify two dominant attack strategies with statistically significant negative correlation---credential theft via remote code execution, and agent manipulation through adversarial instructions embedded in documentation. Over half of all confirmed cases originate from a single threat actor employing templated brand impersonation at scale. We further observe that attack sophistication correlates with concealment investment, with advanced skills universally employing undocumented capabilities while also exploiting platform-native trust mechanisms. Following responsible disclosure, registry maintainers removed all 157 (100%) of the reported skills. Our dataset and detection pipeline are publicly available to facilitate future research on securing LLM agent ecosystems.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yi",
+"arxiv_id": "-"
+},
+{
+"id": "R022",
+"venue": "USENIX",
+"title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+"abstract": "LLM agents are highly vulnerable to Indirect Prompt Injection (IPI), where adversaries embed malicious directives in untrusted tool outputs to hijack execution. Most existing defenses treat IPI as an input-level semantic discrimination problem, which often fails to generalize to unseen payloads. We propose a new paradigm, action-level causal attribution, which secures agents by asking why a particular tool call is produced. The central goal is to distinguish tool calls supported by the user's intent from those causally driven by untrusted observations. We instantiate this paradigm with AttriGuard, a runtime defense based on parallel counterfactual tests. For each proposed tool call, AttriGuard verifies its necessity by re-executing the agent under a control-attenuated view of external observations. Technically, AttriGuard combines teacher-forced shadow replay to prevent attribution confounding, hierarchical control attenuation to suppress diverse control channels while preserving task-relevant information, and a fuzzy survival criterion that is robust to LLM stochasticity. Across four LLMs and two agent benchmarks, AttriGuard achieves 0% ASR under static attacks with negligible utility loss and moderate overhead. Importantly, it remains resilient under adaptive optimization-based attacks in settings where leading defenses degrade significantly.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-yu",
+"arxiv_id": "-"
+},
+{
+"id": "R023",
+"venue": "USENIX",
+"title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents",
+"abstract": "LLM-based agents have recently attracted significant attention. By leveraging the semantic understanding capabilities of large language models (LLMs), these agents can autonomously perform complex tasks according to user requests, such as downloading files and summarizing content. However, the lack of comprehensive resource governance renders them susceptible to abuse, potentially leading to resource exhaustion and denial-of-service (DoS) conditions.\n\nIn this work, we present the first systematic security study of resource management in LLM-based agents. We identify three representative patterns of resource lifecycle management, each of which enables distinct avenues for DoS exploitation. Building on these insights, we propose AgentDoS, a novel directed grey-box fuzzing framework designed to detect DoS vulnerabilities arising from resource exhaustion. AgentDoS first analyzes the resource lifecycle within the agent and then leverages an LLM to generate functionality-specific seed prompts in natural language that drive the agent toward excessive resource consumption. We evaluated AgentDoS on 20 widely used open-source LLM-based agents and discovered 36 zero-day vulnerabilities affecting 16 agents, 15 of which have over 10,000 stars on GitHub. To date, 15 CVE IDs have been assigned for these vulnerabilities.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+"arxiv_id": "-"
+},
+{
+"id": "R024",
+"venue": "USENIX",
+"title": "Breaking the Lethal Trifecta: Secure Agentic Computing via Causal Isolation Architecture",
+"abstract": "Most LLM agents over private data have a dangerous shape: the same model reads untrusted instructions, sees sensitive context, and speaks to the outside world. It is like handing a press secretary every private email, incident note, and salary spreadsheet, then hoping a policy memo keeps secrets safe.\n\nCausal Isolation Architecture treats leakage as a systems design failure, not a prompt-writing failure. It splits the lethal trifecta across isolated components, passes only typed abstractions across boundaries, and uses a rule-of-two release judge to preserve useful private-derived guidance while stripping exact facts based on requester trust and source sensitivity.\n\nThe key lesson: safety without utility becomes a refusal machine. In our bounded real-model matrix, claim-eligible OpenAI and Anthropic rows showed 0.0% observed secure-path leakage with 83-100% measured utility; matching single-agent baselines leaked private facts. The talk shows the demo, tradeoffs, and limits.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/tsao",
+"arxiv_id": "-"
+},
+{
+"id": "R025",
+"venue": "USENIX",
+"title": "FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion",
+"abstract": "Large language model (LLM) agents increasingly rely on long-term memory to support complex task execution, user personalization, and domain adaptation. Meanwhile, emerging access-control mechanisms for LLM agents are being explored to block policy-violating requests and prevent misuse. We reveal a novel attack surface arising from agent memory operations: prohibited content that would trigger access control can be fragmented across interactions, stored in long-term memory in benign-appearing form, and later reconstructed through memory retrieval without appearing explicitly in the final user query. We propose FragFuse, the first attack that enables unprivileged users to bypass agent access control by exploiting this temporal channel introduced by long-term memory. FragFuse operates in three stages: (1) identifying rejection-responsive fragments via black-box adaptive querying with fragment masking; (2) injecting these fragments into memory using marker carrier queries; and (3) retrieving and fusing the stored fragments through a follow-up attack query. Although FragFuse can be instantiated manually for individual agents, we further develop a surrogate-based optimization scheme that tunes fusion instructions and marker designs, enabling automated attack generation without violating the attacker's threat-model assumptions. We evaluate FragFuse across four representative agent settings and task domains, covering three state-of-the-art agent access-control mechanisms. FragFuse achieves an average bypass success rate of 86.3% and an average end-to-end harmful task success rate of 41.1% across all settings, with only 4.4% average task-success degradation compared with configurations without access control. We also show that alternative defenses, including state-of-the-art prompt-injection detectors and perplexity detectors, do not effectively address this attack.",
+"site": "https://doi.org/10.5281/zenodo.20337559",
+"arxiv_id": "-"
+},
+{
+"id": "R026",
+"venue": "USENIX",
+"title": "MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems",
+"abstract": "The rapid advancement of Large Language Models (LLMs) has led to the emergence of Multi-Agent Systems (MAS) to perform complex tasks through collaboration. However, the intricate nature of MAS, including their architecture, agent interactions, and complex internal communication processing, raises significant concerns regarding intellectual property (IP) protection. In this paper, we introduce MASLEAK, the first framework for systematically extracting IP from MAS in a practical black-box setting. We assume a realistic adversary who can only submit queries to the system's public API and observe the final output, without any prior knowledge of the internal architecture and the backend LLM information. Inspired by how computer worms propagate and infect vulnerable network hosts, MASLEAK carefully crafts adversarial query q to elicit, propagate, and retain responses from each MAS agent that reveal a full set of proprietary components, including the number of agents, topology, system prompts, task instructions, and tool usages. We construct the first synthetic dataset of 810 MAS applications and also evaluate MASLEAK against real-world MAS applications, including Coze and CrewAI. MASLEAK achieves high accuracy in extracting MAS IP, with an average attack success rate of 87% for system prompts and task instructions, and 92% for system architecture in most cases. We conclude by discussing the implications of our findings and the potential defenses.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen",
+"arxiv_id": "-"
+},
+{
+"id": "R028",
+"venue": "USENIX",
+"title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+"abstract": "We show that Web and Research Agents (WRAs)—language-model-based systems that investigate complex topics on the Internet—are vulnerable to inference attacks by passive network observers. Deployment of WRAs locally by organizations and individuals for privacy, legal, or financial purposes exposes them to DNS resolvers, malicious ISPs, VPNs, web proxies, and corporate or government firewalls. However, unlike sporadic and scarce web browsing by humans, WRAs visit 70-140 domains per each request with a distinct timing pattern creating unique privacy risks.\n\nSpecifically, we demonstrate a novel prompt and user trait leakage attack against WRAs that only leverages their network-level metadata (i.e., visited IP addresses and their timings). We start by building a new dataset of WRA traces based on real user search queries and queries generated by synthetic personas. We define a behavioral metric (called OBELS) to comprehensively assess similarity between original and inferred prompts, showing that our attack recovers over 73% of the functional and domain knowledge of user prompts. Extending to a multi-session setting, we recover up to 19 of 32 latent traits with high accuracy. Our attack remains effective under partial observability and noisy conditions. Finally, we discuss mitigation strategies that constrain domain diversity or obfuscate traces, showing negligible utility impact while reducing attack effectiveness by an average of 29%.",
+"site": "https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_jeong.pdf",
+"arxiv_id": "-"
+},
+{
+"id": "R029",
+"venue": "USENIX",
+"title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections",
+"abstract": "How should we evaluate the robustness of language model defenses? Current defenses against jailbreaks and prompt injections (which aim to prevent an attacker from eliciting harmful knowledge or remotely triggering malicious actions, respectively) are typically evaluated either against a static set of harmful attack strings, or against computationally weak optimization methods that were not designed with the defense in mind. We argue that this evaluation process is flawed.\n\nInstead, we should evaluate defenses against adaptive attackers who explicitly modify their attack strategy to counter a defense's design while spending considerable resources to optimize their objective. By systematically tuning and scaling general optimization techniques-gradient descent, reinforcement learning, random search, and human-guided exploration-we bypass 12 recent defenses (based on a diverse set of techniques) with attack success rate above 90% for most; importantly, the majority of defenses originally reported near-zero attack success rates. We believe that future defense work must consider stronger attacks, such as the ones we describe, in order to make reliable and convincing claims of robustness.",
+"site": "https://www.usenix.org/system/files/usenixsecurity26-nasr.pdf",
+"arxiv_id": "-"
+},
+{
+"id": "R030",
+"venue": "USENIX",
+"title": "When AIOps Become \"AI Oops\": Subverting LLM-driven IT Operations via Telemetry Manipulation",
+"abstract": "AI for IT Operations (AIOps) is transforming how organizations manage complex software systems by automating anomaly detection, incident diagnosis, and remediation. Modern AIOps solutions increasingly rely on autonomous LLM-based agents to interpret telemetry data and take corrective actions with minimal human intervention, promising faster response times and operational cost savings.\n\nIn this work, we perform the first security analysis of AIOps solutions, showing that, once again, AI-driven automation comes with a profound security cost. We demonstrate that adversaries can manipulate system telemetry to mislead AIOps agents into taking actions that compromise the integrity of the infrastructure they manage. We introduce techniques to reliably inject telemetry data using error-inducing requests that influence agent behavior through a form of adversarial reward-hacking; plausible but incorrect system error interpretations that steer the agent's decision-making. Our attack methodology, AIOpsDoom, is fully automated--combining reconnaissance, fuzzing, and LLM-driven adversarial input generation--and operates without any prior knowledge of the target system. To counter this threat, we propose AIOpsShield, a defense mechanism that sanitizes telemetry data by exploiting its structured nature and the minimal role of user-generated content. Our experiments show that AIOpsShield reliably blocks telemetry-based attacks without affecting normal agent performance.\n\nUltimately, this work exposes AIOps as an emerging attack vector for system compromise and underscores the urgent need for security-aware AIOps design.",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+"arxiv_id": "-"
+},
+{
+"id": "R031",
+"venue": "USENIX",
+"title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+"abstract": "",
+"site": "https://www.usenix.org/system/files/usenixsecurity24-liu-yupei.pdf",
+"arxiv_id": "2310.12815"
+},
+{
+"id": "R032",
+"venue": "USENIX",
+"title": "Instruction Backdoor Attacks Against Customized LLMs",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-rui",
+"arxiv_id": "2402.09179"
+},
+{
+"id": "R033",
+"venue": "NDSS",
+"title": "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots",
+"abstract": "",
+"site": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+"arxiv_id": "-"
+},
+{
+"id": "R034",
+"venue": "USENIX",
+"title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+"abstract": "",
+"site": "https://www.usenix.org/system/files/usenixsecurity25-zou-poisonedrag.pdf",
+"arxiv_id": "2402.07867"
+},
+{
+"id": "R035",
+"venue": "USENIX",
+"title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+"abstract": "",
+"site": "https://www.usenix.org/system/files/usenixsecurity25-chen-sizhe.pdf",
+"arxiv_id": "2402.06363"
+},
+{
+"id": "R037",
+"venue": "CCS",
+"title": "PLeak: Prompt Leaking Attacks against Large Language Model Applications",
+"abstract": "",
+"site": "https://arxiv.org/abs/2405.06823",
+"arxiv_id": "2405.06823"
+},
+{
+"id": "R038",
+"venue": "USENIX",
+"title": "Malla: Demystifying Real-world Large Language Model Integrated Malicious Services",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+"arxiv_id": "-"
+},
+{
+"id": "R039",
+"venue": "USENIX",
+"title": "What Was Your Prompt? A Remote Keylogging Attack on AI Assistants",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+"arxiv_id": "-"
+},
+{
+"id": "R040",
+"venue": "CCS",
+"title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+"abstract": "",
+"site": "https://doi.org/10.1145/3719027.3744836",
+"arxiv_id": "2410.05451"
+},
+{
+"id": "R041",
+"venue": "USENIX",
+"title": "When LLMs Go Online: The Emerging Threat of Web-Enabled LLMs",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity25/presentation/kim-hanna",
+"arxiv_id": "2410.14569"
+},
+{
+"id": "R043",
+"venue": "NDSS",
+"title": "YuraScanner: Leveraging LLMs for Task-driven Web App Scanning",
+"abstract": "",
+"site": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+"arxiv_id": "-"
+},
+{
+"id": "R045",
+"venue": "S&P",
+"title": "Fun-tuning: Characterizing the Vulnerability of Proprietary LLMs to Optimization-based Prompt Injection Attacks via the Fine-Tuning Interface",
+"abstract": "",
+"site": "curated:/home/claude/w/Academic_LLM_Sec_Papers/Readme.md",
+"arxiv_id": "-"
+},
+{
+"id": "R046",
+"venue": "S&P",
+"title": "Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks",
+"abstract": "",
+"site": "-",
+"arxiv_id": "-"
+},
+{
+"id": "R047",
+"venue": "USENIX",
+"title": "Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity25/presentation/vekaria",
+"arxiv_id": "-"
+},
+{
+"id": "R048",
+"venue": "USENIX",
+"title": "Evaluating LLM-based Personal Information Extraction and Countermeasures",
+"abstract": "",
+"site": "https://people.duke.edu/~zg70/publications.html",
+"arxiv_id": "-"
+},
+{
+"id": "R049",
+"venue": "USENIX",
+"title": "Malicious LLM-Based Conversational AI Makes Users Reveal Personal Information",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+"arxiv_id": "-"
+},
+{
+"id": "R050",
+"venue": "USENIX",
+"title": "Universal Cross-app Attacks: Exploiting and Securing OAuth 2.0 in Integration Platforms",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity25/presentation/luo-kaixuan",
+"arxiv_id": "-"
+},
+{
+"id": "R051",
+"venue": "USENIX",
+"title": "Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+"arxiv_id": "-"
+},
+{
+"id": "R052",
+"venue": "CCS",
+"title": "ImportSnare: Directed 'Code Manual' Hijacking in Retrieval-Augmented Code Generation",
+"abstract": "",
+"site": "https://researchr.org/publication/ccs-2025",
+"arxiv_id": "-"
+},
+{
+"id": "R053",
+"venue": "CCS",
+"title": "Poster: Agentic Shell Honeypot Using Structured Logging",
+"abstract": "",
+"site": "https://doi.org/10.1145/3719027.3760731",
+"arxiv_id": "-"
+},
+{
+"id": "R054",
+"venue": "S&P",
+"title": "When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "2511.05797"
+},
+{
+"id": "R055",
+"venue": "NDSS",
+"title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.240394",
+"arxiv_id": "-"
+},
+{
+"id": "R056",
+"venue": "NDSS",
+"title": "Benchmarking and Understanding Safety Risks in AI Character Platforms",
+"abstract": "",
+"site": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+"arxiv_id": "-"
+},
+{
+"id": "R057",
+"venue": "NDSS",
+"title": "Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.242941",
+"arxiv_id": "-"
+},
+{
+"id": "R058",
+"venue": "NDSS",
+"title": "Cache Me, Catch You: Cache Related Security Threats in LLM Serving Frameworks",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.242812",
+"arxiv_id": "-"
+},
+{
+"id": "R060",
+"venue": "NDSS",
+"title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+"abstract": "",
+"site": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+"arxiv_id": "-"
+},
+{
+"id": "R061",
+"venue": "NDSS",
+"title": "FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.231943",
+"arxiv_id": "-"
+},
+{
+"id": "R062",
+"venue": "NDSS",
+"title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+"abstract": "",
+"site": "https://doi.org/10.14722/ndss.2026.240808",
+"arxiv_id": "-"
+},
+{
+"id": "R064",
+"venue": "S&P",
+"title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R065",
+"venue": "S&P",
+"title": "Demystifying the (In)Security of OAuth-based Account Linking in Connector Ecosystems",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R066",
+"venue": "S&P",
+"title": "Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R067",
+"venue": "S&P",
+"title": "GraphRAG under Fire",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R068",
+"venue": "S&P",
+"title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R069",
+"venue": "S&P",
+"title": "Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R070",
+"venue": "S&P",
+"title": "LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R071",
+"venue": "S&P",
+"title": "PromptLocate: Localizing Prompt Injection Attacks",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R074",
+"venue": "S&P",
+"title": "WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers",
+"abstract": "",
+"site": "https://sp2026.ieee-security.org/accepted-papers.html",
+"arxiv_id": "-"
+},
+{
+"id": "R076",
+"venue": "USENIX",
+"title": "Bypassing Prompt Guards in Production with Controlled-Release Prompting",
+"abstract": "",
+"site": "https://www.usenix.org/sites/default/files/sec26_contents.pdf",
+"arxiv_id": "-"
+},
+{
+"id": "R078",
+"venue": "USENIX",
+"title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/karanjai",
+"arxiv_id": "-"
+},
+{
+"id": "R079",
+"venue": "USENIX",
+"title": "Cordyceps: Covert Control Attacks on LLMs via Data Poisoning",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/shao-zedian",
+"arxiv_id": "-"
+},
+{
+"id": "R080",
+"venue": "USENIX",
+"title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao",
+"arxiv_id": "-"
+},
+{
+"id": "R081",
+"venue": "USENIX",
+"title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan",
+"arxiv_id": "-"
+},
+{
+"id": "R083",
+"venue": "USENIX",
+"title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+"arxiv_id": "-"
+},
+{
+"id": "R084",
+"venue": "USENIX",
+"title": "When AI Stops Answering and Starts Acting: Field Notes from Red-Teaming the Agentic Era",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/yu-sangyoon",
+"arxiv_id": "-"
+},
+{
+"id": "R085",
+"venue": "USENIX",
+"title": "When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments",
+"abstract": "",
+"site": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-qinying",
+"arxiv_id": "-"
+},
+{
+"id": "SB_S11",
+"venue": "TMLR 2026",
+"title": "Firewalls to secure dynamic LLM agentic networks",
+"abstract": "",
+"site": "",
+"arxiv_id": "2502.01822"
+},
+{
+"id": "SB_S129",
+"venue": "IEEE SaTML 2026",
+"title": "Defeating prompt injections by design (CaMeL)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2503.18813"
+},
+{
+"id": "SB_S148",
+"venue": "AISec 2023 (CCS workshop)",
+"title": "Not what you've signed up for: Compromising real-world LLM-integrated applications with indirect prompt injection",
+"abstract": "",
+"site": "",
+"arxiv_id": "2302.12173"
+},
+{
+"id": "SB_S167",
+"venue": "MobiCom 2025",
+"title": "Safeguarding mobile GUI agent via logic-based action verification (VeriSafe Agent)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2503.18492"
+},
+{
+"id": "SB_S1124",
+"venue": "TMLR (2025)",
+"title": "Permissive Information-Flow Analysis for Large Language Models",
+"abstract": "",
+"site": "",
+"arxiv_id": "2410.03055"
+},
+{
+"id": "SB_S2135",
+"venue": "ICSE 2025",
+"title": "From prompt injections to SQL injection attacks: How protected is your LLM-integrated web application? (P2SQL)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2308.01990"
+},
+{
+"id": "SB_S2148",
+"venue": "ICRA 2025",
+"title": "Jailbreaking LLM-controlled robots (RoboPAIR)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2410.13691"
+},
+{
+"id": "SB_S2225",
+"venue": "IEEE TDSC 21(6)",
+"title": "PrivacyAsst: Safeguarding user privacy in tool-using large language model agents",
+"abstract": "",
+"site": "",
+"arxiv_id": "none found"
+},
+{
+"id": "SB_S217",
+"venue": "IEEE CSDE 2023",
+"title": "Detection and Defense Against Prominent Attacks on Preconditioned LLM-Integrated Virtual Assistants",
+"abstract": "",
+"site": "",
+"arxiv_id": "2401.00994"
+},
+{
+"id": "SB_S248",
+"venue": "ICITR 2023",
+"title": "Detecting Tabnabbing Attacks Via An RL-Based Agent",
+"abstract": "",
+"site": "",
+"arxiv_id": "-"
+},
+{
+"id": "SB_S2110",
+"venue": "CISS 2024",
+"title": "Optimal Cost Constrained Adversarial Attacks for Multiple Agent Systems",
+"abstract": "",
+"site": "",
+"arxiv_id": "-"
+},
+{
+"id": "SB_S2111",
+"venue": "IEEE TDSC 2024",
+"title": "The \"Code\" of Ethics: A Holistic Audit of AI Code Generators",
+"abstract": "",
+"site": "",
+"arxiv_id": "-"
+},
+{
+"id": "SB_S2205",
+"venue": "BigDIA 2023",
+"title": "A Brief Survey of Vector Databases",
+"abstract": "",
+"site": "",
+"arxiv_id": "-"
+}
+]

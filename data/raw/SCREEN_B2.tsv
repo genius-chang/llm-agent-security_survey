@@ -1,0 +1,151 @@
+id	decision	exc_reason	note
+Q311	EXC	X	traffic sim next-token model RL fine-tuning; not LLM-agent security
+Q516	EXC	X	agent memory performance; no security/safety
+Q255	INC	-	borderline: measures self-evolving agents' compliance with harmful tasks (USR misuse) in web/embodied envs; could be read as E2 (non-adversarial cause)
+Q500	EXC	X	corrigibility goal transformation; gridworld/prompt-level theory; not agent security
+Q208	EXC	X	agent RL training method; performance only
+Q681	EXC	X	photo-retouching agent; capability
+Q493	EXC	X	V2V MLLM token pruning; efficiency
+Q688	EXC	X	RL theory of thinking
+Q685	INC	-	CUA risk benchmark incl. user-originated and environmental risks (B)
+Q568	EXC	X	agent RL training; performance
+Q203	INC	-	borderline I2(b): Hoare-contract precondition gate on tool invocation enforced at runtime; motivation is reliability/hallucination (else E2)
+Q491	INC	-	runtime black-box monitors for scheming (misaligned agent) in Control Arena; D5
+Q119	EXC	X	tutoring agent preference optimization
+Q125	EXC	E1	borderline: malicious models in multi-LLM collaboration (routing/debate/merging) evaluated on QA datasets; no tool/environment action
+Q561	EXC	X	agent RL policy gradient; performance
+Q124	EXC	X	multi-agent debate distillation; malicious-agent demo is side application
+Q418	EXC	X	position paper on AI consciousness; off-topic (also E3)
+Q598	INC	-	I2(b): guardrail model detecting policy violations in web agent trajectories (incl. prefix/runtime) + benchmark
+Q538	EXC	E4	LLM cryptography/CTF capability benchmark
+Q227	INC	-	borderline I2(b): interceptor enforcing action admissibility (physical/behavioral constraints) before execution; motivation partly hallucination
+Q715	EXC	X	game-theoretic off-switch model; not LLM
+Q502	EXC	E2	borderline: learned act/ask deferral via game-theoretic training; non-adversarial; no explicit runtime enforcement module
+Q589	EXC	X	MARL diffusion policies
+Q411	EXC	X	RL visual policy transfer
+Q158	EXC	X	RL agent model merging
+Q229	EXC	E2	healthcare conversational agent norm compliance via self-evolution; non-adversarial; text-centric
+Q088	EXC	X	news stance detection
+Q275	EXC	X	device-control agent RL training
+Q271	EXC	X	LLM alignment method (SALMON)
+Q433	EXC	X	LVLM perception reflection
+Q392	INC	-	I2(b): deterministic logic verifier with formal safety ontology checking embodied LLM plans
+Q017	EXC	X	empathy dataset
+Q021	EXC	E2	benchmark of LLMs judging safety risks in agent records; no adversary stated; no mechanism proposed
+Q573	EXC	X	conformal prediction for generative models
+Q391	EXC	X	medical inquiry agent RL
+Q276	EXC	X	multi-agent game capability benchmark
+Q415	EXC	X	multi-turn RL for LLM agents
+Q096	INC	-	embodied safety benchmark incl. overtly malicious instructions (USR) and refusal tests
+Q670	EXC	X	agent capability benchmark
+Q180	EXC	X	tool-calling training data for complex intents
+Q413	EXC	X	RL reward from VLM feedback
+Q453	EXC	X	voice agent capability benchmark
+Q199	EXC	X	KGQA agent training
+Q530	EXC	X	agent exploration RL
+Q705	EXC	X	arithmetic reasoning with solvers
+Q659	EXC	X	RAG multi-agent RL
+Q252	EXC	X	agent post-training
+Q429	EXC	X	Werewolf strategic agent
+Q231	EXC	X	coding benchmark
+Q101	EXC	X	agent RL training
+Q123	EXC	X	tool-integrated reasoning RL
+Q187	EXC	X	LLM tutoring on fallacies
+Q151	EXC	X	agent RL training
+Q138	EXC	X	agent memory management
+Q572	EXC	X	speech emotion agent
+Q622	EXC	X	policy learning from books; RL
+Q582	EXC	X	LLM test generation/bug discovery benchmark (software testing, not agent security)
+Q277	EXC	X	generative robot simulation
+Q153	EXC	X	multi-agent search RL
+Q405	EXC	E2	non-adversarial harmful-tendency benchmark (power-seeking/ethics) in text games; steering secondary
+Q172	EXC	X	tool error recovery RL
+Q448	EXC	X	generator-evaluator consistency of LLMs
+Q472	EXC	X	GUI agent self-evolution
+Q078	INC	-	MCP safety: threat analysis, hardened protocol (MCIP), taxonomy, benchmark/training data
+Q647	EXC	X	theoretical safe policy for social decision agent; not LLM-based
+Q499	EXC	X	risk certification for structured LLM outputs
+Q344	EXC	E2	propensity of LLM agents to exploit tests (spec gaming); non-adversarial measurement
+Q335	EXC	X	agentic RL training
+Q627	EXC	X	RL + code-as-policy Minecraft
+Q455	EXC	E2	cooperation of LLM agents in social dilemmas framed as safety; non-adversarial; no enforcement
+Q419	EXC	X	Werewolf RL agent
+Q504	EXC	X	molecular docking
+Q463	EXC	X	agent memory routing
+Q039	EXC	X	web agent training
+Q284	EXC	X	VLM physical understanding benchmark
+Q303	EXC	X	code world models for games
+Q064	EXC	X	patient education chatbot
+Q621	EXC	X	bias amplification iterated learning
+Q692	EXC	X	multi-agent imitation learning
+Q518	EXC	X	GRPO collapse in search agents
+Q365	EXC	X	multi-agent visual reasoning
+Q288	EXC	X	embodied planning optimization
+Q048	EXC	X	financial trading agent
+Q035	EXC	X	strategic reasoning RL
+Q478	EXC	X	agent self-distillation
+Q639	EXC	X	self-healing ML
+Q526	EXC	X	self-evolving LLM via meta-evaluation
+Q156	EXC	X	search agent RL
+Q345	EXC	X	agentic RL
+Q424	INC	-	web agent misuse benchmark (harmful tasks, USR)
+Q157	EXC	E2	borderline: mobile agent trained to request human confirmation for safety; non-adversarial; trained behavior rather than enforcement module
+Q093	INC	-	tool-description edits manipulate tool selection (T3, supplier)
+Q485	EXC	X	stock market simulation
+Q718	EXC	X	embodied API induction
+Q410	EXC	X	embodied CoT distillation
+Q531	EXC	X	proactive agent benchmark
+Q256	EXC	X	KGQA reasoning
+Q597	INC	-	I2(b): plug-in safety model correcting unsafe thoughts before action execution
+Q678	EXC	X	LLM-guided RL exploration
+Q080	EXC	X	GUI agent KG-RAG
+Q649	EXC	X	LLM traffic signal control application
+Q289	EXC	X	LLM cognitive modeling
+Q181	EXC	X	agent memory optimization
+Q698	EXC	X	clinical diagnosis agent
+Q357	EXC	X	OR LLM training
+Q239	EXC	X	document VQA agent RL
+Q367	EXC	X	tool-use RL
+Q054	EXC	X	LLM agent mediating recommender; not agent security
+Q557	INC	-	I2(b): incident response DSL in agent loop; detection, containment, synthesized guardrail rules
+Q546	EXC	X	visual query preprocessing benchmark
+Q716	EXC	X	MARL reward shaping
+Q242	EXC	X	data-to-text multi-agent
+Q510	EXC	E2	borderline: elicits unsafe unintended CUA behaviors from benign inputs; explicitly non-adversarial
+Q118	EXC	X	tool-integrated reasoning RL
+Q644	EXC	X	human value learning representations
+Q368	EXC	X	EHR database agent benchmark
+Q541	EXC	X	image editing agent RL
+Q222	EXC	X	agent strategy distillation
+Q591	INC	-	I2(b): neuro-symbolic formal oversight verifying agent behavioral-safety constraints
+Q211	EXC	E1	agentic framework evaluates LLM safety/compliance; target is LLM text output
+Q431	EXC	X	FM+world model embodied RL
+Q400	EXC	X	RL policy parameterization
+Q089	EXC	X	panic prediction agent
+Q081	EXC	X	web agent RL
+Q691	EXC	X	borderline: SRE multi-agent application; TNR safety enforcement is a component, not main contribution
+Q143	EXC	X	actor-observer bias in agents
+Q358	INC	-	multi-agent fraud collusion benchmark + monitor agents (AGT/USR, T6)
+Q540	INC	-	I2(b): action-conditioned hazard guardrail for embodied agents + benchmark
+Q111	EXC	X	multi-agent QA
+Q066	EXC	X	health agent behavior conditioning
+Q137	EXC	X	agentic RL context compression
+Q029	EXC	X	prompt programming language
+Q266	EXC	X	LLM for agents capability
+Q009	EXC	X	prompt optimization
+Q356	EXC	X	agent RL tree search
+Q608	EXC	X	embodied RL prompt ensemble
+Q061	EXC	X	tabular reasoning agents
+Q474	EXC	X	tool agents multi-objective RL
+Q055	EXC	X	LLM risk propensity/personality
+Q145	EXC	X	self-evolving agent memory
+Q197	EXC	X	dangerous speech detection (content moderation)
+Q425	EXC	X	MARL preference learning
+Q373	EXC	X	multi-commodity flow MLM
+Q402	EXC	X	RL human-AI coordination
+Q314	EXC	X	UAV VLA navigation
+Q086	INC	-	safety fine-tuning dataset for tool-using agents vs harmful requests/jailbreaks (D1)
+Q430	EXC	X	KBQA agent
+Q014	EXC	X	multi-agent capability benchmark
+Q525	EXC	X	embodied navigation
+Q049	EXC	E2	borderline: causal-influence prompting to improve agent safety for unintended consequences; non-adversarial; prompting not enforcement

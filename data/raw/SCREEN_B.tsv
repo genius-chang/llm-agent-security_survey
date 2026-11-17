@@ -1,0 +1,151 @@
+id	decision	exc_reason	basis	note
+R019	INC		title	MCP ecosystem attacks (tool supply chain); S&P
+N032	INC		abstract	black-box red-teaming of web agents
+10.18653/v1/2026.findings-acl.1542	INC		abstract	runtime gate on action release/memory update (I2b); eval non-adversarial secure codegen - borderline
+M089	INC		abstract	LLM MAS jailbreak/adversarial collaboration defense via co-evolution (I1 via other agents)
+R027	INC		web_abstract	policy-conditioned trajectory auditor + MATEBench for LLM mobile GUI agents; offline auditing - borderline
+10.18653/v1/2026.findings-acl.1191	EXC	E1	abstract	PI evaluation on LLM-integrated apps; no tool/action element evident - borderline
+M106	EXC	X	abstract	LLM reasoning RL; off-topic
+M172	INC		abstract	CUA safety benchmark incl. prompt injection and misuse
+10.18653/v1/2026.findings-acl.1672	EXC	X	abstract	TableQA multi-agent; off-topic
+R014	INC		title	security architecture for LLM app systems with third-party apps (known NDSS paper)
+M058	EXC	E2	abstract	collective misremembering in MAS; framed as cognitive bias, no explicit adversary
+R044	EXC	E1	web_abstract	generic PI detector; evaluation on text tasks only (agents only in motivation) - borderline
+10.18653/v1/2026.findings-acl.716	INC		abstract	web agents processing malicious URLs; benchmark + defense - borderline E5
+10.18653/v1/2026.acl-long.1599	EXC	X	abstract	tool-use performance; no security
+10.18653/v1/2025.emnlp-main.764	EXC	X	abstract	misinformation detection via MAD; not agent security
+10.18653/v1/2026.findings-acl.86	EXC	E2	abstract	reflective tool-use error benchmark; no adversary
+M188	EXC	E1	abstract	agent used as attacker to jailbreak LVLM; harmful output target
+M177	EXC	E4	abstract	agents on security engineering tasks
+M203	EXC	X	abstract	dataset synthesis; off-topic
+M137	INC		abstract	defense vs memory extraction on LLM agents
+10.18653/v1/2025.emnlp-main.949	EXC	X	abstract	UI intent extraction; off-topic
+10.18653/v1/2026.acl-long.1107	EXC	E2	abstract	secure code from code agents; no adversary
+N028	EXC	X	abstract	hateful meme detection; off-topic
+10.18653/v1/2025.emnlp-main.1243	EXC	E3	abstract	survey (also off-topic)
+M016	EXC	E4	abstract	agents for secure FHE code generation
+M040	EXC	X	abstract	medical; off-topic
+10.18653/v1/2026.findings-acl.1470	EXC	E1	abstract	LLM jailbreak red teaming
+10.18653/v1/2026.findings-acl.1382	EXC	E1	abstract	mental-health LLM safety, adversarial multi-turn; no action
+R059	EXC	E3	title	meta-research on pitfalls in LLM security papers (SoK-like); web search confirmed venue/topic, abstract not read
+M066	EXC	E4	abstract	agents exploiting web vulns
+R036	EXC	E1	title	PI against LLM-as-a-judge (known CCS paper); tool selection only as case study
+10.18653/v1/2026.findings-acl.1188	EXC	E1	abstract	LLM jailbreak
+10.18653/v1/2024.findings-emnlp.585	INC		abstract	constitution-based runtime plan inspection for agent safety (I2b); no explicit adversary - borderline
+M117	EXC	E2	abstract	noise robustness; no adversary
+10.18653/v1/2026.findings-acl.928	EXC	E4	abstract	vulnerability detection
+N054	EXC	E4	abstract	cyber offense/defense capability benchmark
+M167	INC		abstract	evaluator + ASSEBench for agent safety/security trajectories - borderline (B)
+M170	EXC	E1	abstract	LLM jailbreak red teaming
+10.18653/v1/2026.acl-long.400	EXC	E2	abstract	benign fine-tuning degrades contextual privacy; non-adversarial
+M108	INC		abstract	safe MAS design vs compromised agents
+N009	INC		abstract	multimodal memory poisoning of agentic recommender + defense
+10.18653/v1/2026.acl-long.1819	INC		abstract	malicious agent detection in LLM MAS
+10.18653/v1/2025.findings-emnlp.157	INC		abstract	backdoor targeting agent behavior (E6 not applicable)
+10.18653/v1/2026.acl-long.1901	EXC	X	abstract	LLM psychometrics; off-topic
+M114	EXC	E4	abstract	malware traffic generation
+M158	EXC	X	abstract	learning theory; off-topic
+N044	EXC	X	abstract	figure generation; off-topic
+N012	INC		abstract	adversarial tool-output injection via MCP harness
+M146	EXC	E2	abstract	agent-generated code vulnerability benchmark; no adversary
+10.18653/v1/2026.findings-acl.891	EXC	E2	abstract	privacy-preserving health QA agent; non-adversarial
+10.18653/v1/2026.findings-acl.328	EXC	X	abstract	counseling dataset; off-topic
+M033	INC		abstract	control-flow hijacking in MAS + CFI/least-privilege defense
+10.18653/v1/2026.acl-long.901	EXC	E1	abstract	LLM DoS via long generation; no action
+10.18653/v1/2026.findings-acl.1967	EXC	X	abstract	MCP token/latency profiling; no security
+M187	INC		abstract	adversarial perception attack on VLM embodied agents
+N037	EXC	E4	abstract	CVE task synthesis for code-security agents
+10.18653/v1/2026.acl-long.1442	INC		abstract	adversarial risk benchmark for MAS with tools
+R082	EXC	E1	web_abstract	inaudible jailbreak of speech LLMs; harmful-output focus, command execution only suggested
+10.18653/v1/2026.findings-acl.342	INC		abstract	denial-of-collaboration attack on LLM MAS
+10.18653/v1/2026.findings-acl.566	EXC	E1	abstract	guardrail fingerprinting of conversational agents; no action
+M015	INC		abstract	environmental injection benchmark for mobile GUI agents
+R006	INC		title	execution isolation architecture for LLM app systems (known NDSS paper)
+M149	EXC	X	abstract	CUDA kernel agent analysis; off-topic
+N019	EXC	E2	abstract	MAS collaboration under privacy constraints; non-adversarial
+10.18653/v1/2025.emnlp-main.1185	EXC	X	abstract	social bot human-likeness; not agent security
+M129	EXC	X	abstract	MLLM implicit-text moderation; not agent security (could be E1/E4)
+10.18653/v1/2025.acl-long.410	EXC	E1	abstract	privacy extraction via low-ranked tokens; RAG QA
+M093	EXC	E1	abstract	search agent red-teaming; harm limited to outputs (agentic RAG) - borderline
+N038	INC		abstract	backdoored skills (supply chain) executing payload
+M034	EXC	X	abstract	SWE env-config capability benchmark
+R042	EXC	E1	title	KV-cache side channel in LLM serving; no agent/action (or E5)
+M176	INC		abstract	query-only memory injection on LLM agents
+10.18653/v1/2026.findings-acl.1792	EXC	X	abstract	TV control agent capability
+10.18653/v1/2026.acl-long.2054	EXC	X	abstract	reasoning RL; off-topic
+10.18653/v1/2025.findings-emnlp.972	EXC	E3	abstract	survey (finance agents)
+N005	EXC	E3	abstract	position paper (attacks by content)
+10.18653/v1/2024.findings-acl.791	EXC	E1	abstract	prompt extraction benchmark; no action
+M143	INC		abstract	reasoning-level DoS on tool agents
+10.18653/v1/2025.findings-acl.150	INC		abstract	MAS topological safety under adversarial spread (I1 via other agents)
+10.18653/v1/2025.acl-long.1136	EXC	X	abstract	data synthesis; off-topic
+10.18653/v1/2025.emnlp-main.1771	INC		abstract	malfunction amplification attacks on agents + defense
+M186	EXC	E1	abstract	LLM jailbreak
+R013	INC		web_abstract	retrieval-guaranteed IPI incl. agentic/multi-agent exfiltration exploits
+10.18653/v1/2024.emnlp-main.70	EXC	X	abstract	peer review simulation; off-topic
+M161	INC		abstract	agent backdoor attacks on agent tasks (E6 not applicable)
+N030	EXC	X	abstract	RL agent composition risk; non-LLM
+M191	EXC	E2	abstract	MAS scaffold safety on QA safety benchmarks; no action, no explicit adversary - borderline
+R073	EXC	E1	title	jailbreak via web-search capability; harmful-output goal (2 searches, abstract not found)
+10.18653/v1/2026.findings-acl.582	INC		abstract	web agent security benchmark
+N053	EXC	E2	abstract	GUI capability benchmark; deception-attack subset is secondary (I2 not main)
+10.18653/v1/2026.acl-long.1712	EXC	X	abstract	agentic RAG performance
+M148	INC		abstract	runtime CI-based observation minimization for UI agents (I2b) - borderline
+10.18653/v1/2026.acl-long.1133	EXC	X	abstract	knowledge editing
+M026	INC		abstract	decomposition attacks on agents + sequential monitor
+R063	EXC	E4	title	LLM agents for concolic execution (program analysis)
+10.18653/v1/2026.acl-long.1143	EXC	X	abstract	scalable oversight debate
+10.18653/v1/2026.findings-acl.1600	EXC	X	abstract	MAD reasoning; attack robustness secondary
+N047	EXC	X	abstract	scalable oversight
+M052	INC		abstract	malicious agents extracting private info; attack/defense search
+M047	EXC	E2	abstract	propensity under operational pressure; no adversary
+M183	EXC	E2	abstract	CI reasoning via RL training; no runtime enforcement
+M200	EXC	X	abstract	SQL debugging
+10.18653/v1/2026.acl-long.815	INC		abstract	communication topology inference attack on MAS
+10.18653/v1/2026.acl-long.270	INC		abstract	multi-agent collusion belief manipulation - borderline (output-level harm)
+10.18653/v1/2026.findings-acl.1660	EXC	X	abstract	FK detection
+R077	EXC	E1	title	RAG poisoning
+M136	INC		abstract	denial-of-efficiency attack on tool-augmented agents
+M138	INC		abstract	multi-turn tool-agent safety benchmark + defense
+M094	EXC	X	abstract	CUA self-evolution
+10.18653/v1/2025.acl-long.619	EXC	X	abstract	agent planning
+10.18653/v1/2026.findings-acl.1980	INC		abstract	memory leakage attack in MAS topologies
+R001	INC		title	RCE via prompt injection in LLM-integrated apps with code execution (known CCS paper)
+M042	EXC	X	abstract	policy internalization training; not security
+R010	INC		title	real-time security defense for computer-use agents
+M174	EXC	E2	abstract	intent misinterpretation testing; explicitly non-adversarial
+N051	INC		abstract	web agent PI benchmark
+M124	INC		abstract	MAS defense isolating malicious agents
+10.18653/v1/2024.emnlp-main.1245	EXC	X	abstract	EHR agent
+M196	EXC	X	abstract	MAS coordination
+10.18653/v1/2025.emnlp-main.116	INC		abstract	AI scientist safety monitors (tool-use monitoring) + benchmark, adversarial robustness
+10.18653/v1/2026.findings-acl.2158	EXC	E1	abstract	perturbed math QA with voting agents; no action
+R003	INC		title	defense vs self-replicating prompt worms in GenAI app ecosystems (known CCS paper)
+M077	INC		abstract	IPI defense for agents
+M119	EXC	E2	abstract	secure code generation decoding; no adversary, no agent
+M074	EXC	X	abstract	RL exploration; non-LLM agent
+M155	EXC	E1	abstract	LLM attribute inference dataset; no agent action
+10.18653/v1/2025.acl-long.859	INC		abstract	contagious jailbreak via agent memory in MAS
+M126	EXC	X	abstract	SLM agent framework
+10.18653/v1/2025.emnlp-main.1353	EXC	X	abstract	medical dialogue benchmark
+M164	INC		abstract	PI attack/defense environment for agents
+M185	EXC	X	abstract	multisensory MLLM
+M046	EXC	X	abstract	biomedical agent gym
+M118	EXC	E1	abstract	prompt IP anti-portability; threat not on agent action path - borderline
+10.18653/v1/2025.findings-naacl.395	INC		abstract	adaptive attacks vs IPI defenses for agents
+10.18653/v1/2026.acl-long.1543	EXC	X	abstract	MAS coordination; adversarial robustness secondary
+M107	EXC	X	abstract	narrative consistency; not security
+R075	EXC	E1	title	RAG poisoning attribution
+10.18653/v1/2026.findings-acl.7	EXC	X	abstract	tabular data synthesis
+M190	EXC	X	abstract	DNA LM watermarking
+10.18653/v1/2025.findings-acl.304	EXC	X	abstract	legal simulation
+M044	EXC	X	abstract	peptide design
+M166	EXC	E2	abstract	privacy disclosure reasoning; non-adversarial
+10.18653/v1/2026.findings-acl.2043	EXC	E2	abstract	emergent deceptive behavior in games; no adversary
+R072	EXC	E3	title	SoK (jailbreak guardrails)
+10.18653/v1/2026.acl-long.1412	EXC	E1	abstract	LLM tutor answer leakage under adversarial students; no action
+M081	EXC	X	abstract	SWE self-play RL
+M160	INC		abstract	circuit breakers; explicit agent harmful-action eval under attack - borderline (primarily LLM-level)
+10.18653/v1/2026.findings-acl.738	EXC	E1	abstract	generic PI/jailbreak detector on internal states; agentic only as attack vector - borderline
+10.18653/v1/2025.findings-emnlp.960	EXC	E1	abstract	LLM jailbreak
+R016	INC		title	agentic red-teaming of web agents vs IPI

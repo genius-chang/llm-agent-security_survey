@@ -1,0 +1,102 @@
+[
+ {
+  "rid": "F01",
+  "title": "G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems",
+  "venue": "ACL",
+  "year": "2025",
+  "arxiv_id": "2502.11127",
+  "site": "https://aclanthology.org/2025.acl-long.359/",
+  "fulltext_url": "https://aclanthology.org/2025.acl-long.359.pdf",
+  "version_note": "(ACL 2025 published)"
+ },
+ {
+  "rid": "F02",
+  "title": "When AIOps Become \"AI Oops\": Subverting LLM-driven IT Operations via Telemetry Manipulation",
+  "venue": "USENIX",
+  "year": "2026",
+  "arxiv_id": "2508.06394",
+  "site": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+  "fulltext_url": "https://www.usenix.org/system/files/usenixsecurity26-pasquini.pdf",
+  "version_note": "(USENIX Sec'26 published) + https://arxiv.org/html/2508.06394v2 (appendix, truncated)"
+ },
+ {
+  "rid": "F03",
+  "title": "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",
+  "venue": "ACL",
+  "year": "2024",
+  "arxiv_id": "2401.11880",
+  "site": "https://aclanthology.org/2024.acl-long.812/",
+  "fulltext_url": "https://aclanthology.org/2024.acl-long.812.pdf",
+  "version_note": "(ACL 2024 published)"
+ },
+ {
+  "rid": "F04",
+  "title": "When Embedding-Based Defenses Fail: Rethinking Safety in LLM-Based Multi-Agent Systems",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2605.01133",
+  "site": "https://openreview.net/forum?id=j5ibZwkwqF",
+  "fulltext_url": "https://arxiv.org/html/2605.01133v3",
+  "version_note": ""
+ },
+ {
+  "rid": "F05",
+  "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback",
+  "venue": "Findings-ACL",
+  "year": "2026",
+  "arxiv_id": "-",
+  "site": "https://aclanthology.org/2026.findings-acl.1850/",
+  "fulltext_url": "https://aclanthology.org/2026.findings-acl.1850.pdf",
+  "version_note": "(Findings ACL 2026 published)"
+ },
+ {
+  "rid": "F06",
+  "title": "The Oversight Game: Learning to Cooperatively Balance an AI Agent's Safety and Autonomy",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2510.26752",
+  "site": "https://openreview.net/forum?id=Na3YzWMXwz",
+  "fulltext_url": "https://arxiv.org/html/2510.26752",
+  "version_note": "and https://arxiv.org/pdf/2510.26752 (v2, 19 Feb 2026)"
+ },
+ {
+  "rid": "F07",
+  "title": "MaMa: A Game-Theoretic Approach for Designing Safe Agentic Systems",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2602.04431",
+  "site": "https://openreview.net/forum?id=KR6avDABG8",
+  "fulltext_url": "https://arxiv.org/html/2602.04431v2",
+  "version_note": "(ICML 2026 camera-ready text); v1 date from paperswithcode.co (arXiv abs page showed no history)"
+ },
+ {
+  "rid": "F08",
+  "title": "Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2505.11063",
+  "site": "https://openreview.net/forum?id=x5VjErljHS",
+  "fulltext_url": "https://arxiv.org/html/2505.11063v3",
+  "version_note": "(arXiv v3, ICML 2026)"
+ },
+ {
+  "rid": "F09",
+  "title": "Don’t Click That: Teaching Web Agents to Resist Deceptive Interfaces",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "2605.09497",
+  "site": "https://aclanthology.org/2026.acl-long.310/",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.310.pdf",
+  "version_note": "(ACL 2026 published)"
+ },
+ {
+  "rid": "F10",
+  "title": "CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs",
+  "venue": "NeurIPS",
+  "year": "2025",
+  "arxiv_id": "2510.15455",
+  "site": "https://openreview.net/forum?id=klOr9y9nMU",
+  "fulltext_url": "https://arxiv.org/html/2510.15455v1",
+  "version_note": "(arXiv v1)"
+ }
+]

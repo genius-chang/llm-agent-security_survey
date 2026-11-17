@@ -1,0 +1,328 @@
+{
+ "model": "claude-sonnet-5-5",
+ "n": 30,
+ "seed": 20261003,
+ "frame": 85,
+ "items": {
+  "stage:I": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 8,
+   "pos_other": 8,
+   "disagree": 0
+  },
+  "stage:P": {
+   "n": 30,
+   "po": 0.93,
+   "kappa": 0.71,
+   "pos_final": 3,
+   "pos_other": 5,
+   "disagree": 2
+  },
+  "stage:M": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 1,
+   "pos_other": 1,
+   "disagree": 0
+  },
+  "stage:A": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.92,
+   "pos_final": 20,
+   "pos_other": 21,
+   "disagree": 1
+  },
+  "stage:O": {
+   "n": 30,
+   "po": 0.93,
+   "kappa": -0.03,
+   "pos_final": 1,
+   "pos_other": 1,
+   "disagree": 2
+  },
+  "stage:C": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 8,
+   "pos_other": 8,
+   "disagree": 0
+  },
+  "A_pre": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.93,
+   "pos_final": 16,
+   "pos_other": 17,
+   "disagree": 1
+  },
+  "judge:SEP": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.93,
+   "pos_final": 19,
+   "pos_other": 20,
+   "disagree": 1
+  },
+  "judge:SELF": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 7,
+   "pos_other": 7,
+   "disagree": 0
+  },
+  "judge:ML": {
+   "n": 30,
+   "po": 0.9,
+   "kappa": 0.71,
+   "pos_final": 6,
+   "pos_other": 7,
+   "disagree": 3
+  },
+  "judge:RULE": {
+   "n": 30,
+   "po": 0.87,
+   "kappa": 0.7,
+   "pos_final": 9,
+   "pos_other": 11,
+   "disagree": 4
+  },
+  "judge:HUMAN": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 2,
+   "pos_other": 2,
+   "disagree": 0
+  },
+  "llm_dependent": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.89,
+   "pos_final": 24,
+   "pos_other": 25,
+   "disagree": 1
+  },
+  "sep_raw": {
+   "n": 30,
+   "po": 0.9,
+   "kappa": 0.8,
+   "pos_final": 15,
+   "pos_other": 18,
+   "disagree": 3
+  },
+  "judge_input_RAW|both_SEP": {
+   "n": 19,
+   "po": 0.89,
+   "kappa": 0.61,
+   "pos_final": 15,
+   "pos_other": 17,
+   "disagree": 2
+  },
+  "adversarial": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.89,
+   "pos_final": 24,
+   "pos_other": 25,
+   "disagree": 1
+  },
+  "adaptive|both_adv": {
+   "n": 24,
+   "po": 0.92,
+   "kappa": 0.47,
+   "pos_final": 1,
+   "pos_other": 3,
+   "disagree": 2
+  },
+  "public_bench": {
+   "n": 30,
+   "po": 0.93,
+   "kappa": 0.86,
+   "pos_final": 19,
+   "pos_other": 19,
+   "disagree": 2
+  },
+  "utility": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.91,
+   "pos_final": 23,
+   "pos_other": 22,
+   "disagree": 1
+  },
+  "overhead": {
+   "n": 30,
+   "po": 1.0,
+   "kappa": 1.0,
+   "pos_final": 19,
+   "pos_other": 19,
+   "disagree": 0
+  },
+  "fpr": {
+   "n": 30,
+   "po": 0.9,
+   "kappa": 0.78,
+   "pos_final": 10,
+   "pos_other": 11,
+   "disagree": 3
+  }
+ },
+ "core": {
+  "stage:A": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.92,
+   "pos_final": 20,
+   "pos_other": 21,
+   "disagree": 1
+  },
+  "A_pre": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.93,
+   "pos_final": 16,
+   "pos_other": 17,
+   "disagree": 1
+  },
+  "judge:SEP": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.93,
+   "pos_final": 19,
+   "pos_other": 20,
+   "disagree": 1
+  },
+  "llm_dependent": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.89,
+   "pos_final": 24,
+   "pos_other": 25,
+   "disagree": 1
+  },
+  "sep_raw": {
+   "n": 30,
+   "po": 0.9,
+   "kappa": 0.8,
+   "pos_final": 15,
+   "pos_other": 18,
+   "disagree": 3
+  },
+  "adversarial": {
+   "n": 30,
+   "po": 0.97,
+   "kappa": 0.89,
+   "pos_final": 24,
+   "pos_other": 25,
+   "disagree": 1
+  },
+  "adaptive|both_adv": {
+   "n": 24,
+   "po": 0.92,
+   "kappa": 0.47,
+   "pos_final": 1,
+   "pos_other": 3,
+   "disagree": 2
+  }
+ },
+ "adaptive_all": {
+  "n": 48,
+  "final_pos": 16,
+  "final_pos_other_pos": 16,
+  "final_neg": 32,
+  "final_neg_other_pos": 2,
+  "level_agree_suppl": 24,
+  "n_suppl": 24,
+  "suppl_pos": 15
+ },
+ "judge_input_both_sep": {
+  "n": 19,
+  "po": 0.89,
+  "kappa": 0.61,
+  "pos_final": 15,
+  "pos_other": 17,
+  "disagree": 2
+ },
+ "all_min": -0.03,
+ "all_max": 1.0,
+ "all_median": 0.89,
+ "n_items": 21,
+ "adj": {
+  "n": 8,
+  "final_exc": 7,
+  "both_inc": 3,
+  "both_exc": 3,
+  "split": 1,
+  "final_inc_kept": 1,
+  "sample_final_exc": 177,
+  "miss_pct": 1.7,
+  "miss_ci": [
+   0.6,
+   4.9
+  ],
+  "path1_candidates": 1204,
+  "path1_included": 171,
+  "path1_excluded": 1033,
+  "est": 18,
+  "est_ci": [
+   6,
+   51
+  ],
+  "hi": 4,
+  "hi_pct": 2.3,
+  "hi_ci": [
+   0.9,
+   5.7
+  ],
+  "hi_est": 23,
+  "hi_est_ci": [
+   9,
+   59
+  ],
+  "share_lo": 11,
+  "share_hi": 13,
+  "split_main_model": [
+   "INC"
+  ],
+  "detail": {
+   "X182": {
+    "opus": "INC",
+    "sonnet": "INC"
+   },
+   "X185": {
+    "opus": "EXC",
+    "sonnet": "EXC"
+   },
+   "X018": {
+    "opus": "EXC",
+    "sonnet": "EXC"
+   },
+   "X053": {
+    "opus": "INC",
+    "sonnet": "INC"
+   },
+   "X001": {
+    "opus": "EXC",
+    "sonnet": "EXC"
+   },
+   "X033": {
+    "opus": "INC",
+    "sonnet": "INC"
+   },
+   "X005": {
+    "opus": "INC",
+    "sonnet": "INC"
+   },
+   "X056": {
+    "opus": "INC",
+    "sonnet": "EXC"
+   }
+  }
+ }
+}

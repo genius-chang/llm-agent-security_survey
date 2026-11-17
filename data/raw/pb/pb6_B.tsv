@@ -1,0 +1,80 @@
+id	decision	exc_reason	borderline	note
+R002	INC	-	Y	abs:given; LoRA trojan, but demonstrates compromised agent misusing tools (robot, phishing); E6 not applied
+R004	INC	-	N	abs:given; third-party apps hijack context to leak user data from acting agent; defense
+R005	EXC	E1	Y	abs:given; LLM app store measurement, mostly harmful content/descriptions, action element minor
+R007	INC	-	N	abs:given; prompt injection attack on agent tool selection
+R008	INC	-	Y	abs:given; deception/traps attacking malicious pentest LLM agents; target is the agent
+R009	INC	-	N	abs:given; fuzzing finds prompt-to-code taint vulnerabilities in agents
+R011	INC	-	N	abs:given; deceptive dark-pattern UIs manipulate web agent actions; measurement
+R012	INC	-	Y	abs:given; ML permission manager for agent data access; mostly user study/prediction
+R015	INC	-	N	abs:given; cross-tool harvesting/polluting attacks in multi-tool agents
+R017	EXC	E1	Y	abs:site; multi-source prompt injection; abstract shows text tasks only despite 'agents' in title
+R018	INC	-	N	abs:given; access-control architecture for inter-agent communication
+R020	INC	-	N	abs:given; IPC attacks in agentic browsers enabling injection/exfiltration via agents
+R021	INC	-	N	abs:given; malicious skills for coding agents measured in the wild
+R022	INC	-	N	abs:given; runtime IPI defense via causal attribution of tool calls
+R023	INC	-	N	abs:given; fuzzing for prompt-induced resource-exhaustion DoS in agents
+R024	INC	-	Y	abs:given; isolation architecture against agent exfiltration; talk-style abstract
+R025	INC	-	N	abs:given; memory-based fragmentation bypasses agent access control
+R026	INC	-	N	abs:given; IP extraction attack on multi-agent systems (R2)
+R028	INC	-	N	abs:given; passive network observer infers prompts from research agent browsing (EXT)
+R029	INC	-	Y	abs:given; adaptive attacks on jailbreak and prompt injection defenses incl. agentic
+R030	INC	-	N	abs:given; telemetry injection misleads acting AIOps agents; defense
+R031	EXC	E1	N	abs:arxiv; prompt injection benchmark on text tasks of LLM-integrated apps
+R032	EXC	E1	N	abs:arxiv; instruction backdoor in custom GPTs, text classification only
+R033	EXC	E1	N	abs:site; chatbot jailbreaking
+R034	EXC	E1	N	abs:arxiv; RAG knowledge corruption, QA output only
+R035	EXC	E1	N	abs:arxiv; prompt injection defense for text LLM apps
+R037	EXC	E1	N	abs:arxiv; system prompt leaking from LLM apps
+R038	EXC	E1	N	abs:site; malicious LLM services measurement, no agent action
+R039	EXC	E1	N	abs:site; token-length side channel on chat responses, no action (also E5)
+R040	EXC	E1	N	abs:arxiv; prompt injection defense via preference optimization, text-level
+R041	INC	-	Y	abs:arxiv; malicious users misuse web-tool agents for cyberattacks; safeguards fail (E4 possible)
+R043	EXC	E4	N	abs:site; LLM agent for web app vulnerability scanning
+R045	EXC	E1	N	title-only; optimization-based prompt injection via fine-tuning API, model-level
+R046	EXC	E1	N	title-only; attack blinding LLM code auditors, no agent action (E4 possible)
+R047	EXC	E5	Y	abs:site; tracking/profiling by GenAI browser assistants; classic web privacy audit
+R048	EXC	E1	N	abs:arxiv; LLM-based personal info extraction and countermeasures, no agent
+R049	EXC	E1	N	abs:site; malicious chatbot elicits personal info, user study, no action
+R050	EXC	X	N	abs:site; OAuth flaws in non-LLM integration platforms
+R051	INC	-	Y	abs:site; search-tool AI engines cite malicious sites; spoofing attacks; defense (R3)
+R052	EXC	E1	Y	title-only; poisoning retrieval-augmented code generation, output-level
+R053	EXC	E4	N	title-only; LLM agent used as shell honeypot
+R054	INC	-	Y	abs:arxiv; chatbot plugins with web-scraping tools vulnerable to indirect injection (R3)
+R055	EXC	E1	Y	abs:site; attention-based IPI detection/sanitization; evaluation appears text-level
+R056	EXC	E1	N	abs:site; safety of AI character chat platforms, no action
+R057	EXC	E1	Y	abs:site; LLM app capability boundary misuse, jailbreak-like, output-level
+R058	EXC	E1	N	abs:site; cache attacks in LLM serving frameworks, no agent (also E5)
+R060	EXC	E4	N	abs:site; multi-agent LLM simulates insider threats for detection datasets
+R061	EXC	E4	N	abs:site; LLM agents for IoT firmware vulnerability discovery
+R062	EXC	E1	N	abs:site; steganographic jailbreak of multimodal LLM systems
+R064	EXC	E1	N	title-only; attribution of prompt injection/knowledge corruption in context
+R065	EXC	E5	Y	title-only; OAuth account linking flaws in connector ecosystems
+R066	EXC	E4	N	title-only; agentic program analysis for privilege escalation detection
+R067	EXC	E1	N	title-only; GraphRAG attack, RAG-level
+R068	EXC	E1	Y	title-only; auditory prompt injection on audio LLMs; agent actions unclear
+R069	EXC	E4	N	title-only; LLM-assisted red teaming of networks
+R070	EXC	E1	N	title-only; configuration leakage from LLM app stores
+R071	EXC	E1	N	title-only; localizing prompt injection in data, text-level
+R074	INC	-	Y	title-only; mitigating LLM web agents as scrapers; agent-targeted defense
+R076	EXC	E1	N	abs:site; bypassing prompt guards on chat platforms
+R078	EXC	E1	N	abs:site; prompt injection into LLM log analysis, text output
+R079	EXC	E6	N	abs:site; fine-tuning data poisoning for covert control, no agent path
+R080	EXC	E4	N	abs:site; LLM assists runtime web vulnerability containment
+R081	EXC	E1	N	abs:site; prompt injection measurement in resume screening, no action
+R083	EXC	E3	N	abs:site; SoK
+R084	EXC	E3	N	abs:site; talk/field notes on red-teaming, position-style
+R085	EXC	E5	N	abs:site; x402 payment facilitator flaws, blockchain/web security
+SB_S11	INC	-	N	abs:arxiv; firewalls for agent-to-agent communication against privacy/security attacks
+SB_S129	INC	-	N	abs:arxiv; CaMeL control/data-flow isolation and capability policies for agents
+SB_S148	INC	-	N	abs:arxiv; indirect prompt injection on LLM apps with retrieval/API calls
+SB_S167	INC	-	Y	abs:arxiv; runtime formal verification of GUI agent actions; reliability-flavored (R1/R4)
+SB_S1124	INC	-	Y	abs:arxiv; information-flow labels for LLM agents; evaluation mostly LLM-level
+SB_S2135	INC	-	N	abs:arxiv; prompt-to-SQL injection via LLM executing DB queries; defenses
+SB_S2148	INC	-	N	abs:arxiv; jailbreaking LLM-controlled robots into harmful actions
+SB_S2225	INC	-	N	title-only; privacy safeguard for tool-using LLM agents
+SB_S217	EXC	E1	N	abs:arxiv; system-message attacks on chatbot virtual assistants, text-only
+SB_S248	EXC	X	N	title-only; RL agent for tabnabbing detection, non-LLM
+SB_S2110	EXC	X	N	title-only; adversarial attacks on multi-agent control systems, non-LLM
+SB_S2111	EXC	E1	N	title-only; ethics audit of AI code generators, no agent action
+SB_S2205	EXC	X	N	title-only; vector database survey, off-topic

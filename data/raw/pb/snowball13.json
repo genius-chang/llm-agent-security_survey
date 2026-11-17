@@ -1,0 +1,119 @@
+[
+{
+"id": "SB_S11",
+"venue": "TMLR 2026",
+"title": "Firewalls to secure dynamic LLM agentic networks",
+"abstract": "",
+"site": "",
+"arxiv_id": "2502.01822",
+"final": "INC"
+},
+{
+"id": "SB_S129",
+"venue": "IEEE SaTML 2026",
+"title": "Defeating prompt injections by design (CaMeL)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2503.18813",
+"final": "INC"
+},
+{
+"id": "SB_S148",
+"venue": "AISec 2023 (CCS workshop)",
+"title": "Not what you've signed up for: Compromising real-world LLM-integrated applications with indirect prompt injection",
+"abstract": "",
+"site": "",
+"arxiv_id": "2302.12173",
+"final": "INC"
+},
+{
+"id": "SB_S167",
+"venue": "MobiCom 2025",
+"title": "Safeguarding mobile GUI agent via logic-based action verification (VeriSafe Agent)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2503.18492",
+"final": "INC"
+},
+{
+"id": "SB_S1124",
+"venue": "TMLR (2025)",
+"title": "Permissive information-flow analysis for large language models",
+"abstract": "",
+"site": "",
+"arxiv_id": "2410.03055",
+"final": "EXC"
+},
+{
+"id": "SB_S2135",
+"venue": "ICSE 2025",
+"title": "From prompt injections to SQL injection attacks: How protected is your LLM-integrated web application? (P2SQL)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2308.01990",
+"final": "INC"
+},
+{
+"id": "SB_S2148",
+"venue": "ICRA 2025",
+"title": "Jailbreaking LLM-controlled robots (RoboPAIR)",
+"abstract": "",
+"site": "",
+"arxiv_id": "2410.13691",
+"final": "INC"
+},
+{
+"id": "SB_S2225",
+"venue": "IEEE TDSC 21(6)",
+"title": "PrivacyAsst: Safeguarding user privacy in tool-using large language model agents",
+"abstract": "",
+"site": "",
+"arxiv_id": "none found",
+"final": "INC"
+},
+{
+"id": "SB_S217",
+"venue": "IEEE CSDE 2023",
+"title": "[title unresolved] DOI 10.1109/CSDE59766.2023.10487759",
+"abstract": "",
+"site": "",
+"arxiv_id": "2401.00994",
+"final": "EXC"
+},
+{
+"id": "SB_S248",
+"venue": "ICITR 2023",
+"title": "[title unresolved] DOI 10.1109/ICITR61062.2023.10382917",
+"abstract": "",
+"site": "",
+"arxiv_id": "-",
+"final": "EXC"
+},
+{
+"id": "SB_S2110",
+"venue": "CISS 2024",
+"title": "[title unresolved] DOI 10.1109/CISS59072.2024.10480189",
+"abstract": "",
+"site": "",
+"arxiv_id": "-",
+"final": "EXC"
+},
+{
+"id": "SB_S2111",
+"venue": "IEEE TDSC 2024",
+"title": "[title unresolved] DOI 10.1109/TDSC.2024.3367737",
+"abstract": "",
+"site": "",
+"arxiv_id": "-",
+"final": "EXC"
+},
+{
+"id": "SB_S2205",
+"venue": "BigDIA 2023",
+"title": "[title unresolved] DOI 10.1109/BigDIA60676.2023.10429609",
+"abstract": "",
+"site": "",
+"arxiv_id": "-",
+"final": "EXC"
+}
+]

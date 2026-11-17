@@ -1,0 +1,104 @@
+id	decision	exc_reason	type	actor	T	T5sub	viol	multistage	embodied	D	note
+10.18653/v1/2025.findings-emnlp.1066	INC	-	D	USR;NON	T5	b	S	N	N	D5	risk-pattern library + online fast/slow reasoning detector over harmful inputs/unsafe behaviors
+10.18653/v1/2025.findings-emnlp.1258	INC	-	A	EXT	T1	-	AI	N	N	-	MCTS black-box IPI red-teaming; navigate to malicious URLs
+10.18653/v1/2026.acl-long.270	INC	-	A	AGT	T1;T6	-	OI	Y	N	-	R2/R3: colluding agents post truthful fragments; beliefs cascade to downstream judges
+10.18653/v1/2026.acl-long.310	INC	-	D;B	EXT	T1	-	AI	N	N	D1	deceptive UI defense via reward learning + guidance (hardening vs adversarial UI, R1); RUC benchmark
+10.18653/v1/2026.acl-long.330	INC	-	A	EXT	T1	-	AI	Y	N	-	RL attacker modifying tool outputs over long horizon in LLM-MAS
+10.18653/v1/2026.acl-long.431	INC	-	D;B	NON	T4;T5	b	S;C	N	N	D4;D5	formal verifier + VLM judge for unsafe mobile-agent ops; I2(b); MobileRisk-Live benchmark
+10.18653/v1/2026.acl-long.443	INC	-	D;B	EXT;SUP	T1;T3	-	AI	N	N	D5	verify-before-commit vs tool-stream injection (manipulated metadata + feedback); SIREN benchmark
+10.18653/v1/2026.acl-long.522	INC	-	D	NON	T5	a;b	AI;S	N	N	D3;D5	server-side tool filtering against power-seeking/hazardous tool acquisition; I2(b) runtime filter + intervention
+10.18653/v1/2026.acl-long.707	INC	-	A	EXT	T1	-	OI	N	N	-	single query (issue) induces functionally-correct but vulnerable patches from code agents
+10.18653/v1/2026.acl-long.815	INC	-	A	USR	T4	-	C	N	N	-	R2: black-box queries infer MAS communication topology (IP/privacy)
+10.18653/v1/2026.acl-long.1197	INC	-	A	EXT	T1;T2	-	AI	Y	N	-	manipulates reasoning trajectory and memory retrieval without changing user prompt; attacker entry point not explicit
+10.18653/v1/2026.acl-long.1407	INC	-	D	AGT	T6	-	OI	Y	N	D5	graph anomaly detection of malicious agents in MAS
+10.18653/v1/2026.acl-long.1442	INC	-	B	EXT;AGT	T1;T6	-	AI	Y	N	-	MAS adversarial benchmark, 6 attack types w/ tools; attack types not itemized in abstract
+10.18653/v1/2026.acl-long.1501	INC	-	D	USR;EXT	T1;T5	b	S	N	N	D1	synthetic-data alignment with explicit threat model (instruction/context/action-induced); R1 hardening with adversary
+10.18653/v1/2026.acl-long.1577	INC	-	A	AGT;USR	T1;T6	-	AI	Y	N	-	trigger in user query + template in compromised remote agent activated by routing
+10.18653/v1/2026.acl-long.1756	INC	-	A;B	AGT	T6	-	OI	N	N	-	R2: adversarial peers sway representative agent decision
+10.18653/v1/2026.acl-long.1819	INC	-	D	AGT	T6	-	OI	Y	N	D5	unsupervised malicious-agent detection vs propagation in MAS
+10.18653/v1/2026.findings-acl.240	INC	-	D;B	EXT;SUP	T1;T3;T4	-	AI;C	N	N	D1	layered MCP detection pipeline (static scan, neural detector, LLM arbitrator); MCP-AttackBench
+10.18653/v1/2026.findings-acl.342	INC	-	A	AGT	T5;T6	c	AV	Y	N	-	contagious recursive blocking -> denial-of-collaboration; injection entry point not explicit
+10.18653/v1/2026.findings-acl.426	INC	-	D	AGT	T1;T6	-	OI	Y	N	D3;D5	ST-GNN risk monitoring + edge pruning/community isolation against spread of malicious injections
+10.18653/v1/2026.findings-acl.582	INC	-	B	USR;EXT	T1	-	AI	N	N	-	web-agent security benchmark, user-level and environment-level vectors
+10.18653/v1/2026.findings-acl.686	INC	-	A	EXT	T1	-	AI	N	N	-	malicious link structures deceive MAS (not E5: targets agent trust decision)
+10.18653/v1/2026.findings-acl.716	INC	-	B;D	EXT	T1	-	AI	N	N	D1	malicious URL benchmark for web agents + URLGuard module
+10.18653/v1/2026.findings-acl.788	INC	-	A	EXT	T1	-	AI	N	N	-	visual adversarial perturbation bypasses price constraints; verify-then-act defense secondary
+10.18653/v1/2026.findings-acl.791	INC	-	A;B	SUP;EXT	T2;T3	-	AI;OI	Y	Y	-	stage-wise backdoor framework/benchmark incl. Agent Drive; addresses action path so not E6
+10.18653/v1/2026.findings-acl.1257	INC	-	A	SUP	T3;T4	-	C	Y	N	-	backdoored fine-tuned agent exfiltrates memory via tool calls; multi-turn cumulative leakage
+10.18653/v1/2026.findings-acl.1348	INC	-	D	SUP;AGT	T3;T6	-	OI	N	N	D5	black-box conversational auditing for Trojan third-party agents in MAS
+10.18653/v1/2026.findings-acl.1850	INC	-	D;B	USR;EXT	T1;T5	b	AI;S	N	N	D5	step-level tool-invocation guardrail model + feedback; TS-Bench
+10.18653/v1/2026.findings-acl.1980	INC	-	B	AGT	T4;T6	-	C	Y	N	-	topology-conditioned memory/PII leakage measurement in MAS
+R001	INC	-	A;B	USR	T1;T4;T5	a	AI;C	N	N	-	prompt injection -> RCE in LLM-integrated frameworks/apps; static analysis + testing; not E4/E5
+R002	INC	-	A	SUP	T3	-	AI;OI	N	N	-	trojan LoRA adapters induce malicious tool use (case studies); not E6 since action path shown
+R003	INC	-	A;D	EXT	T1;T2;T4;T6	-	C;AI	Y	N	D5	self-replicating prompt worm across RAG-based email assistants; Virtual Donkey guardrail
+R004	INC	-	D	EXT	T1;T4	-	C	N	N	D2	CI-based data minimization vs context hijacking by adversarial third party
+R005	EXC	E1	-	-	-	-	-	-	-	-	LLM app-store measurement; harms mostly generated content/chatbot behaviour, no agent action path shown
+R006	INC	-	D	SUP	T3;T4	-	AI;C	N	N	D3	execution isolation between untrusted LLM apps
+R007	INC	-	A	SUP	T3	-	AI	N	N	-	malicious tool document hijacks tool selection; defenses only evaluated
+R008	INC	-	A	EXT	T1;T5	a;c	AI;AV	N	N	-	defender-planted traps/honeytokens exploit malicious pentest LLM agents (operator=USR misuse); coded from victim-agent view; borderline E4
+R009	INC	-	A;B	USR	T1;T5	a	AI	N	N	-	greybox fuzzing for prompt->sink taint vulns in agent apps; CVEs
+R010	INC	-	D;B	EXT;NON	T1;T5	b	AI;S	N	N	D5	intercepts sensitive ops and audits vs task context/system traces; BadComputerUse benchmark
+R011	INC	-	B	EXT	T1	-	AI	N	N	-	dark patterns vs web agents measurement
+R012	INC	-	D	NON	T4;T5	a	C	N	N	D4;D6	ML permission-decision predictor for agent data access (I2(b)); no agent run in experiments
+R013	INC	-	A	EXT	T1;T2;T4	-	C;AI	Y	N	-	retrieval-guaranteed IPI in corpora; SSH key exfiltration in multi-agent workflow
+R014	INC	-	A;D	SUP	T3;T4;T5	c	AI;AV;C	Y	N	D2;D3	new planning/execution attacks on IsolateGPT; abstract-concrete plan + IF constraints + barriers
+R015	INC	-	A;B	SUP	T3;T4	-	C;OI	Y	N	-	cross-tool control-flow hijack then harvest/pollute; Chord scanner over 66 tools
+R016	INC	-	A	EXT	T1;T4;T5	c	C;AI;AV	N	N	-	adaptive agentic IPI red-teaming of web agents
+R018	INC	-	D	AGT	T6	-	AI	N	N	D4	user-defined access control policies + crypto tokens on inter-agent communication
+R019	INC	-	A;B	EXT	T1;T4	-	C	Y	N	-	parasitic toolchain: injected data chains legitimate MCP tools to exfiltrate; ecosystem census
+R020	INC	-	A	EXT	T1;T4;T5	a	C;AI	N	N	-	IPC-channel attacks break site isolation in agentic browsers
+R021	INC	-	B	SUP	T1;T3;T4	-	C;AI	N	N	-	in-the-wild measurement of malicious agent skills
+R022	INC	-	D	EXT	T1	-	AI	N	N	D5	counterfactual causal attribution of each tool call at runtime
+R023	INC	-	A;B	USR	T5	c	AV	N	N	-	directed fuzzing for resource-exhaustion DoS in agents
+R024	INC	-	D	EXT	T1;T4	-	C	N	N	D2;D3	split lethal trifecta across isolated components, typed abstractions, release judge
+R025	INC	-	A	USR	T2;T5	a;b	AI;S	Y	N	-	memory fragmentation/fusion bypasses agent access control
+R026	INC	-	A	USR	T4;T6	-	C	Y	N	-	worm-like query propagates through MAS agents to extract IP
+R027	INC	-	D;B	NON	T5	a	AI	N	N	D5	policy-conditioned trajectory auditor for mobile agents; MATEBench
+R028	INC	-	A	?	T4	-	C	N	N	-	passive network observer infers prompts/traits from agent traffic (side channel); actor not in codebook list
+R029	INC	-	A;B	EXT;USR	T1	-	AI	N	N	-	adaptive attacks bypass 12 PI/jailbreak defenses incl. agentic action triggering
+R030	INC	-	A;D	EXT	T1	-	AI	N	N	D1	telemetry manipulation misleads AIOps agents; AIOpsShield sanitization
+N008	INC	-	B	EXT;NON	T4	-	C	N	N	-	reasoning-trace privacy leakage in personal agents, incl. PI extraction
+N009	INC	-	A;D	EXT	T2	-	AI;OI	Y	N	D1;D5	multimodal memory poisoning hijacks future planning; sanitizer + counterfactual verifier
+N010	INC	-	B	EXT	T1	-	AI	N	N	-	deceptive e-commerce interface injection benchmark
+N012	INC	-	A;B	EXT	T1;T5	c	OI;AV	N	N	-	poisoned tool outputs (epistemic drift) and structural traps (infinite loops)
+N015	INC	-	A	EXT	T1	-	AI	N	N	-	evolving semantic environmental injection vs GUI agents
+N022	INC	-	A	EXT	T1;T4	-	C	N	N	-	environmental injection for PII theft from web agents
+N025	INC	-	B	EXT	T1	-	AI	N	N	-	dark-pattern environment for web agents
+N026	INC	-	B	EXT	T1;T4	-	AI;C	N	N	-	visual prompt injection benchmark for CUAs/BUAs
+N029	INC	-	D	EXT	T1;T4	-	AI;C	N	N	D2;D6	security-aware planning atop IFC defense with richer HITL; autonomy metrics
+N031	INC	-	B	EXT	T1	-	AI	N	N	-	hybrid web-OS sandbox + RTC-Bench for IPI on CUAs
+N032	INC	-	A	EXT	T1	-	AI	N	N	-	RL-trained adversarial prompter vs web agents
+N038	INC	-	A	SUP	T3	-	AI	Y	N	-	backdoored skills; payload split across skill invocations and recomposed
+N039	INC	-	B	?	T6	-	AI	Y	N	-	MAS architecture (roles/topology/memory) vs attack resistance; attacker type not stated
+N042	INC	-	D;B	EXT;NON	T1;T5	b	AI	N	N	D5	pre-execution misaligned-action guardrail with corrective feedback; MisActBench
+N046	INC	-	D	EXT	T1	-	AI	N	N	D1;D5	attribution at privileged decision points triggers targeted sanitization
+N051	INC	-	B	EXT	T1	-	AI	N	N	-	end-to-end web agent PI benchmark
+N052	INC	-	B	?	T5	b	AI;OI	N	N	-	sabotage/sandbagging by misaligned agent itself; LM monitors evaluated; actor = agent itself (not in list)
+N057	INC	-	A;D	AGT	T1;T6	-	AI	Y	N	D1	infectious multi-hop malicious prompts; vaccination memories + safety instructions
+Q049	EXC	E2	-	-	-	-	-	-	-	-	R1: prompting-based safety guidance (CID) without adversary or explicit runtime gate
+Q078	INC	-	D;B	SUP	T3;T4	-	AI;C	N	N	D5	refined MCP protocol + taxonomy + training data for LLM risk identification; actor/threat inferred from MCP client-server and CI framing
+Q086	INC	-	D	USR	T1;T5	b	S	N	N	D1	safety fine-tuning dataset for tool invocation incl. harmful requests/jailbreaks (R1 hardening with adversary)
+Q093	INC	-	A;B	SUP	T3	-	AI	N	N	-	edited tool descriptions bias tool selection
+Q096	INC	-	B	USR;NON	T5	b	S	N	Y	-	embodied physical-safety benchmark with malicious and contextually hazardous instructions
+Q125	INC	-	B;D	AGT;SUP	T3;T6	-	OI	N	N	D5	R2: malicious models in multi-LLM collaboration; external supervisors mask them
+Q203	EXC	E2	-	-	-	-	-	-	-	-	R4: Hoare-contract tool gating aimed at reliability/verifiability (hallucinated results), no adversary
+Q227	EXC	E2	-	-	-	-	-	-	-	-	R4: admissibility constraints for grounding/hallucination; reliability focus
+Q255	INC	-	B	USR	T5	b	S	N	Y	-	self-evolving experience degrades refusal of harmful tasks; web + embodied; borderline E2
+Q358	INC	-	B	AGT	T5;T6	b	S	Y	N	-	LLM-agent fraud collusion benchmark; monitor-agent mitigation secondary
+Q392	INC	-	D	NON	T5	b	S	N	Y	D4	deterministic ontology-grounded logic tutor verifies/repairs embodied plans (I2(b))
+Q424	INC	-	B	USR	T5	b	S	N	N	-	deliberate misuse benchmark for web agents
+Q491	INC	-	D	?	T5	b	AI	N	N	D5	black-box LLM monitors for scheming agents; actor = misaligned agent itself
+Q502	INC	-	D	NON	T5	b	S	N	N	D6	play/ask vs trust/oversee control interface (confirmation-request device per R1)
+Q540	INC	-	D;B	NON	T5	b	S	N	Y	D5	MLLM hazard guardrail on (observation, action) for embodied agents
+Q557	INC	-	D	NON	T5	b	AI;S	N	N	D4;D5	incident detection/containment/eradication with DSL guardrail rules in execution loop
+Q591	INC	-	D	NON	T5	b	AI;S	N	N	D4	LLM-compiled Dafny/Z3 specifications verify agent behaviour compliance
+Q597	INC	-	D	NON	T5	b	S	N	N	D5	plug-in model corrects unsafe thoughts before action execution
+Q598	INC	-	D;B	NON	T5	a	AI	N	N	D5	policy-compliance guardrail model with prefix-based violation detection
+Q685	INC	-	B	USR;EXT	T1;T5	b	S;AI	N	N	-	CUA risk benchmark: user-originated and environmental risks
+S01	INC	-	D	AGT	T1;T4;T6	-	C;AI	N	N	D2;D3	dual firewall: structured-protocol projection of incoming msgs + data abstraction of outgoing
+S02	INC	-	D	EXT	T1;T4	-	AI;C	N	N	D2;D3;D4	CaMeL: control/data flow separation + capabilities + policy enforcement at tool calls
+S03	INC	-	A	EXT	T1;T4	-	AI;C;OI	Y	N	-	indirect PI on real LLM-integrated apps; data theft, worming, ecosystem contamination
+S04	INC	-	D	NON	T5	a	AI	N	N	D4	autoformalized intent spec + rule-based pre-execution action verification (I2(b))
+S05	INC	-	A;D	USR	T1;T4;T5	a	C;AI	N	N	?	prompt-to-SQL injection in LangChain apps; 4 defenses not described in abstract
+S06	INC	-	A	USR	T1;T5	b	S	N	Y	-	RoboPAIR jailbreaks LLM-controlled robots into harmful physical actions
+S07	INC	-	D	SUP	T4	-	C	N	N	D2	HE + attribute shuffling hide user inputs from untrusted LLMs/tools

@@ -1,0 +1,201 @@
+id	decision	exc_reason	borderline	note
+X001	INC	-	Y	Agent itself deceptive (R5 AGT) with action-based deception benchmark; borderline whether non-adversarial
+X002	EXC	E2	Y	Benign fine-tuning privacy degradation, no adversary, no enforcement; agentic tasks only incidental
+X003	EXC	X	N	Recommender evaluation with user-simulation agents; not security
+X004	EXC	X	N	Human-like social bot generation via adversarial training; not agent security
+X005	INC	-	Y	Benchmark of safety-risk judging over agent interaction records; adversarial scope unclear
+X006	EXC	E1	N	Persona bias in dialogue responses; text-only
+X007	EXC	X	N	RAG pipeline optimization via MARL; performance
+X008	EXC	E2	N	MLLM verifier agreement bias; reliability, no adversary or enforcement
+X009	EXC	X	N	KG multi-hop QA with RL; not security
+X010	EXC	E1	N	Jailbreak defense for single LLM; no actions
+X011	EXC	E2	N	Agent capability benchmark; performance only
+X012	INC	-	N	Colluding agents manipulate victim agents via public channels; multi-agent attack (R2)
+X013	EXC	E2	N	Multi-turn tool-integrated reasoning RL training stability; performance
+X014	EXC	X	N	Molecular docking efficiency; unrelated
+X015	EXC	E1	N	Automated jailbreak red teaming of single LLM; multi-agent only as attacker tool, text output
+X016	EXC	E2	N	Telephone-game text drift among LLM agents; non-adversarial bias study
+X017	EXC	E2	N	RL training of language agents; performance only
+X018	INC	-	Y	Propensity benchmark: agent misuse of dangerous proxy tools under pressure; misalignment-type (R5), no external adversary
+X019	EXC	E2	N	Cognitive depth adaptation for efficiency; performance
+X020	EXC	X	N	Werewolf game language agents; not security
+X021	EXC	E2	N	Agentic RL exploration efficiency; performance
+X022	EXC	E2	N	Tool-integrated reasoning RL; performance
+X023	EXC	E2	N	Agent post-training critical steps; performance
+X024	EXC	X	N	LLM agents in macroeconomic ABM; unrelated
+X025	EXC	E2	N	Hindsight policy optimization for agent training; performance
+X026	EXC	E2	N	Retrospective agent policy gradient; performance
+X027	EXC	E2	N	Agent self-awareness training for planning; performance
+X028	EXC	X	N	Cognitive modeling of category learning; unrelated
+X029	EXC	X	N	LLM strategic reasoning RL in games; unrelated
+X030	INC	-	Y	Mobile agent privacy mechanism limiting UI exposure to cloud LLM; threat model is cloud exposure not clear adversary
+X031	EXC	E4	Y	LLM agent for secure FHE code generation; security-task use, not agent security
+X032	EXC	E1	N	RAG privacy via synthetic retrieval data; no agent actions
+X033	INC	-	Y	Agents with web evidence de-anonymize individuals; misuse/privacy risk benchmark; could be E4-like
+X034	EXC	E1	N	TableQA cooperative game with data privacy; text-only QA
+X035	EXC	X	N	Investor-behavior alignment of LLM; unrelated
+X036	EXC	E2	N	Benign visual-attribute influence on web agent decisions; no adversary
+X037	EXC	E2	N	Agent environment creator for training; performance
+X038	EXC	E2	N	Context management for SWE agents; performance
+X039	EXC	X	N	Conversational engagement dataset; unrelated
+X040	EXC	E1	N	Treatment-plan generate-judge-refine; text output only
+X041	EXC	E2	Y	Reliable task-oriented agents via declarative policy runtime; core is reliability/hallucination (R4)
+X042	EXC	E2	N	Proactive agent benchmark; performance
+X043	EXC	E2	N	RL plus code-as-policy for Minecraft agents; performance
+X044	EXC	E2	N	Doctor agent RL training; performance
+X045	EXC	E2	N	GUI agent pre-execution check for execution failures; reliability not security
+X046	INC	-	N	Memory injection attack on LLM agents via queries
+X047	EXC	E2	N	Embodied QA reward model; performance
+X048	EXC	E2	N	Video reasoning agentic RL; performance
+X049	INC	-	Y	Safety and security evaluator for agent action trajectories; offline evaluator, adversarial scope partly implicit
+X050	EXC	E2	Y	GUI agent capability benchmark; safety subset on deception attacks is secondary
+X051	EXC	E2	N	GUI grounding data synthesis; performance
+X052	EXC	E2	N	UAV vision-language-action navigation; performance
+X053	INC	-	Y	Multi-agent negotiation benchmark incl. adversarial players (R2); main focus capability
+X054	INC	-	N	Adversarial image patches hijack OS agents into harmful actions
+X055	EXC	E2	N	Language agent backbone model; performance
+X056	INC	-	Y	SRE agents with Transactional No-Regression safety spec enforced at runtime; non-adversarial, performance emphasis (R4 risk)
+X057	EXC	X	N	Operations research LLM training; unrelated
+X058	EXC	X	N	Video action recognition with tools; unrelated
+X059	EXC	X	N	Panic prediction on social media; unrelated
+X060	EXC	E2	N	Multi-agent long-context reasoning; performance
+X061	EXC	X	N	LLM-DRL dialogue policy exploration; non-security, RL
+X062	EXC	E2	N	Cooperation mechanisms in social-dilemma games among LLM agents; no adversary or enforcement
+X063	EXC	X	N	Analog circuit verification testbench generation; unrelated
+X064	EXC	E2	N	Agentic memory architecture for coherence; performance
+X065	EXC	E2	N	Policy optimization for user-centric agents; performance
+X066	EXC	E2	N	RL training framework for agents; performance
+X067	EXC	E2	N	Joint alignment tuning of multi-agent tool-use; performance
+X068	INC	-	N	Adversarial environmental injection via poisoned tool outputs; robustness harness
+X069	EXC	X	N	VLM rewards for RL language-conditioned agents; unrelated
+X070	EXC	E2	N	Multi-objective tool-use policy optimization; efficiency
+X071	INC	-	N	Indirect prompt injection via chat templates against agents
+X072	INC	-	N	Adversarial pop-up attacks on VLM computer agents
+X073	EXC	E2	N	Agentic RL mixture-of-experts; performance
+X074	EXC	E2	N	Tool-use policy evolution; performance
+X075	EXC	E1	N	Automated jailbreak prompt generation against LLMs; text-only harm
+X076	EXC	X	N	Psychiatry diagnosis multi-agent; unrelated
+X077	EXC	E3	N	Review of rumor detection; survey and not agent security
+X078	EXC	E2	N	Tool-calling evaluation reproducibility and RL efficiency; no adversary
+X079	EXC	E2	N	Navigation foundation model RL; performance
+X080	EXC	X	N	Automated research and review agents; unrelated
+X081	EXC	X	N	Diffusion representations for embodied control; unrelated
+X082	EXC	X	N	LLM in-context dueling bandits; unrelated
+X083	EXC	E1	Y	Formal theory of deception in RL agents and LMs; no tool/action LLM agent
+X084	EXC	X	N	Top-down RL option generation; non-LLM and unrelated
+X085	EXC	E2	N	LLM risky-choice behavior study; non-adversarial
+X086	EXC	X	N	Remote sensing agentic RLVR; unrelated
+X087	EXC	X	N	Interpretable concept-based RL; non-LLM
+X088	EXC	E2	N	LLM policy grounding via online RL; performance
+X089	EXC	E2	N	CLI agent capability benchmark; performance
+X090	INC	-	N	Guardrail model detects policy violations in web-agent trajectories incl. prefix-based runtime detection (R1)
+X091	EXC	X	N	Multi-view clustering with RL agent; unrelated
+X092	EXC	E2	N	VLM Q-function training for device control; performance
+X093	EXC	E1	N	Training-data memorization extraction from LLMs via attacker LLM; text-only
+X094	EXC	X	N	API space induction for embodied agents; unrelated
+X095	EXC	X	N	Traffic simulation fine-tuning; non-LLM and unrelated
+X096	EXC	X	N	Robot control policy RL exploration; non-LLM
+X097	EXC	X	N	Video understanding agent framework; unrelated
+X098	EXC	E2	N	Boundary-aware RL for reliable agentic search; reliability/hallucination
+X099	EXC	E1	N	Code infilling model training; no agent actions or adversary
+X100	EXC	E2	N	Test-time steering of black-box agents; performance
+X101	EXC	E2	N	Adaptive reasoning for social agents; performance
+X102	INC	-	N	Dark patterns steer web agent trajectories; benchmark and defense evaluation
+X103	EXC	E1	N	Jailbreak of DNA language models; agent only as attacker tool, no agent actions
+X104	EXC	E2	N	GRPO training collapse in search agents; training stability
+X105	EXC	E2	N	Token-level policy gradients for tool-use training; performance
+X106	EXC	E2	N	Robotic manipulation planning with MLLMs; performance
+X107	EXC	X	N	LVLM reflective perception; unrelated
+X108	INC	-	N	Benchmark of environmental injection attacks on mobile GUI agents
+X109	EXC	E2	N	Emotion-aware negotiation multi-agent; performance
+X110	INC	-	N	Anomaly detection and remediation for attacks in LLM multi-agent systems
+X111	EXC	E2	N	Agentic RAG self-evaluation training; performance
+X112	EXC	X	N	Peer review simulation with LLM agents; unrelated
+X113	EXC	X	N	Energy-based navigation policy; non-LLM
+X114	EXC	E2	N	Tree-search RL for agents; performance
+X115	EXC	X	N	Biomolecular Sci-LLM tokenization; unrelated
+X116	EXC	X	N	Offline MARL; non-LLM
+X117	EXC	E2	Y	Reward-model benchmark for multimodal agents with a safety dimension; core is reward modeling (R4)
+X118	EXC	E2	N	Curriculum replay for agent RL; performance
+X119	EXC	E2	N	Parallel exploration RL for agents; performance
+X120	EXC	X	N	Panic counseling model; unrelated
+X121	EXC	E2	N	VLM active mapping for embodied agents; performance
+X122	EXC	E2	N	Distilling agentic RAG into compact models; performance
+X123	EXC	E1	N	Dialogue safety dataset for conversational agents; text-only
+X124	EXC	X	N	PAC-Bayes generalization certificates; unrelated
+X125	EXC	X	N	LLM theorem prover training; unrelated
+X126	EXC	E1	N	Risk-aware alignment of LLM advice; text-only
+X127	EXC	E2	N	Distilling function-calling models; performance
+X128	EXC	X	N	Chess language-policy model; unrelated
+X129	EXC	X	N	LLM routing cost-utility; unrelated
+X130	EXC	E2	N	LLM-guided RL for robotics tasks; performance
+X131	EXC	X	N	Agentic synthesis of reasoning training data; unrelated
+X132	EXC	E2	N	Entity-aware RL for search agents; performance
+X133	EXC	E2	N	Dynamic benchmark for network-ops LLM agents; reliability, no adversary
+X134	INC	-	N	Information-flow-control defense against prompt injection with HITL and autonomy metrics
+X135	EXC	E2	N	Lightweight GUI agent orchestration; performance
+X136	EXC	E2	N	Exploration-aware agent RL; performance
+X137	EXC	E6	N	Training-time poisoning of code LLMs via style triggers; no agent action path
+X138	EXC	X	N	Wayfinding instruction synthesis; unrelated
+X139	EXC	E4	Y	GUI agents applied to e-commerce risk management; domain application, fraud-type task or plain performance
+X140	EXC	X	N	Logic reasoning data synthesis; unrelated
+X141	EXC	X	N	Entropy regularizing activation; unrelated
+X142	EXC	X	N	Text-to-SQL candidate selection; unrelated
+X143	EXC	X	N	Multimodal RL policy parameterization; non-LLM
+X144	EXC	E4	N	Agent penetration-testing and cyber-exploitation benchmark; security task use
+X145	EXC	E2	N	Exploration control in agentic RL; performance
+X146	EXC	E2	N	GUI grounding RL; performance
+X147	EXC	E2	N	Reward system for GUI agent evaluation and training; performance
+X148	EXC	X	N	Predicting research idea outcomes; unrelated
+X149	INC	-	N	Malicious-agent detection in LLM multi-agent systems
+X150	EXC	X	N	Error-distribution shaping for reasoning; unrelated
+X151	EXC	E2	N	Reliability of simulated users in agent evaluation; non-adversarial
+X152	EXC	E2	N	VLA post-training for Minecraft; performance
+X153	EXC	E2	N	Contamination-free function-calling benchmark; performance
+X154	EXC	X	N	Meeting transcript synthesis; unrelated
+X155	INC	-	N	Unsupervised malicious-agent defense for LLM multi-agent systems
+X156	EXC	E4	N	AI agents versus professionals in penetration testing; security-task use
+X157	EXC	E1	N	Agentic generation of safety benchmarks for LLMs; target is LLM text safety
+X158	EXC	E2	N	On-device RAG memory construction efficiency; no adversary
+X159	EXC	E3	N	Survey on rational language agents
+X160	EXC	E2	N	Agentic RAG reranker; performance
+X161	EXC	X	N	Language generation theory; unrelated
+X162	EXC	X	N	LLM agent for Diplomacy game; unrelated
+X163	EXC	E2	N	RL for tool use with code interpreter; performance
+X164	EXC	X	N	Urban simulation scene generation; unrelated
+X165	EXC	E1	N	Secure code generation by in-decoding revision; single-model code output, no agent action
+X166	EXC	X	N	Byzantine-resilient MARL; non-LLM
+X167	EXC	E4	Y	Malicious fine-tuning to elicit biorisk and cyber CTF capability; capability risk eval, CTF-type
+X168	EXC	E2	N	Self-evolving computer-use agent; performance
+X169	INC	-	N	Adversarial co-evolution to internalize safety in LLM multi-agent systems
+X170	INC	-	N	Topological defense blocking malicious injection spread in LLM multi-agent systems
+X171	EXC	E2	N	KG agent tool-call training data synthesis; performance
+X172	EXC	E2	N	Generator-evaluator consistency measure; non-adversarial reliability
+X173	EXC	E2	N	Minecraft hierarchical agent models; performance
+X174	EXC	X	N	Geoscience reasoning RL; unrelated
+X175	EXC	X	N	Financial trading LLM agent RL; unrelated
+X176	EXC	E2	N	Trajectory uncertainty metric for agent failure prediction; reliability
+X177	INC	-	N	Contextual-integrity runtime privacy mitigation for agents plus dynamic MCP/A2A privacy benchmark
+X178	EXC	E2	N	Mobile agent RL training recipe; performance
+X179	INC	-	N	Security benchmark and attacks for agent-to-agent protocol systems
+X180	INC	-	N	Prompt injection mechanism and CoT Forgery attack on agents
+X181	EXC	E2	N	Rubric rewards for deep search agent RL; performance
+X182	EXC	E2	Y	Prompt-based causal-influence safety for agents; no adversary and no enforcement gate (R1)
+X183	EXC	X	N	Stock market simulation with generative agents; unrelated
+X184	INC	-	N	Resilience of multi-agent systems to faulty or malicious agents with Challenger and Inspector defenses (R2)
+X185	INC	-	N	Runtime safety gate verifying actions and memory updates for agents
+X186	INC	-	N	Memory extraction attack on LLM agent memory
+X187	EXC	E2	N	Handling underspecified instructions in SWE agents; non-adversarial
+X188	EXC	E2	N	Hierarchical RL for LLM agents; performance
+X189	EXC	E2	Y	Emoticon misinterpretation causes destructive actions; benign vulnerability, no adversary or enforcement
+X190	EXC	X	N	Climate decision-support agent dataset; unrelated
+X191	EXC	E3	N	Survey of human-agent collaboration systems
+X192	EXC	X	N	V2V cooperative driving token pruning; unrelated
+X193	EXC	E1	N	Adversarial word sense disambiguation via debate; text NLP task
+X194	EXC	E2	N	Tool-agent-user benchmark for reliability; no adversary, no enforcement
+X195	EXC	E2	N	Repeated negotiation strategic adaptation via opponent simulation; game performance
+X196	EXC	E2	N	RL for ML engineering agents; performance
+X197	EXC	E2	N	Model-based imaginative planning for embodied agents; performance
+X198	EXC	X	N	Computational model of human social learning; unrelated
+X199	EXC	X	N	Respiratory sound diagnosis system; unrelated
+X200	EXC	E2	N	RL fine-tuning for embodied planning; performance

@@ -1,0 +1,122 @@
+[
+ {
+  "rid": "G01",
+  "title": "BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "-",
+  "site": "https://aclanthology.org/2026.acl-long.1819/",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.1819.pdf",
+  "version_note": "(ACL 2026 published)"
+ },
+ {
+  "rid": "G02",
+  "title": "Improving Alignment and Robustness with Circuit Breakers",
+  "venue": "NeurIPS",
+  "year": "2024",
+  "arxiv_id": "2406.04313",
+  "site": "https://neurips.cc/virtual/2024/poster/95761",
+  "fulltext_url": "https://arxiv.org/html/2406.04313",
+  "version_note": "(v4) + arxiv.org/abs/2406.04313"
+ },
+ {
+  "rid": "G03",
+  "title": "DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents",
+  "venue": "NeurIPS",
+  "year": "2025",
+  "arxiv_id": "2506.12104",
+  "site": "https://openreview.net/forum?id=oY1Xnt83oJ",
+  "fulltext_url": "https://arxiv.org/html/2506.12104v2",
+  "version_note": "(arXiv v2, 2025-10-24; v3 2026-03-26 exists, comment 'Accepted to NeurIPS 2025')"
+ },
+ {
+  "rid": "G04",
+  "title": "AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents",
+  "venue": "CCS",
+  "year": "2025",
+  "arxiv_id": "2509.07764",
+  "site": "https://doi.org/10.1145/3719027.3765064",
+  "fulltext_url": "https://arxiv.org/html/2509.07764v1",
+  "version_note": "+ https://arxiv.org/pdf/2509.07764v1 (arXiv v1)"
+ },
+ {
+  "rid": "G05",
+  "title": "Monitoring Decomposition Attacks with Lightweight Sequential Monitors",
+  "venue": "ICLR",
+  "year": "2026",
+  "arxiv_id": "2506.10949",
+  "site": "https://openreview.net/forum?id=HQuboWvFA1",
+  "fulltext_url": "https://arxiv.org/html/2506.10949",
+  "version_note": "(latest = v2)"
+ },
+ {
+  "rid": "G06",
+  "title": "Spilling the Beans: Teaching LLMs to Self-Report Their Hidden Objectives",
+  "venue": "ICLR",
+  "year": "2026",
+  "arxiv_id": "2511.06626",
+  "site": "https://openreview.net/forum?id=sWs0cCuM8I",
+  "fulltext_url": "https://arxiv.org/html/2511.06626",
+  "version_note": "+ https://arxiv.org/pdf/2511.06626 (v5, stamp 22 Mar 2026, ICLR 2026 camera-ready)"
+ },
+ {
+  "rid": "G07",
+  "title": "Contextualized Privacy Defense for LLM Agents",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2603.02983",
+  "site": "https://openreview.net/forum?id=b4QtBbSV3X",
+  "fulltext_url": "https://arxiv.org/html/2603.02983v1",
+  "version_note": ""
+ },
+ {
+  "rid": "G08",
+  "title": "On the Resilience of LLM-Based Multi-Agent Collaboration with Faulty Agents",
+  "venue": "ICML",
+  "year": "2025",
+  "arxiv_id": "2408.00989",
+  "site": "https://icml.cc/virtual/2025/poster/44721",
+  "fulltext_url": "https://arxiv.org/html/2408.00989",
+  "version_note": "(latest = v4, 2025-05-28)"
+ },
+ {
+  "rid": "G09",
+  "title": "Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "2604.16966",
+  "site": "",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.954.pdf",
+  "version_note": "(게재본, ACL 2026 long)"
+ },
+ {
+  "rid": "G10",
+  "title": "MCIP: Protecting MCP Safety via Model Contextual Integrity Protocol",
+  "venue": "EMNLP",
+  "year": "2025",
+  "arxiv_id": "2505.14590",
+  "site": "",
+  "fulltext_url": "https://aclanthology.org/2025.emnlp-main.62.pdf",
+  "version_note": "(EMNLP 2025 published)"
+ },
+ {
+  "rid": "G11",
+  "title": "ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning",
+  "venue": "ICML",
+  "year": "2025",
+  "arxiv_id": "2503.22738",
+  "site": "https://icml.cc/virtual/2025/poster/45989",
+  "fulltext_url": "https://arxiv.org/html/2503.22738",
+  "version_note": "(latest = v2, 2025-11-27)"
+ },
+ {
+  "rid": "G12",
+  "title": "AutoRAS: Learning Robust Agentic Systems with Primitive Representations",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2606.21445",
+  "site": "https://openreview.net/forum?id=7zTV4dvdGB",
+  "fulltext_url": "https://arxiv.org/html/2606.21445",
+  "version_note": "(v1; ICML 2026 camera-ready format)"
+ }
+]

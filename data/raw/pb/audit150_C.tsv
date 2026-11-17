@@ -1,0 +1,151 @@
+id	decision	exc_reason	borderline	note
+Q173	EXC	E2	N	In-car tool agent consistency/policy-adherence benchmark; no adversary, no runtime enforcement
+Q347	EXC	E2	N	Agentic RL algorithm for tool-use performance; no security content
+Q430	EXC	E2	N	KBQA agent with MCTS; performance only
+Q497	EXC	E1	N	Proactive questioning dialogue policy; text-only, no security
+N041	EXC	E1	N	CoT faithfulness of single LLMs; no actions, no adversary
+M191	EXC	E1	Y	Multi-agent scaffold search scored on harmful-output safety benchmarks; text answers, no tools/malicious agent
+Q066	EXC	E2	N	Health agent behavior fine-tuning; non-adversarial
+10.18653/v1/2026.findings-acl.1470	EXC	E1	N	Automated jailbreak red teaming of LLM harmful outputs
+M147	EXC	E2	N	VLM object navigation performance
+N007	EXC	E1	N	Hateful meme detection with LMMs; not an acting agent
+Q063	EXC	E2	N	Multi-agent long-context reasoning performance
+Q651	EXC	E2	N	GUI grounding RL training; performance
+Q470	EXC	E2	N	Agentic RL training stability
+Q122	EXC	E2	N	Whiteboard UI manipulation RL; performance
+Q389	EXC	E2	N	RL for code-interpreter tool use; math performance
+Q073	EXC	E2	N	Multi-agent quant strategy finding; performance
+Q238	EXC	E2	N	Search-agent RL reward design; performance
+Q208	EXC	E2	N	RL curriculum replay for long-horizon agents; performance
+Q495	EXC	X	N	Game-theoretic ad auction mechanism; not LLM agent security
+Q101	EXC	E2	N	Agent self-reflection policy optimization; performance
+Q331	EXC	E2	N	Learned deferral to humans for task accuracy; not safety enforcement
+10.18653/v1/2025.findings-emnlp.848	EXC	E2	N	Medical tool-using agent; performance
+Q160	EXC	E2	N	Graph agent memory architecture; performance
+Q195	EXC	E2	N	Agent RL credit assignment; performance
+Q228	EXC	E2	N	Lightweight GUI agent training; performance
+Q688	EXC	X	N	RL theory of thinking emergence; not agent security
+Q630	EXC	X	N	LLM RL fine-tuning method; unrelated topic
+Q060	EXC	E2	N	Multi-agent financial decision framework; performance
+Q431	EXC	E2	N	Foundation/world model embodied decision making; performance
+Q489	EXC	E2	N	Milestone credit assignment for agents; performance
+R049	EXC	E1	Y	Fetched: system-prompted malicious chatbot extracts user info; chat only, no tools/actions
+10.18653/v1/2026.acl-long.1599	EXC	E2	N	Rule learning to improve tool-use accuracy
+Q624	EXC	E2	N	Token-level RL for language agents; performance
+Q492	EXC	E2	N	Multi-agent RL Text-to-SQL; performance
+Q705	EXC	E2	N	Small LM invoking symbolic solver; arithmetic performance
+N040	EXC	E4	N	Agents detect/patch/exploit smart-contract vulnerabilities; agent used for security task
+M068	EXC	E2	Y	Tool unlearning via training; no adversary-driven agent threat, MIA only for evaluation
+Q718	EXC	E2	N	Embodied API induction thought experiment; no security
+Q475	EXC	E4	N	Agentic misinformation detection; agent applied to detection task
+Q039	EXC	E2	N	Multimodal web agent self-improvement; performance
+Q567	EXC	X	N	Safe RL from crowd preferences; mainly non-LLM RL, no adversary
+Q043	EXC	E2	N	Large-scale MAS without SOPs; performance
+Q274	EXC	E1	N	Mixture-of-agents controlled decoding alignment; text generation
+10.18653/v1/2026.acl-long.1440	EXC	E2	Y	Pre-action belief verification targets reasoning faithfulness/reliability, not safety policy (R4)
+Q701	EXC	E1	N	Emergent LLM value systems; no actions, no adversarial objective (R6)
+Q613	EXC	X	N	Chess policy-language model; unrelated
+10.18653/v1/2025.findings-naacl.368	EXC	E1	N	Multi-agent jailbreak defense for harmful text outputs
+Q180	EXC	E2	N	Tool-calling data synthesis incl. infeasible intents; training only
+Q601	EXC	E2	N	Curiosity-driven VLM agent exploration; performance
+Q629	EXC	X	N	Meta-RL transformers; non-LLM RL
+N045	EXC	X	N	Robust offline model-based RL; non-LLM
+Q675	EXC	X	N	PAC-Bayes generalization certificates; unrelated
+Q241	EXC	E2	N	Prolog tool-use RL; reasoning performance
+Q142	EXC	E2	N	Agent RL exploration branching; performance
+Q193	EXC	E1	N	Counseling dialogue thinker model; text-only
+M021	EXC	E1	N	Jailbreaking DNA language models; target is single generative model
+Q095	EXC	E2	N	Search agent stepwise PPO; QA performance
+Q113	EXC	E4	N	Multi-agent code vulnerability detection
+10.18653/v1/2026.acl-long.1107	EXC	E2	Y	Secure-coding benchmark for code agents; no adversary, no runtime enforcement
+Q371	EXC	X	N	RL occupancy model pretraining; non-LLM
+Q108	EXC	E2	N	E-commerce web agent benchmark incl. unintended-harm safety; non-adversarial
+M087	EXC	E2	N	Federated training of LLM MAS; data locality, no adversary
+Q452	EXC	E2	N	Adaptive frame sampling for video understanding
+Q339	EXC	E2	N	VLA real-to-sim benchmarking; performance
+10.18653/v1/2026.findings-acl.1690	EXC	E2	N	Conversational agent memory; 'adversarial' is a LoCoMo QA category
+M185	EXC	E2	N	Multisensory MLLM perception; performance
+Q621	EXC	E1	N	Bias amplification via iterated learning; no actions
+Q660	EXC	E2	N	Web agent exploration training; performance
+Q456	EXC	X	N	LLM workflow serving system; systems performance
+R039	EXC	E5	N	Title-only: network traffic side-channel on chat assistants; independent of agent loop
+Q232	EXC	E2	N	LLM-guided RL KGQA; performance
+M180	EXC	E2	N	Multi-agent LM architecture discovery; performance
+Q434	EXC	E2	N	Latent action RL for LLMs; performance
+Q614	EXC	X	N	Human-in-the-loop RL value propagation; non-LLM
+10.18653/v1/2026.acl-long.550	EXC	E2	N	Skill vector transfer for knowledge adaptation; performance
+Q662	EXC	E2	N	Agentic video understanding with rewards; performance
+Q149	EXC	E2	N	Multi-agent virtual standardized patients; education quality
+Q152	EXC	E2	N	Hierarchical image-goal navigation; performance
+10.18653/v1/2026.acl-long.1464	EXC	E2	N	Emotion-aware negotiation MAS; performance
+R066	EXC	E4	N	Title-only: agentic program analysis to detect privilege escalation in microservices
+Q463	EXC	E2	N	Budget-tier memory routing; performance-cost
+Q623	EXC	E2	N	Learning user preferences from edits; non-adversarial
+M133	EXC	X	N	Byzantine-resilient MARL actor-critic; non-LLM
+10.18653/v1/2026.findings-acl.774	EXC	E2	N	Murder-mystery VLM reasoning training; deception is task content
+Q165	EXC	E2	N	Distillation-guided RL for compact agentic RAG; performance
+Q056	EXC	E1	N	LLM unlearning evaluation; model-level, no actions
+Q667	EXC	E2	N	Agentic image super-resolution; performance
+Q324	EXC	E1	N	Off-topic refusal of system-prompted LLMs; no tool actions
+Q135	EXC	E2	N	HS-code rule application agent benchmark; performance
+Q064	EXC	E1	N	Patient education chatbot; text-only
+Q084	EXC	E1	Y	Mental-health guard for character chatbots; text-only, non-adversarial
+R077	EXC	E1	N	Fetched: RAG knowledge poisoning of QA responses; no agent actions
+Q413	EXC	X	N	VLM feedback as RL reward; non-LLM policy
+Q435	EXC	E2	N	Epistemic agency benchmark of LLMs; capability
+N056	EXC	X	N	Soccer trajectory reconstruction; unrelated
+Q259	EXC	E2	N	Retrospective agent prompt tuning; performance
+Q010	EXC	E2	N	Zero-shot task-oriented dialogue agent; performance
+N030	EXC	X	N	Risk-minimizing agent composition; RL control agents, no adversary
+Q638	EXC	X	N	Origin-destination matrices in ABMs; unrelated
+Q676	EXC	E2	N	Agentic long-video memory backtracking; performance
+Q053	EXC	E2	N	VLA Minecraft agent; performance
+Q047	EXC	E1	N	Multimodal task-assistance QA; text responses
+M159	EXC	E1	N	DRL-guided jailbreak of LLMs; harmful text output
+Q354	EXC	E2	N	Clarification under underspecified instructions; non-adversarial
+Q518	EXC	E2	N	GRPO collapse in search agents; training
+Q202	EXC	E2	N	Tool disambiguation fine-tuning; reliability
+10.18653/v1/2025.emnlp-main.958	EXC	E2	Y	Agent influence ranking in MAS; no adversary or enforcement in abstract
+Q140	EXC	E2	N	Trajectory reward-model benchmark; safety refusal one subset, non-adversarial
+Q134	EXC	E2	N	GUI agent copilot tool policy; performance
+Q520	EXC	X	N	Entropy dynamics in LLM RL fine-tuning; unrelated
+10.18653/v1/2026.acl-long.223	EXC	E2	N	Tool-augmented visual grounding; performance
+Q129	EXC	E2	N	Internalizing policy documents via training; no runtime enforcement (R1)
+M190	EXC	X	N	Watermarking DNA language model outputs; not LLM agents
+N054	EXC	E4	N	Agent offensive/defensive cyber capability benchmark (detect/exploit/patch)
+Q652	EXC	X	N	Offline RL forecasting non-stationarity; non-LLM
+R056	EXC	E1	N	Title-only: safety risks of AI character chatbot platforms
+R061	EXC	E4	N	Title-only: LLM agents with fuzzing for firmware vulnerability discovery
+Q379	EXC	X	N	RL agent with LLM-guided memory; non-LLM policy
+Q645	EXC	X	N	Self-play conjecturing/theorem proving; unrelated
+Q271	EXC	E1	N	LLM self-alignment with instructable reward models
+Q289	EXC	X	N	LMs as cognitive models of choice; unrelated
+Q506	EXC	E2	N	MoE policy for agentic RL; performance
+Q097	EXC	E1	Y	Interlocutor awareness evaluation; jailbreak case study on text dialogue, no tools
+Q441	EXC	X	N	Offline in-context RL task inference; non-LLM
+Q184	EXC	E2	N	Parallel exploration RL for agents; performance
+Q380	EXC	E2	N	Implicit step rewards for agentic RL; performance
+10.18653/v1/2024.emnlp-main.70	EXC	E2	N	Peer review simulation with LLM agents
+Q359	EXC	X	N	Policy-gradient method for LLM reasoning; unrelated
+Q089	EXC	E2	N	Agent-based panic prediction; performance
+Q627	EXC	E2	N	RL plus code-as-policy agent in Minecraft; performance
+M090	EXC	E2	N	Agentic logic data synthesis; performance
+Q549	EXC	E2	N	Privileged-information distillation for agents; performance
+R032	EXC	E1	N	Fetched: prompt-level backdoor in custom GPTs; text classification only
+M170	EXC	E1	N	Agentic jailbreak red-teaming of LLM harmful outputs
+Q457	EXC	E2	N	LTL automata reward shaping; training performance
+M126	EXC	E2	N	Small-LM agent framework; performance/efficiency
+M166	EXC	E2	Y	Privacy disclosure judgment accuracy via disambiguation; no adversary, not an action gate
+Q418	EXC	E3	N	Position paper on AI suffering
+Q234	EXC	E2	N	Tool-integrated reasoning warm-up training; performance
+Q006	EXC	E3	N	Vision paper on enterprise personal agents
+10.18653/v1/2025.findings-emnlp.667	EXC	E2	N	Multi-agent research ideation; 'adversarial' is GAN-style method
+Q466	EXC	E2	N	Diagnostics for multi-agent debates; non-adversarial
+N055	EXC	E4	Y	Adversary boosts offensive cyber agent on CTF; capability risk assessment
+Q005	EXC	E3	N	Position paper on theory-of-mind evaluation
+Q440	EXC	X	N	TD flows for geometric horizon models; non-LLM
+Q206	EXC	E2	N	Critic credit assignment for search agents; performance
+Q605	EXC	X	N	Preference-based RL without reward model; unrelated
+Q128	EXC	E2	N	Evolving agent abstractions; performance
+Q007	EXC	E1	N	Persona bias in dialogue systems; text outputs
+M003	EXC	E1	N	Privacy-policy explanation dialogue agent; text-only

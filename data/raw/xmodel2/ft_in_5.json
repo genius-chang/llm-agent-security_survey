@@ -1,0 +1,122 @@
+[
+ {
+  "rid": "G13",
+  "title": "Searching for Privacy Risks in LLM Agents via Simulation",
+  "venue": "ICLR",
+  "year": "2026",
+  "arxiv_id": "2508.10880",
+  "site": "https://openreview.net/forum?id=nz4ZqbrBEi",
+  "fulltext_url": "https://arxiv.org/html/2508.10880",
+  "version_note": "(latest; version not confirmed)"
+ },
+ {
+  "rid": "G14",
+  "title": "Cowpox: Towards the Immunity of VLM-based Multi-Agent Systems",
+  "venue": "ICML",
+  "year": "2025",
+  "arxiv_id": "2508.09230",
+  "site": "https://icml.cc/virtual/2025/poster/46436",
+  "fulltext_url": "https://arxiv.org/html/2508.09230",
+  "version_note": "(v1; ICML 2025 version)"
+ },
+ {
+  "rid": "G15",
+  "title": "Reliable Weak-to-Strong Monitoring of LLM Agents",
+  "venue": "ICLR",
+  "year": "2026",
+  "arxiv_id": "2508.19461",
+  "site": "https://openreview.net/forum?id=WV7xIboTDK",
+  "fulltext_url": "https://arxiv.org/html/2508.19461",
+  "version_note": "(v1)"
+ },
+ {
+  "rid": "G16",
+  "title": "Explainable and Fine-Grained Safeguarding of LLM Multi-Agent Systems via Bi-Level Graph Anomaly Detection",
+  "venue": "ACL",
+  "year": "2026",
+  "arxiv_id": "-",
+  "site": "https://aclanthology.org/2026.acl-long.1407/",
+  "fulltext_url": "https://aclanthology.org/2026.acl-long.1407.pdf",
+  "version_note": "(ACL 2026 published)"
+ },
+ {
+  "rid": "G17",
+  "title": "Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated Planning",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2606.20922",
+  "site": "https://openreview.net/forum?id=jiNw5AgBbw",
+  "fulltext_url": "https://arxiv.org/html/2606.20922v1",
+  "version_note": "+ arxiv.org/pdf/2606.20922v1 (Sec. 5.4, Table 11)"
+ },
+ {
+  "rid": "G18",
+  "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+  "venue": "NDSS",
+  "year": "2026",
+  "arxiv_id": "2504.21034",
+  "site": "https://doi.org/10.14722/ndss.2026.230869",
+  "fulltext_url": "https://arxiv.org/pdf/2504.21034v2",
+  "version_note": "(arXiv v2, NDSS'26)"
+ },
+ {
+  "rid": "G19",
+  "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+  "venue": "USENIX",
+  "year": "2026",
+  "arxiv_id": "2603.10749",
+  "site": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-yu",
+  "fulltext_url": "https://arxiv.org/html/2603.10749v2",
+  "version_note": "(arXiv v2; USENIX Sec'26 accepted)"
+ },
+ {
+  "rid": "G20",
+  "title": "Enhancing LLM Agent Safety via Causal Influence Prompting",
+  "venue": "Findings-ACL",
+  "year": "2025",
+  "arxiv_id": "2507.00979",
+  "site": "",
+  "fulltext_url": "https://aclanthology.org/2025.findings-acl.784.pdf",
+  "version_note": "(게재본)"
+ },
+ {
+  "rid": "G21",
+  "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2510.01586",
+  "site": "https://openreview.net/forum?id=5D3ZblXmW2",
+  "fulltext_url": "https://arxiv.org/html/2510.01586",
+  "version_note": "(latest; version not confirmed)"
+ },
+ {
+  "rid": "G22",
+  "title": "Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2510.19420",
+  "site": "https://openreview.net/forum?id=TphOLCDmKB",
+  "fulltext_url": "https://arxiv.org/html/2510.19420v2",
+  "version_note": ""
+ },
+ {
+  "rid": "G23",
+  "title": "MINIM: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization",
+  "venue": "ICML",
+  "year": "2026",
+  "arxiv_id": "2606.13949",
+  "site": "https://openreview.net/forum?id=rW2xHmYrZA",
+  "fulltext_url": "https://arxiv.org/html/2606.13949",
+  "version_note": "(ICML 2026 camera-ready text; version not shown; abs page showed no history)"
+ },
+ {
+  "rid": "G24",
+  "title": "Building a Foundational Guardrail for General Agentic Systems via Synthetic Data",
+  "venue": "ICLR",
+  "year": "2026",
+  "arxiv_id": "2510.09781",
+  "site": "https://openreview.net/forum?id=M47SWYubR5",
+  "fulltext_url": "https://arxiv.org/pdf/2510.09781",
+  "version_note": "(v1; arxiv.org/html returned HTTP 429)"
+ }
+]
