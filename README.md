@@ -10,6 +10,7 @@
 | 경로 | 내용 |
 |---|---|
 | `data/corpus_and_results.xlsx` | 집계 결과 24개 시트. 첫 시트(README)에 시트별 설명이 있습니다. 분석 대상 208편의 분류 결과(S1_Corpus), 후보 1,289편의 선별 판정(S2_Screening), 문헌 흐름, 일치도, 다른 모델 점검 결과(S16–S19) 등 |
+| `data/reference_links.tsv` | 논문 참고문헌 [1]–[60]의 DOI 또는 공식 URL과 확인 근거(Crossref·학회 페이지·OpenReview 등). DOI 46편, 공식 URL 14편 |
 | `data/raw/` | 실행별 원자료: 선별·분류·조정 결과(TSV/JSON), 최종 코퍼스 `FINAL_CORPUS.json`, 논문 수치 `STATS10.json`, 다른 모델 점검 집계 `XMODEL14.json`·`XMODEL14b.json` |
 | `data/raw/xmodel/`, `data/raw/xmodel2/` | 다른 모델(claude-sonnet-5-5)의 표본 재판정 입력·출력과 코딩북. 선별 200편, 초록 기준 60편, 원문 기준 30편과 24편, 경계 사례 8편의 원문 재판정(`adj8_*`) |
 | `docs/codebooks_and_prompts.md` | 검색·선별 프로토콜, 분류 기준(코딩북), 검색 로그, 실행 61건의 지시문 원문 |

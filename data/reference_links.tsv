@@ -1,0 +1,61 @@
+ref_no	link	status	verification_note
+1	https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic	verified	USENIX Sec 26 page: Kim/Guo/Song, pp.6047-6066; no DOI issued
+2	https://doi.org/10.1609/aaai.v40i42.40895	verified	Crossref: Zhiqiang Wang, AAAI vol.40 no.42 pp.35811-35819, 2026
+3	https://openreview.net/forum?id=LfdFnakqGJ	verified	OpenReview API: Tianhao Li et al., ICLR 2026 Poster; no DOI
+4	https://doi.org/10.1145/3605764.3623985	verified	Crossref: Kai Greshake, AISec 2023 workshop, pp.79-90
+5	https://doi.org/10.1609/aaaiss.v7i1.36899	verified	Crossref: Pavan Reddy, AAAI Symposium Series vol.7 no.1, 2025
+6	https://doi.org/10.1145/3716628	verified	Crossref: Zehang Deng, ACM CSUR vol.57 no.7, 2025
+7	https://doi.org/10.1145/3773080	verified	Crossref: Feng He, ACM CSUR vol.58 no.6, online 2025/print 2026
+8	https://doi.org/10.1145/3711896.3736561	verified	Crossref: Miao Yu, KDD 2025 V.2, pp.6216-6226
+9	https://doi.org/10.13089/JKIISC.2026.36.3.959	verified	DOI resolves to KoreaScience: Shin & Shin, JKIISC 36(3) 959-976, 2026
+10	https://doi.org/10.7472/jksii.2024.25.1.167	verified	DOI resolves to KoreaScience: Cho/Lee/Shin, JICS 25(1) 167-176, 2024
+11	https://doi.org/10.7472/jksii.2025.26.3.135	verified	DOI handle resolves to KoreaScience: Kwon/Bai/Gim, JICS 26(3) 135-144
+12	https://doi.org/10.6028/NIST.SP.800-162	verified	Crossref + handle: Hu et al., NIST SP 800-162, 2014
+13	https://doi.org/10.1145/353323.353382	verified	Crossref: Fred B. Schneider, ACM TISSEC 3(1) 30-50, 2000
+14	https://proceedings.mlr.press/v267/zhu25z.html	verified	PMLR page: Kaijie Zhu et al., ICML 2025, PMLR 267:80310-80329; no DOI
+15	https://doi.org/10.1016/j.infsof.2015.03.007	verified	Crossref: Kai Petersen, IST vol.64 pp.1-18, 2015
+16	https://doi.org/10.1136/bmj.n71	verified	Crossref: Matthew J Page, BMJ n71, 2021
+17	https://openreview.net/forum?id=WE_vluYUL-X	verified	iclr.cc 2023 poster page links this forum; Yao et al.; no DOI
+18	https://github.com/acl-org/acl-anthology	verified	GitHub repo exists: ACL Anthology data/software; no DOI
+19	https://github.com/papercopilot/paperlists	verified	GitHub repo exists: Paper Copilot accepted paper lists; no DOI
+20	https://doi.org/10.1177/001316446002000104	verified	Crossref: Jacob Cohen, Educ. Psychol. Meas. 20(1) 37-46, 1960
+21	https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/	verified	Official OWASP GenAI resource page, dated Dec 9 2025; no DOI
+22	https://openreview.net/forum?id=AC5n7xHuR1	verified	OpenReview ICLR 2025 Poster record, same title; no DOI
+23	https://doi.org/10.52202/079017-4136	verified	Crossref: Chen, NeurIPS 37 (2024); DOI resolves to proceedings.com page
+24	https://doi.org/10.52202/085713-1554	verified	Crossref: Dong, NeurIPS 38 (2025); DOI resolves to proceedings.com page
+25	https://doi.org/10.14722/ndss.2026.230675	verified	Crossref: Jiawen Shi, NDSS 2026 proceedings, same title
+26	https://openreview.net/forum?id=xMOLUzo2Lk	verified	OpenReview ICLR 2025 Poster forum, same title; no DOI
+27	https://proceedings.mlr.press/v235/gu24e.html	verified	PMLR v235 page: Gu et al., ICML 2024, pp.16647-16672; no DOI
+28	https://doi.org/10.1145/54289.871709	verified	Crossref: Hardy, SIGOPS OSR 22(4):36-38, 1988
+29	https://doi.org/10.52202/085713-2791	verified	Crossref: Hao Li, NeurIPS 38 (2025); DOI resolves to proceedings.com page
+30	https://doi.org/10.1145/1111037.1111070	verified	Crossref: Su, POPL 2006 conference record, pp.372-382 (SIGPLAN Notices: 10.1145/1111320.1111070)
+31	https://doi.org/10.18653/v1/2025.findings-naacl.395	verified	Crossref: Zhan, Findings NAACL 2025, same title
+32	https://www.usenix.org/conference/usenixsecurity26/presentation/nasr	verified	USENIX Security 26 page: Nasr et al., pp.1467-1486; no DOI
+33	https://doi.org/10.1109/satml68715.2026.00040	verified	Crossref: Debenedetti, IEEE SaTML 2026, same title
+34	https://doi.org/10.1145/360051.360056	verified	Crossref: Denning, CACM 19(5):236-243, 1976
+35	https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10	verified	Washington Law Review 79(1), 2004, Nissenbaum; no DOI listed
+36	https://doi.org/10.14722/ndss.2025.241131	verified	Crossref: Yuhao Wu, NDSS 2025; published title says "LLM-Based Systems" (no "Agentic")
+37	https://doi.org/10.18653/v1/2025.emnlp-main.53	verified	Crossref: Hengyu An, EMNLP 2025 main, pp.1023-1039
+38	https://doi.org/10.1145/1102120.1102165	verified	Crossref: Abadi, CCS 2005, pp.340-353
+39	https://doi.org/10.1109/proc.1975.9939	verified	Crossref: Saltzer, Proc. IEEE 63(9):1278-1308, 1975
+40	https://doi.org/10.1145/3680207.3765248	verified	Crossref: Jungjae Lee, MobiCom 2025, pp.817-831
+41	https://doi.org/10.14722/ndss.2026.230869	verified	Crossref: Syros, SAGA, Proc. NDSS 2026
+42	https://doi.org/10.1007/978-0-387-35285-5_10	verified	Crossref: Thomas, TBAC, Database Security XI (IFIP AICT), 1998
+43	https://doi.org/10.1145/984334.984339	verified	Crossref: Park, UCON_ABC usage control model, ACM TISSEC 2004
+44	https://doi.org/10.18653/v1/2025.acl-long.1435	verified	Crossref: Jia, Task Shield, ACL 2025 Long Papers
+45	https://doi.org/10.1109/tse.1987.232894	verified	Crossref: Denning, IEEE TSE 1987 journal version (not 1986 S&P)
+46	https://doi.org/10.1145/2335356.2335360	verified	Crossref: Felt, Android permissions, SOUPS 2012
+47	https://proceedings.neurips.cc/paper/2020/hash/11f38f8ecd71867b42433548d1078e38-Abstract.html	verified	No DOI; NeurIPS 2020 proceedings page, Tramer et al.
+48	https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract.html	verified	No DOI; NeurIPS 2024 D&B track page, Debenedetti et al.
+49	https://doi.org/10.1145/3744916.3764546	verified	Crossref: Wang, AgentSpec, ICSE 2026 proceedings
+50	https://doi.org/10.1109/ms.2001.936213	verified	Crossref: Sha, IEEE Software 2001
+51	https://doi.org/10.1145/2393596.2393608	verified	Crossref: Xiao, FSE 2012
+52	https://doi.org/10.1145/3508398.3511497	verified	Crossref: Nobi, CODASPY 2022
+53	https://doi.org/10.1145/586110.586145	verified	Crossref: Wagner, CCS 2002
+54	https://doi.org/10.1007/978-3-642-40994-3_25	verified	Crossref: Biggio, LNCS ECML PKDD 2013
+55	https://doi.org/10.1145/3658644.3690291	verified	Crossref: Shi, CCS 2024
+56	https://doi.org/10.21236/ad0772806	verified	Crossref/DTIC: Anderson, Planning Study Vol. 2, 1972 (AD0772806)
+57	https://doi.org/10.1145/155183.155225	verified	Crossref: Abadi, ACM TOPLAS 1993 (not CRYPTO'91 version)
+58	https://doi.org/10.17487/rfc6749	verified	Crossref: RFC 6749, OAuth 2.0, 2012
+59	https://doi.org/10.1609/aaai.v32i1.11797	verified	Crossref: Alshiekh, AAAI 2018
+60	https://doi.org/10.3745/TKIPS.2026.15.7.551	verified	KoreaScience landing page: Lim/Lee/Lee, KIPS Trans. 15(7) 551-559, 2026
