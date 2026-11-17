@@ -57,4 +57,4 @@ python3 verify_manuscript.py manuscript.docx   # 원고 docx의 수치와 용어
 
 ## 인용
 
-Y. E. Chang, "LLM 기반 AI 에이전트의 보안 위협과 방어 기술 연구 동향: 공격 체인과 집행 지점을 중심으로," Journal of Internet Computing and Services, 2026 (게재 확정, 권·호 미정).
+Y. E. Chang and J. Lee, "LLM 기반 AI 에이전트의 보안 위협과 방어 기술 연구 동향: 공격 체인과 집행 지점을 중심으로," Journal of Internet Computing and Services, 2026 (게재 확정, 권·호 미정).
