@@ -1,4 +1,4 @@
-# LLM 기반 AI 에이전트의 보안 위협과 방어 기술 연구 동향: 공개 자료
+# [KCI] LLM 기반 AI 에이전트의 보안 위협과 방어 기술 연구 동향
 
 **Research Trends in Security Threats and Defenses for LLM-Based AI Agents: Focusing on Attack Chains and Enforcement Points**
 — data, classification criteria, prompts, and scripts (Journal of Internet Computing and Services, 2026)
